@@ -1,4 +1,3 @@
-Placa,Fecha,Descripcion,Monto
 UXR-7207,2018-08-24,Circular con luces apagadas,226
 UXR-7207,2017-09-28,Circular con luces apagadas,650
 UXR-7207,2019-11-11,Revisión técnica vencida,487

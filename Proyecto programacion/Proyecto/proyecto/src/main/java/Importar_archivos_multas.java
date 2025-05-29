@@ -7,16 +7,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import javax.swing.table.DefaultTableModel;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author Ixtamer
- */
 public class Importar_archivos_multas {
+    
+    
+    
+    
+    
+    
+    
     
     public static void cargarTodosLosArchivos(DefaultTableModel modelo_multas, Lista_Doble list_multas, Lista_Vehiculos listaVehiculos) {
         // Lista de nombres de departamentos
@@ -130,11 +129,13 @@ public class Importar_archivos_multas {
                         // Agregar al vehículo si existe
                         Nodo_Vehiculo nodo = listaVehiculos.buscarPorPlaca(placa);
                         if (nodo != null) {
-                            nodo.traspaso.agregarFinal(departamento, placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo);
+                            nodo.traspaso.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo, departamento, nodo);
+                            //departamento, placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo);
                         }
 
                         // Agregar a la lista global
-                        listaTraspasos.agregarFinal(departamento, placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo);
+                        listaTraspasos.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo, departamento, nodo);
+                        //departamento, placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo
 
                         // Agregar a la tabla
                         modelo_traspasos.addRow(new Object[]{
@@ -200,7 +201,7 @@ public class Importar_archivos_multas {
                         }
 
                         // Insertar en lista
-                        listaVehiculos.agregarFinal(departamento, placa, dpi, nombre, marca, modelo, anio, multas, traspasos);
+                        listaVehiculos.agregarFinal(placa, dpi, nombre, marca, modelo, anio, multas, traspasos, departamento);
 
                         // Agregar a la tabla
                         modelo_ve.addRow(new Object[]{
@@ -213,6 +214,146 @@ public class Importar_archivos_multas {
             }
         }
     }
+   public class EscritorArchivos {
+
+    private static final String[] DEPARTAMENTOS = {
+        "Antigua_Guatemala", "Guatemala", "Huehuetenango", "Suchitepequez",
+        "San_Marcos", "Quetzaltenango", "Peten", "Escuintla", "Chiquimula", "Chimaltenango"
+    };
+
+    private static final String RUTA_BASE = "C:\\Users\\Ixtamer\\Desktop\\Proyecto programacion\\Proyecto\\proyecto\\src\\main\\java\\";
+
+    private static int obtenerIndiceDepartamento(String nombreDep) {
+        for (int i = 0; i < DEPARTAMENTOS.length; i++) {
+            if (DEPARTAMENTOS[i].equalsIgnoreCase(nombreDep.trim())) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    private static void asegurarCarpeta(String nombreDep) {
+        File carpeta = new File(RUTA_BASE + nombreDep);
+        if (!carpeta.exists()) {
+            carpeta.mkdirs();
+        }
+    }
+
+    public static void guardarTodosLosArchivos(Lista_Doble list_multas) {
+        BufferedWriter[] escritores = new BufferedWriter[DEPARTAMENTOS.length];
+
+        try {
+            for (int i = 0; i < DEPARTAMENTOS.length; i++) {
+                asegurarCarpeta(DEPARTAMENTOS[i]);
+                File archivo = new File(RUTA_BASE + DEPARTAMENTOS[i] + "\\" + DEPARTAMENTOS[i] + "_multas.txt");
+                escritores[i] = new BufferedWriter(new FileWriter(archivo, false));
+                escritores[i].write("Placa,Fecha,Descripcion,Monto");
+                escritores[i].newLine();
+            }
+
+            Nodo_Doble actual = list_multas.cabeza;
+            while (actual != null) {
+                int index = obtenerIndiceDepartamento(actual.departamento);
+                if (index != -1 && escritores[index] != null) {
+                    escritores[index].write(actual.Placa + "," + actual.fecha + "," + actual.Descripcion + "," + actual.monto);
+                    escritores[index].newLine();
+                }
+                actual = actual.Siguiente;
+            }
+
+            System.out.println(" Multas guardadas correctamente.");
+
+        } catch (IOException e) {
+            System.out.println(" Error al escribir archivos de multas: " + e.getMessage());
+        } finally {
+            for (BufferedWriter bw : escritores) {
+                try {
+                    if (bw != null) bw.close();
+                } catch (IOException e) {
+                    System.out.println("Error al cerrar archivo: " + e.getMessage());
+                }
+            }
+        }
+    }
+
+    public static void guardarTraspasosPorDepartamento(Lista_Traspasos lista) {
+        BufferedWriter[] escritores = new BufferedWriter[DEPARTAMENTOS.length];
+
+        try {
+            for (int i = 0; i < DEPARTAMENTOS.length; i++) {
+                asegurarCarpeta(DEPARTAMENTOS[i]);
+                File archivo = new File(RUTA_BASE + DEPARTAMENTOS[i] + "\\" + DEPARTAMENTOS[i] + "_traspasos.txt");
+                escritores[i] = new BufferedWriter(new FileWriter(archivo, false));
+                escritores[i].write("Placa,DPI,NuevoPropietario,Fecha");
+                escritores[i].newLine();
+            }
+
+            Nodo_Traspaso actual = lista.cabeza;
+            while (actual != null) {
+                int index = obtenerIndiceDepartamento(actual.departamento);
+                if (index != -1 && escritores[index] != null) {
+                    escritores[index].write(actual.placa + "," + actual.dpiNuevo + "," + actual.nombreNuevo + "," + actual.fecha);
+                    escritores[index].newLine();
+                }
+                actual = actual.siguiente;
+            }
+
+            System.out.println("✅ Traspasos guardados correctamente.");
+        } catch (IOException e) {
+            System.out.println("❌ Error al guardar traspasos: " + e.getMessage());
+        } finally {
+            for (BufferedWriter bw : escritores) {
+                try {
+                    if (bw != null) bw.close();
+                } catch (IOException e) {
+                    System.out.println("❌ Error al cerrar archivo: " + e.getMessage());
+                }
+            }
+        }
+    }
+
+    public static void guardarVehiculosPorDepartamento(Lista_Vehiculos listaVehiculos) {
+        BufferedWriter[] escritores = new BufferedWriter[DEPARTAMENTOS.length];
+
+        try {
+            for (int i = 0; i < DEPARTAMENTOS.length; i++) {
+                asegurarCarpeta(DEPARTAMENTOS[i]);
+                File archivo = new File(RUTA_BASE + DEPARTAMENTOS[i] + "\\" + DEPARTAMENTOS[i] + "_vehiculos.txt");
+                escritores[i] = new BufferedWriter(new FileWriter(archivo, false));
+                escritores[i].write("Placa,DPI,Nombre,Marca,Modelo,Año,Multas,Traspasos");
+                escritores[i].newLine();
+            }
+
+            Nodo_Vehiculo actual = listaVehiculos.cabeza;
+            while (actual != null) {
+                int index = obtenerIndiceDepartamento(actual.departamento);
+                if (index != -1 && escritores[index] != null) {
+                    escritores[index].write(actual.placa + "," + actual.dpi + "," + actual.nombre + "," +
+                            actual.marca + "," + actual.modelo + "," + actual.anio + "," +
+                            actual.cantidadMultas + "," + actual.cantidadTraspasos);
+                    escritores[index].newLine();
+                }
+                actual = actual.siguiente;
+            }
+
+            System.out.println("✅ Vehículos guardados correctamente.");
+        } catch (IOException e) {
+            System.out.println("❌ Error al guardar vehículos: " + e.getMessage());
+        } finally {
+            for (BufferedWriter bw : escritores) {
+                try {
+                    if (bw != null) bw.close();
+                } catch (IOException e) {
+                    System.out.println("❌ Error al cerrar archivo: " + e.getMessage());
+                }
+            }
+        }
+    }
+}
+
+   
+   
+   /*
    public static void guardarTodosLosArchivos(Lista_Doble list_multas) {
         
         String[] departamentos = {
@@ -388,5 +529,5 @@ public class Importar_archivos_multas {
         }
     }
    
-
+*/
 }

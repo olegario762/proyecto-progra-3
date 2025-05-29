@@ -1,4 +1,3 @@
-Placa,Fecha,Descripcion,Monto
 HOR-5430,2018-11-17,No usar cinturón de seguridad,333
 HOR-5430,2024-10-22,Falta de seguro obligatorio,884
 HOR-5430,2017-11-10,Exceso de velocidad,386

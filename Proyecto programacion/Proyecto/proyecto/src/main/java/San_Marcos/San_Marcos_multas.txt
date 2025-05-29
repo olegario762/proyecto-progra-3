@@ -1,4 +1,3 @@
-Placa,Fecha,Descripcion,Monto
 ZTE-8313,2019-06-20,Revisión técnica vencida,852
 ZTE-8313,2017-10-06,Exceso de velocidad,753
 ZTE-8313,2019-01-13,Vehículo sin placas visibles,911

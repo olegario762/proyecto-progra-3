@@ -21,8 +21,8 @@ public class Lista_Traspasos {
     }
     
 
-    public void agregarFinal(String departamento, String placa, String dpiAnterior, String nombreAnterior, String fecha, String dpiNuevo, String nombreNuevo) {
-        Nodo_Traspaso nuevo = new Nodo_Traspaso( departamento, placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo);
+    public void agregarFinal( String placa, String dpiAnterior, String nombreAnterior, String fecha, String dpiNuevo, String nombreNuevo,String departamento, Nodo_Vehiculo vehiculo) {
+        Nodo_Traspaso nuevo = new Nodo_Traspaso(  placa, dpiAnterior, nombreAnterior, fecha, dpiNuevo, nombreNuevo,departamento,vehiculo);
         if (cabeza == null) {
             cabeza = nuevo;
             colita = nuevo;
@@ -31,6 +31,9 @@ public class Lista_Traspasos {
             nuevo.anterior = colita;
             nuevo.siguiente = null;
             colita = nuevo;
+        }
+        if (vehiculo != null) {
+            vehiculo.cantidadTraspasos++;
         }
     }
     public void vaciar() {
@@ -43,15 +46,13 @@ public class Lista_Traspasos {
     
      public Nodo_Traspaso buscarPorPlaca(String placaBuscada) {
         Nodo_Traspaso actual = cabeza;
-
         while (actual != null) {
             if (actual.placa.equalsIgnoreCase(placaBuscada)) {
-                return actual; 
+                return actual;
             }
             actual = actual.siguiente;
         }
-
-        return null; 
+        return null;
     }
 
 

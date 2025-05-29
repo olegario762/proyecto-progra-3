@@ -26,17 +26,18 @@ public class Nodo_Vehiculo {
     public Nodo_Vehiculo siguiente;
 
     // Listas internas
-    public Lista_Doble multas;
-    public Lista_Traspasos traspaso ;
+   Lista_Doble multas;
+   Lista_Traspasos traspaso ;
 
-    public Nodo_Vehiculo(String departamento, String placa, String dpi, String nombre, String marca, String modelo, int anio, int cantidadMultas, int cantidadTraspasos) {
-        this.departamento= departamento; 
+    public Nodo_Vehiculo( String placa, String dpi, String nombre, String marca, String modelo, int anio, int cantidadMultas, int cantidadTraspasos,String departamento) {
+    
         this.placa = placa;
         this.dpi = dpi;
         this.nombre = nombre;
         this.marca = marca;
         this.modelo = modelo;
         this.anio = anio;
+         this.departamento= departamento; 
         this.cantidadMultas = cantidadMultas;
         this.cantidadTraspasos=cantidadTraspasos;
       
@@ -55,6 +56,15 @@ public class Nodo_Vehiculo {
         this.siguiente =null;
         
     }
+
+    public Lista_Doble getMultas() {
+        return multas;
+    }
+
+    public Lista_Traspasos getTraspaso() {
+        return traspaso;
+    }
+    
    
 
     

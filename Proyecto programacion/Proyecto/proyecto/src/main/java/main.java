@@ -1,3 +1,6 @@
+
+import javax.swing.table.DefaultTableModel;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -10,20 +13,20 @@
 public class main {
     public static void main(String[] args) {
         
-        
-        Lista_Doble list = new Lista_Doble();
-  
-
- 
-        
-        list.imprimir();
-        System.out.println("ingresados ");
+        DefaultTableModel modelo_ve = new DefaultTableModel();
         
         
-        System.out.println("eliminados por placa");
-        list.eliminarPorPlaca("pri");
-        list.imprimir();
+        Lista_Vehiculos listaVehiculos = new Lista_Vehiculos();
+        Lista_Traspasos listaTraspasos = new Lista_Traspasos();
+        Lista_Doble list_multas = new Lista_Doble ();
         
+        Importar_archivos_multas.cargarVehiculos(modelo_ve, listaVehiculos);
+        Importar_archivos_multas.cargarTraspasos(modelo_ve, listaTraspasos, listaVehiculos);
+        Importar_archivos_multas.cargarTodosLosArchivos(modelo_ve, list_multas, listaVehiculos);
+        
+        
+        Vehiculos vehiculos = new Vehiculos();
+        vehiculos.setVisible(true);
         
         
       

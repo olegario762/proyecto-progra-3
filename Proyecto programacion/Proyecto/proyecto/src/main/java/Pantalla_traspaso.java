@@ -12,6 +12,13 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Pantalla_traspaso extends javax.swing.JFrame {
     
+    
+
+   
+
+ 
+    Lista_Doble list_multas = new Lista_Doble();
+    
     Lista_Traspasos Tras = new Lista_Traspasos();
     Lista_Vehiculos listaVehiculos = new Lista_Vehiculos();
 
@@ -21,6 +28,13 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
     public Pantalla_traspaso() {
         initComponents();
         
+         DefaultTableModel modelo = (DefaultTableModel) Traspasos_tabla.getModel();
+
+        // Cargar todos los datos desde los archivos
+        Importar_archivos_multas.cargarTodosLosArchivos(modelo, list_multas, listaVehiculos);
+        Importar_archivos_multas.cargarTraspasos(modelo, Tras, listaVehiculos);
+        Importar_archivos_multas.cargarVehiculos(modelo, listaVehiculos);
+      
         
         this.setExtendedState(MAXIMIZED_BOTH);
         this.setLocationRelativeTo(null);
@@ -39,6 +53,8 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         Traspasos_tabla = new javax.swing.JTable();
         importar = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        atras = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -78,13 +94,29 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 1270, 180));
 
-        importar.setText("jButton1");
+        importar.setText("importar");
         importar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 importarActionPerformed(evt);
             }
         });
         jPanel1.add(importar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, -1, -1));
+
+        jButton1.setText("vehiculos");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 320, -1, -1));
+
+        atras.setText("atras");
+        atras.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                atrasActionPerformed(evt);
+            }
+        });
+        jPanel1.add(atras, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 320, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -106,11 +138,30 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void importarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_importarActionPerformed
-        DefaultTableModel modelo = (DefaultTableModel) Traspasos_tabla.getModel();
-        modelo.setRowCount(0);
-        Tras.vaciar();
-        Importar_archivos_multas.cargarTraspasos(modelo, Tras, listaVehiculos);
+         DefaultTableModel modelo = (DefaultTableModel) Traspasos_tabla.getModel();
+        modelo.setRowCount(0); // Limpiar tabla
+        Importar_archivos_multas.cargarTraspasos(modelo, Tras, listaVehiculos); 
+        
+        
+        // DefaultTableModel modelo_ve = (DefaultTableModel) tabla_vehi.getModel();
+       // modelo_ve.setRowCount(0);
+   
+       // Importar_archivos_multas.cargarVehiculos(modelo_ve, ve);
     }//GEN-LAST:event_importarActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+          Vehiculos secundaria = new Vehiculos();
+         secundaria.setVisible(true);
+         this.dispose(); 
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void atrasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_atrasActionPerformed
+        Vehiculos atras = new Vehiculos();
+        atras.setVisible(true);
+        this.dispose();
+                         
+    }//GEN-LAST:event_atrasActionPerformed
 
     /**
      * @param args the command line arguments
@@ -149,7 +200,9 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable Traspasos_tabla;
+    private javax.swing.JButton atras;
     private javax.swing.JButton importar;
+    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables

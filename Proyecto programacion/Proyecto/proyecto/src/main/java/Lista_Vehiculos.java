@@ -26,8 +26,8 @@ public class Lista_Vehiculos {
     
     
 
-    public void agregarFinal(String departamento, String placa, String dpi, String nombre, String marca, String modelo, int anio, int cantidadMultas, int cantidadTraspasos) {
-        Nodo_Vehiculo nuevo = new Nodo_Vehiculo(departamento, placa, dpi, nombre, marca, modelo, anio, cantidadMultas, cantidadTraspasos);
+    public void agregarFinal( String placa, String dpi, String nombre, String marca, String modelo, int anio, int cantidadMultas, int cantidadTraspasos,String departamento) {
+        Nodo_Vehiculo nuevo = new Nodo_Vehiculo( placa, dpi, nombre, marca, modelo, anio, cantidadMultas, cantidadTraspasos, departamento);
         if (cabeza == null) {
             cabeza = nuevo;
             colita = nuevo;
@@ -95,7 +95,7 @@ public class Lista_Vehiculos {
     public Nodo_Vehiculo buscarPorPlaca(String placa) {
         Nodo_Vehiculo actual = cabeza;
         while (actual != null) {
-            if (actual.placa.equalsIgnoreCase(placa)) {
+            if (actual.placa.trim().equalsIgnoreCase(placa.trim())) {
                 return actual;
             }
             actual = actual.siguiente;

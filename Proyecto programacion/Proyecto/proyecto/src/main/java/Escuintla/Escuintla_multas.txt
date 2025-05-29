@@ -1,4 +1,3 @@
-Placa,Fecha,Descripcion,Monto
 CXF-2421,2023-11-29,Uso de celular al conducir,124
 CXF-2421,2023-04-25,Circular con luces apagadas,778
 CXF-2421,2019-06-09,Exceso de velocidad,224

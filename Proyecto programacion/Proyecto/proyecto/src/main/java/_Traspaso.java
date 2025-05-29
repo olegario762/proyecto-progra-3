@@ -1,5 +1,6 @@
 
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -11,12 +12,22 @@ import javax.swing.JOptionPane;
  * @author Ixtamer
  */
 public class _Traspaso extends javax.swing.JFrame {
+    
+    DefaultTableModel modeloVehiculos = new DefaultTableModel();
+    DefaultTableModel modeloTraspasos = new DefaultTableModel();
+   
 
     Lista_Vehiculos listaVehiculos = new Lista_Vehiculos();
     Lista_Traspasos listaTraspasos = new Lista_Traspasos();
+    Lista_Doble list_multas = new Lista_Doble();
+    
 
     public _Traspaso() {
         initComponents();
+        
+        Importar_archivos_multas.cargarTraspasos(modeloTraspasos, listaTraspasos, listaVehiculos);
+        Importar_archivos_multas.cargarVehiculos(modeloVehiculos, listaVehiculos);
+        Importar_archivos_multas.cargarTodosLosArchivos(modeloVehiculos, list_multas, listaVehiculos);
         
         
         this.setExtendedState(MAXIMIZED_BOTH);
@@ -42,7 +53,10 @@ public class _Traspaso extends javax.swing.JFrame {
         label2 = new java.awt.Label();
         label3 = new java.awt.Label();
         label4 = new java.awt.Label();
-        Realizar_traspaso__ = new javax.swing.JButton();
+        gaurdar_nodo = new javax.swing.JButton();
+        Guardar_en_el_txt___ = new javax.swing.JButton();
+        label5 = new java.awt.Label();
+        Depa = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -60,7 +74,7 @@ public class _Traspaso extends javax.swing.JFrame {
         label1.setFont(new java.awt.Font("Franklin Gothic Heavy", 0, 36)); // NOI18N
         label1.setName(""); // NOI18N
         label1.setText("Fecha");
-        jPanel1.add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 410, 140, -1));
+        jPanel1.add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 500, 140, -1));
         label1.getAccessibleContext().setAccessibleName("");
 
         label2.setFont(new java.awt.Font("Franklin Gothic Heavy", 0, 36)); // NOI18N
@@ -78,21 +92,35 @@ public class _Traspaso extends javax.swing.JFrame {
         label4.setText("Nombre");
         jPanel1.add(label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 330, 140, -1));
 
-        Realizar_traspaso__.setText("Realizar");
-        Realizar_traspaso__.addActionListener(new java.awt.event.ActionListener() {
+        gaurdar_nodo.setText("Realizar");
+        gaurdar_nodo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Realizar_traspaso__ActionPerformed(evt);
+                gaurdar_nodoActionPerformed(evt);
             }
         });
-        jPanel1.add(Realizar_traspaso__, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 560, 170, 50));
+        jPanel1.add(gaurdar_nodo, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 560, 170, 50));
 
-        jButton1.setText("Guardar");
+        Guardar_en_el_txt___.setText("Guardar");
+        Guardar_en_el_txt___.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Guardar_en_el_txt___ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Guardar_en_el_txt___, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 560, 160, 50));
+
+        label5.setFont(new java.awt.Font("Franklin Gothic Heavy", 0, 36)); // NOI18N
+        label5.setName(""); // NOI18N
+        label5.setText("Fecha");
+        jPanel1.add(label5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 410, 140, -1));
+        jPanel1.add(Depa, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 500, 620, 50));
+
+        jButton1.setText("jButton1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 560, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 560, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -113,53 +141,62 @@ public class _Traspaso extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Realizar_traspaso__ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Realizar_traspaso__ActionPerformed
-       String placa = placa_tex.getText().trim();
-String nuevoDpi = Dpi_tex.getText().trim();
-String nuevoNombre = Nombre_tex.getText().trim();
-String fecha = Fecha_tex.getText().trim();
+    private void gaurdar_nodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gaurdar_nodoActionPerformed
+    
+        String placa = placa_tex.getText();
+String nuevoDpi = Dpi_tex.getText();
+String nuevoNombre = Nombre_tex.getText();
+String fecha = Fecha_tex.getText();
+String departamento = Depa.getText();
 
 Nodo_Vehiculo vehiculo = listaVehiculos.buscarPorPlaca(placa);
 
 if (vehiculo != null) {
-    // Asegurar que la lista de traspasos del vehículo exista
+    // Crear lista si no existe aún
     if (vehiculo.traspaso == null) {
         vehiculo.traspaso = new Lista_Traspasos();
     }
 
-    // Guardar datos anteriores
+    // Guardar propietario anterior
     String dpiAnterior = vehiculo.dpi;
     String nombreAnterior = vehiculo.nombre;
 
-    // Agregar traspaso a la lista del vehículo
-    vehiculo.traspaso.agregarFinal(dpiAnterior, placa, dpiAnterior, nombreAnterior, fecha, dpiAnterior, nombreAnterior);
-    // También agregar a la lista general de traspasos
-    listaTraspasos.agregarFinal(dpiAnterior, placa, dpiAnterior, nombreAnterior, fecha, dpiAnterior, nombreAnterior);
+    // Agregar a lista de traspasos del vehículo y a la lista global
+    vehiculo.traspaso.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha,
+                                   nuevoDpi, nuevoNombre, departamento, vehiculo);
 
-    // Actualizar datos del vehículo
+    listaTraspasos.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha,
+                                nuevoDpi, nuevoNombre, departamento, vehiculo);
+
+    // Actualizar propietario en el vehículo
     vehiculo.dpi = nuevoDpi;
     vehiculo.nombre = nuevoNombre;
     vehiculo.cantidadTraspasos++;
 
     JOptionPane.showMessageDialog(this, "¡Traspaso realizado correctamente!");
-
-    // Opcional: Guardar en archivos
-    // guardarVehiculos(listaVehiculos);
-    // guardarTraspasos(listaTraspasos);
-
 } else {
     JOptionPane.showMessageDialog(this, "Vehículo con esa placa no fue encontrado.");
 }
+
     
 
 
-    }//GEN-LAST:event_Realizar_traspaso__ActionPerformed
+ 
+
+    }//GEN-LAST:event_gaurdar_nodoActionPerformed
+
+    private void Guardar_en_el_txt___ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Guardar_en_el_txt___ActionPerformed
+        
+        Importar_archivos_multas.EscritorArchivos.guardarVehiculosPorDepartamento(listaVehiculos);
+        Importar_archivos_multas .EscritorArchivos.guardarTraspasosPorDepartamento(listaTraspasos);
+       
+    }//GEN-LAST:event_Guardar_en_el_txt___ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Importar_archivos_multas.guardarVehiculosPorDepartamento(listaVehiculos);
-        Importar_archivos_multas.guardarTraspasosPorDepartamento(listaTraspasos);
-        
-       
+        Vehiculos atras = new Vehiculos();
+        atras.setVisible(true);
+        this.dispose();
+                          
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -198,17 +235,20 @@ if (vehiculo != null) {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField Depa;
     private javax.swing.JTextField Dpi_tex;
     private javax.swing.JTextField Fecha_tex;
+    private javax.swing.JButton Guardar_en_el_txt___;
     private javax.swing.JTextField Nombre_tex;
-    private javax.swing.JButton Realizar_traspaso__;
     private java.awt.Label Traspasos;
+    private javax.swing.JButton gaurdar_nodo;
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private java.awt.Label label1;
     private java.awt.Label label2;
     private java.awt.Label label3;
     private java.awt.Label label4;
+    private java.awt.Label label5;
     private javax.swing.JTextField placa_tex;
     // End of variables declaration//GEN-END:variables
 }

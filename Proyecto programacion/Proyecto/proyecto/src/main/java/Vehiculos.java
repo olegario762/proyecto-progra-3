@@ -12,7 +12,13 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Vehiculos extends javax.swing.JFrame {
     
+    
+     DefaultTableModel modeloVehiculos = new DefaultTableModel();
+    DefaultTableModel modeloTraspasos = new DefaultTableModel();
+    
     Lista_Vehiculos ve = new Lista_Vehiculos();
+     Lista_Traspasos listaTraspasos = new Lista_Traspasos();
+    Lista_Doble list_multas = new Lista_Doble();
 
    
     
@@ -20,6 +26,10 @@ public class Vehiculos extends javax.swing.JFrame {
     
     public Vehiculos() {
         initComponents();
+        
+        Importar_archivos_multas.cargarTodosLosArchivos(modeloVehiculos, list_multas, ve);
+        Importar_archivos_multas.cargarTraspasos(modeloTraspasos, listaTraspasos, ve);
+        Importar_archivos_multas.cargarVehiculos(modeloVehiculos, ve);
         
         
         
@@ -42,6 +52,8 @@ public class Vehiculos extends javax.swing.JFrame {
         tabla_vehi = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
         Traspaso = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -49,18 +61,18 @@ public class Vehiculos extends javax.swing.JFrame {
 
         tabla_vehi.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "Placa", "DPI", "Nombre", "Marca", "Modelo", "Anio", "Multas", "Traspasos"
+                "Departamento", "Placa", "DPI", "Nombre", "Marca", "Modelo", "Anio", "Multas", "Traspasos"
             }
         ));
         jScrollPane1.setViewportView(tabla_vehi);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 720, 200));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 740, 200));
 
         jButton1.setText("Importar");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -82,6 +94,22 @@ public class Vehiculos extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Traspaso, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 140, -1));
+
+        jButton2.setText("Listado Traspaso");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, -1, -1));
+
+        jButton3.setText("Listado Multa");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 350, 140, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -119,6 +147,19 @@ public class Vehiculos extends javax.swing.JFrame {
          this.dispose(); 
 
     }//GEN-LAST:event_TraspasoActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        Pantalla_traspaso tras = new Pantalla_traspaso();
+         tras.setVisible(true);
+         this.dispose(); 
+
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        Pantalla multas = new Pantalla();
+        multas.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -158,6 +199,8 @@ public class Vehiculos extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Traspaso;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tabla_vehi;

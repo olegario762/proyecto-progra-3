@@ -1,4 +1,3 @@
-Placa,Fecha,Descripcion,Monto
 BSG-4943,2015-01-23,No usar cinturón de seguridad,813
 BSG-4943,2021-04-26,No usar cinturón de seguridad,554
 BSG-4943,2020-08-20,No usar cinturón de seguridad,805

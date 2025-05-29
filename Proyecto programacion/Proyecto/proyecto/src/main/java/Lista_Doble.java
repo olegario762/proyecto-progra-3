@@ -35,6 +35,19 @@ public class Lista_Doble {
             nuevo.Siguiente = null;
             colita = nuevo;
         }
+      
+        
+    }
+    
+    
+    public int calcularTotalMultas() {
+        int total = 0;
+        Nodo_Doble actual = cabeza;
+        while (actual != null) {
+            total += actual.monto;
+            actual = actual.Siguiente;
+        }
+        return total;
     }
         public void vaciar() {
         cabeza = null;
