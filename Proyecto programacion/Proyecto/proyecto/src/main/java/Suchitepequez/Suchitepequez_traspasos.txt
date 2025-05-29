@@ -1,0 +1,1 @@
+Placa,DPI,NuevoPropietario,Fecha

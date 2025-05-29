@@ -1,0 +1,2656 @@
+Placa,Fecha,Descripcion,Monto
+HBU-4211,2018-09-23,No portar licencia,729
+HBU-4211,2017-08-24,Revisión técnica vencida,166
+HBU-4211,2022-10-05,No usar cinturón de seguridad,764
+XEL-3068,2022-10-27,Estacionamiento indebido,462
+XEL-3068,2024-02-19,Uso de celular al conducir,398
+XEL-3068,2021-07-01,Uso de celular al conducir,602
+XZT-6371,2022-06-24,No usar cinturón de seguridad,237
+XZT-6371,2021-07-03,No usar cinturón de seguridad,843
+XZT-6371,2022-10-06,Circular con luces apagadas,691
+GQF-2256,2021-08-21,Exceso de velocidad,226
+GQF-2256,2024-05-01,Falta de seguro obligatorio,217
+GQF-2256,2018-12-23,Falta de seguro obligatorio,287
+ADJ-7314,2024-04-20,Vehículo sin placas visibles,247
+ADJ-7314,2016-09-18,Uso de celular al conducir,142
+ADJ-7314,2017-07-10,Exceso de velocidad,632
+ADJ-7314,2017-12-20,Vehículo sin placas visibles,217
+ADJ-7314,2016-11-10,Falta de seguro obligatorio,202
+QCP-2667,2017-03-06,Exceso de velocidad,355
+QCP-2667,2021-07-08,Falta de seguro obligatorio,277
+QCP-2667,2021-06-05,Vehículo sin placas visibles,729
+EXN-0959,2023-01-16,Falta de seguro obligatorio,717
+EXN-0959,2022-12-25,Falta de seguro obligatorio,798
+GIO-5265,2021-03-17,Estacionamiento indebido,662
+CVB-6316,2023-08-15,Vehículo sin placas visibles,184
+CVB-6316,2018-05-18,Revisión técnica vencida,967
+EAY-7564,2024-07-13,Uso de celular al conducir,235
+RLN-1758,2020-01-20,No respetar semáforo,426
+KNW-0832,2024-02-09,Circular con luces apagadas,799
+KNW-0832,2018-02-15,Vehículo sin placas visibles,526
+KNW-0832,2016-02-17,Exceso de velocidad,359
+YWS-4707,2017-10-28,No portar licencia,764
+YWS-4707,2019-02-24,Exceso de velocidad,113
+JFI-5587,2015-07-26,Exceso de velocidad,903
+JFI-5587,2016-08-26,Estacionamiento indebido,694
+JFI-5587,2016-07-05,No portar licencia,636
+OWQ-8057,2020-01-29,Uso de celular al conducir,193
+OWQ-8057,2020-08-06,Estacionamiento indebido,672
+OXP-9405,2023-11-10,Falta de seguro obligatorio,581
+YBB-9977,2020-02-26,Circular con luces apagadas,793
+YBB-9977,2019-06-25,No portar licencia,431
+JZY-5385,2024-11-23,Falta de seguro obligatorio,210
+JZY-5385,2017-06-04,Circular con luces apagadas,354
+JZY-5385,2017-05-19,No respetar semáforo,375
+JZY-5385,2022-09-22,Exceso de velocidad,791
+JZY-5385,2022-09-20,Circular con luces apagadas,910
+CMQ-5658,2023-07-23,Falta de seguro obligatorio,249
+CMQ-5658,2020-06-22,Uso de celular al conducir,574
+CMQ-5658,2017-06-25,Circular con luces apagadas,582
+CMQ-5658,2019-04-13,Vehículo sin placas visibles,221
+CMQ-5658,2018-08-30,Falta de seguro obligatorio,837
+KGV-2029,2021-01-30,Revisión técnica vencida,392
+KGV-2029,2019-05-03,No usar cinturón de seguridad,848
+KGV-2029,2023-12-27,Vehículo sin placas visibles,505
+THC-4567,2020-11-15,No usar cinturón de seguridad,770
+THC-4567,2023-06-10,Circular con luces apagadas,428
+THC-4567,2021-12-14,Revisión técnica vencida,797
+THC-4567,2016-04-21,Estacionamiento indebido,233
+THC-4567,2018-02-10,No usar cinturón de seguridad,553
+BNB-7881,2016-01-24,Exceso de velocidad,533
+BNB-7881,2017-10-14,No usar cinturón de seguridad,535
+BNB-7881,2020-05-12,Revisión técnica vencida,695
+BNB-7881,2022-12-10,Revisión técnica vencida,193
+ZTI-1166,2015-01-12,Uso de celular al conducir,104
+ZTI-1166,2024-04-20,Vehículo sin placas visibles,147
+MCZ-4425,2018-06-02,No portar licencia,637
+MCZ-4425,2015-02-19,Exceso de velocidad,394
+HDQ-9313,2024-03-01,No portar licencia,771
+HDQ-9313,2017-06-09,No usar cinturón de seguridad,402
+HDQ-9313,2021-06-15,Exceso de velocidad,744
+HDQ-9313,2018-06-16,No usar cinturón de seguridad,261
+DIE-3272,2020-11-09,No respetar semáforo,969
+DIE-3272,2021-05-14,Exceso de velocidad,574
+PXK-5514,2023-01-24,Exceso de velocidad,825
+PXK-5514,2016-06-30,No usar cinturón de seguridad,174
+PXK-5514,2016-04-27,Estacionamiento indebido,399
+XNV-2273,2015-06-07,Uso de celular al conducir,124
+XNV-2273,2021-11-12,Uso de celular al conducir,604
+XNV-2273,2016-06-28,No portar licencia,697
+XNV-2273,2019-02-11,Revisión técnica vencida,985
+XNV-2273,2018-06-19,Revisión técnica vencida,733
+HRH-2894,2019-12-27,Falta de seguro obligatorio,994
+HRH-2894,2016-07-05,Estacionamiento indebido,218
+HRH-2894,2023-01-03,Exceso de velocidad,139
+QLR-6277,2021-04-18,Falta de seguro obligatorio,536
+QLR-6277,2024-10-01,Revisión técnica vencida,890
+QLR-6277,2015-02-05,Falta de seguro obligatorio,479
+QLR-6277,2024-02-12,Circular con luces apagadas,438
+QLR-6277,2021-02-06,Estacionamiento indebido,361
+PSM-8569,2019-01-26,No portar licencia,630
+CCY-3840,2018-10-23,Revisión técnica vencida,116
+CCY-3840,2016-10-08,Estacionamiento indebido,963
+CCY-3840,2022-05-13,Uso de celular al conducir,246
+CCY-3840,2017-08-25,Revisión técnica vencida,189
+HYV-6661,2020-06-21,No portar licencia,277
+HYV-6661,2022-09-26,Uso de celular al conducir,767
+HYV-6661,2019-09-27,Uso de celular al conducir,170
+HYV-6661,2020-07-21,No usar cinturón de seguridad,454
+JEZ-3283,2021-08-04,No portar licencia,721
+JEZ-3283,2015-08-15,Estacionamiento indebido,863
+MZM-9763,2020-05-13,Revisión técnica vencida,198
+MZM-9763,2017-05-24,Vehículo sin placas visibles,705
+WHB-8858,2021-07-05,Estacionamiento indebido,997
+WHB-8858,2023-09-11,Falta de seguro obligatorio,742
+WHB-8858,2024-05-01,Vehículo sin placas visibles,724
+WHB-8858,2018-10-25,Circular con luces apagadas,491
+OKU-1955,2021-08-04,No usar cinturón de seguridad,444
+OKU-1955,2018-12-28,Circular con luces apagadas,278
+OKU-1955,2015-04-13,Exceso de velocidad,122
+OKU-1955,2023-04-07,Falta de seguro obligatorio,168
+CRG-9579,2022-06-30,Estacionamiento indebido,999
+CRG-9579,2015-09-29,Falta de seguro obligatorio,777
+CRG-9579,2018-07-03,Estacionamiento indebido,123
+CRG-9579,2017-10-23,Revisión técnica vencida,237
+CRG-9579,2020-08-08,Falta de seguro obligatorio,247
+JQX-9731,2020-01-19,Circular con luces apagadas,220
+JQX-9731,2020-05-16,Uso de celular al conducir,196
+UJG-1286,2016-05-28,No usar cinturón de seguridad,594
+UJG-1286,2024-10-12,No portar licencia,965
+UJG-1286,2023-07-08,Vehículo sin placas visibles,657
+UJG-1286,2020-03-12,No respetar semáforo,114
+UJG-1286,2015-01-18,Vehículo sin placas visibles,558
+PRM-6199,2018-02-02,No respetar semáforo,866
+PRM-6199,2019-08-15,Falta de seguro obligatorio,488
+PRM-6199,2021-03-26,Revisión técnica vencida,976
+PRM-6199,2021-11-01,No respetar semáforo,300
+PRM-6199,2021-12-14,Exceso de velocidad,568
+AKZ-1466,2016-07-15,No respetar semáforo,728
+AKZ-1466,2016-01-25,Exceso de velocidad,391
+AKZ-1466,2023-07-27,No respetar semáforo,399
+AKZ-1466,2017-02-28,No portar licencia,703
+YTO-7684,2022-03-25,Vehículo sin placas visibles,887
+YTO-7684,2016-12-13,No usar cinturón de seguridad,421
+YTO-7684,2021-12-12,Circular con luces apagadas,514
+OBY-3224,2017-09-14,Revisión técnica vencida,902
+OBY-3224,2016-12-02,No portar licencia,998
+BVK-0184,2019-12-16,Falta de seguro obligatorio,230
+BVK-0184,2020-01-20,Circular con luces apagadas,820
+BVK-0184,2020-02-13,Uso de celular al conducir,680
+BVK-0184,2024-07-16,No respetar semáforo,631
+AFK-1617,2018-08-06,Circular con luces apagadas,398
+AFK-1617,2016-11-10,No usar cinturón de seguridad,956
+AFK-1617,2015-12-24,Revisión técnica vencida,366
+AFK-1617,2021-05-02,No usar cinturón de seguridad,770
+AFK-1617,2024-08-07,No respetar semáforo,731
+VYC-4534,2019-03-23,Uso de celular al conducir,894
+VYC-4534,2022-03-10,No usar cinturón de seguridad,492
+VYC-4534,2020-09-02,Vehículo sin placas visibles,501
+RES-6400,2023-01-06,Exceso de velocidad,359
+RES-6400,2024-09-28,Uso de celular al conducir,847
+RES-6400,2015-01-12,No portar licencia,554
+RES-6400,2017-02-02,Circular con luces apagadas,716
+TGV-2954,2016-10-12,Uso de celular al conducir,636
+TGV-2954,2023-05-06,No portar licencia,722
+BPT-5434,2019-01-03,Falta de seguro obligatorio,984
+BPT-5434,2019-05-06,No portar licencia,448
+FWS-2022,2022-11-13,Estacionamiento indebido,138
+FWS-2022,2019-08-12,No usar cinturón de seguridad,582
+FWS-2022,2024-01-12,Uso de celular al conducir,716
+FWS-2022,2022-09-08,Revisión técnica vencida,634
+FWS-2022,2015-04-12,Uso de celular al conducir,528
+NBA-7953,2017-02-24,Circular con luces apagadas,961
+NBA-7953,2024-01-11,Uso de celular al conducir,242
+NBA-7953,2024-01-13,No usar cinturón de seguridad,389
+NBA-7953,2024-07-12,Estacionamiento indebido,244
+NBA-7953,2018-01-11,Uso de celular al conducir,574
+MCM-6535,2016-09-29,No respetar semáforo,678
+MCM-6535,2024-01-03,Estacionamiento indebido,325
+MCM-6535,2019-03-27,No usar cinturón de seguridad,796
+MCM-6535,2023-02-20,Exceso de velocidad,483
+ZZZ-1007,2019-08-09,Exceso de velocidad,573
+IQU-2602,2016-12-15,Vehículo sin placas visibles,818
+IQU-2602,2015-03-23,Vehículo sin placas visibles,258
+IQU-2602,2024-07-22,Vehículo sin placas visibles,498
+IQU-2602,2017-09-09,Vehículo sin placas visibles,174
+NJU-4054,2022-11-21,No respetar semáforo,767
+NUW-1784,2023-08-24,Exceso de velocidad,243
+NUW-1784,2017-07-23,Falta de seguro obligatorio,250
+NUW-1784,2019-07-15,Revisión técnica vencida,537
+NUW-1784,2022-12-17,No usar cinturón de seguridad,930
+NUW-1784,2024-12-04,Estacionamiento indebido,339
+JVW-5191,2016-11-20,No portar licencia,662
+JVW-5191,2020-08-10,Exceso de velocidad,262
+JVW-5191,2024-04-23,Estacionamiento indebido,651
+JVW-5191,2016-12-18,Falta de seguro obligatorio,191
+ZDN-6328,2022-08-13,No portar licencia,519
+ZDN-6328,2024-11-07,Falta de seguro obligatorio,398
+ZDN-6328,2016-09-20,Falta de seguro obligatorio,999
+CIY-2937,2021-06-11,No usar cinturón de seguridad,451
+CIY-2937,2023-08-14,Circular con luces apagadas,969
+CIY-2937,2022-12-10,Revisión técnica vencida,930
+DRO-3057,2021-01-28,No portar licencia,923
+DRO-3057,2018-09-05,No portar licencia,822
+DRO-3057,2021-09-23,Exceso de velocidad,909
+DRO-3057,2015-01-13,Falta de seguro obligatorio,331
+DRO-3057,2022-06-22,No usar cinturón de seguridad,239
+WEW-5156,2018-05-20,Falta de seguro obligatorio,764
+WEW-5156,2022-06-10,Revisión técnica vencida,143
+WEW-5156,2023-08-19,Falta de seguro obligatorio,287
+WEW-5156,2019-04-05,Falta de seguro obligatorio,195
+WEW-5156,2022-05-26,No portar licencia,405
+ELM-5879,2023-04-10,Vehículo sin placas visibles,555
+UBZ-8744,2018-02-22,No portar licencia,364
+UBZ-8744,2018-08-04,Circular con luces apagadas,854
+UBZ-8744,2017-11-14,Circular con luces apagadas,964
+UBZ-8744,2018-11-24,Uso de celular al conducir,473
+UBZ-8744,2018-01-16,Uso de celular al conducir,754
+EOQ-2573,2021-02-18,No portar licencia,544
+EOQ-2573,2024-03-13,Vehículo sin placas visibles,263
+EOQ-2573,2017-07-13,Revisión técnica vencida,747
+EOQ-2573,2018-02-07,Revisión técnica vencida,376
+GRD-2143,2016-06-17,Falta de seguro obligatorio,973
+SLU-3998,2023-12-12,Revisión técnica vencida,974
+SLU-3998,2023-05-31,No portar licencia,859
+SLU-3998,2019-02-06,Circular con luces apagadas,773
+SLU-3998,2019-01-13,Estacionamiento indebido,903
+SLU-3998,2020-06-25,Uso de celular al conducir,521
+JTV-8602,2017-04-02,Estacionamiento indebido,449
+JTV-8602,2024-03-08,Revisión técnica vencida,111
+JTV-8602,2019-05-01,Falta de seguro obligatorio,144
+JTV-8602,2022-02-12,No portar licencia,185
+JTV-8602,2020-12-09,Exceso de velocidad,152
+XBR-0409,2016-06-01,Vehículo sin placas visibles,262
+XBR-0409,2022-02-03,No respetar semáforo,634
+THU-2651,2021-09-14,No usar cinturón de seguridad,666
+THU-2651,2022-03-25,Falta de seguro obligatorio,692
+THU-2651,2023-07-03,No respetar semáforo,169
+GXX-6560,2017-10-06,Circular con luces apagadas,845
+WQR-1505,2016-12-23,Circular con luces apagadas,542
+WQR-1505,2016-10-22,No respetar semáforo,621
+WQR-1505,2015-01-30,Revisión técnica vencida,348
+WQR-1505,2024-08-02,Revisión técnica vencida,685
+JWL-4760,2019-12-17,Vehículo sin placas visibles,110
+JWL-4760,2015-07-17,Revisión técnica vencida,873
+JWL-4760,2023-06-22,Uso de celular al conducir,247
+JWL-4760,2017-01-09,Uso de celular al conducir,331
+JWL-4760,2018-02-09,No usar cinturón de seguridad,428
+ONY-0268,2022-02-27,No portar licencia,989
+ONY-0268,2021-04-04,Exceso de velocidad,307
+ONY-0268,2022-01-28,Exceso de velocidad,161
+ONY-0268,2023-08-18,Vehículo sin placas visibles,986
+BXM-1175,2017-02-24,Uso de celular al conducir,568
+BXM-1175,2022-01-24,Circular con luces apagadas,620
+BXM-1175,2024-10-30,No portar licencia,270
+BXM-1175,2019-09-23,No usar cinturón de seguridad,262
+BXM-1175,2015-05-11,Exceso de velocidad,708
+YDA-3691,2015-02-06,No usar cinturón de seguridad,815
+YDA-3691,2019-12-10,No portar licencia,973
+YDA-3691,2021-02-26,Exceso de velocidad,724
+WSO-5545,2022-10-08,Revisión técnica vencida,974
+WSO-5545,2016-01-18,Falta de seguro obligatorio,953
+WSO-5545,2019-02-18,No usar cinturón de seguridad,186
+WSO-5545,2017-08-15,Revisión técnica vencida,942
+CWD-6955,2017-10-24,Circular con luces apagadas,844
+CWD-6955,2019-11-10,No usar cinturón de seguridad,866
+CWD-6955,2024-10-16,Falta de seguro obligatorio,502
+CWD-6955,2016-06-26,Vehículo sin placas visibles,718
+CWD-6955,2019-04-16,No usar cinturón de seguridad,486
+KFY-3322,2015-04-10,No respetar semáforo,693
+KFY-3322,2021-06-12,Uso de celular al conducir,848
+PLE-6125,2020-12-24,Revisión técnica vencida,412
+PLE-6125,2018-03-18,Estacionamiento indebido,407
+PLE-6125,2022-09-03,No respetar semáforo,196
+VTI-4144,2018-09-03,Vehículo sin placas visibles,308
+VTI-4144,2022-05-03,No usar cinturón de seguridad,796
+VTI-4144,2015-10-01,Vehículo sin placas visibles,336
+QUF-9882,2020-09-27,No portar licencia,978
+QUF-9882,2016-11-18,Uso de celular al conducir,735
+XXO-9000,2021-07-29,Uso de celular al conducir,742
+XXO-9000,2018-10-11,Estacionamiento indebido,530
+NOF-1212,2017-04-11,Circular con luces apagadas,986
+LPC-0157,2016-08-15,Circular con luces apagadas,427
+LPC-0157,2015-03-17,Uso de celular al conducir,872
+LPC-0157,2020-10-05,Circular con luces apagadas,672
+LPC-0157,2018-06-10,No usar cinturón de seguridad,150
+YBU-0436,2022-04-13,No respetar semáforo,211
+YBU-0436,2017-01-10,Revisión técnica vencida,400
+YBU-0436,2022-12-17,Falta de seguro obligatorio,955
+GBQ-0364,2020-02-01,Estacionamiento indebido,797
+GBQ-0364,2023-11-03,Falta de seguro obligatorio,980
+GBQ-0364,2024-12-19,Vehículo sin placas visibles,348
+DRZ-8417,2019-07-31,No portar licencia,527
+DRZ-8417,2024-06-30,Vehículo sin placas visibles,522
+AUZ-1712,2019-04-21,No respetar semáforo,840
+AUZ-1712,2017-12-06,No portar licencia,771
+AUZ-1712,2024-08-16,Circular con luces apagadas,846
+AUZ-1712,2021-04-21,No respetar semáforo,796
+AUZ-1712,2018-06-26,No respetar semáforo,391
+GPK-2846,2020-10-23,No respetar semáforo,386
+GPK-2846,2023-09-07,Falta de seguro obligatorio,241
+GPK-2846,2022-12-02,Falta de seguro obligatorio,304
+SSR-7318,2024-06-03,Vehículo sin placas visibles,435
+SSR-7318,2016-02-24,Revisión técnica vencida,358
+WJX-7481,2023-03-08,Falta de seguro obligatorio,366
+WJX-7481,2015-11-08,No portar licencia,114
+WJX-7481,2018-07-26,Estacionamiento indebido,598
+ZLD-8133,2022-06-17,Circular con luces apagadas,872
+ZLD-8133,2019-07-23,Uso de celular al conducir,558
+CGG-2023,2019-10-12,Falta de seguro obligatorio,861
+CGG-2023,2016-08-23,Exceso de velocidad,622
+CGG-2023,2015-09-04,Uso de celular al conducir,737
+CGG-2023,2023-06-27,Estacionamiento indebido,476
+CGG-2023,2020-02-23,No respetar semáforo,722
+SAQ-8277,2023-06-07,No respetar semáforo,770
+FTK-5319,2015-07-01,Uso de celular al conducir,920
+FTK-5319,2020-03-23,Circular con luces apagadas,389
+HBX-3620,2016-01-21,No respetar semáforo,875
+HBX-3620,2019-04-28,No respetar semáforo,722
+HBX-3620,2021-12-12,Falta de seguro obligatorio,773
+HBX-3620,2022-02-15,Exceso de velocidad,389
+HBX-3620,2016-06-16,No respetar semáforo,523
+VCD-4357,2019-07-11,Estacionamiento indebido,330
+VCD-4357,2023-04-18,Uso de celular al conducir,717
+VCD-4357,2017-06-28,Vehículo sin placas visibles,737
+VCD-4357,2024-06-15,No usar cinturón de seguridad,863
+VCD-4357,2020-02-20,Vehículo sin placas visibles,203
+SPY-3536,2023-01-22,No portar licencia,409
+IIX-6088,2024-03-28,No portar licencia,110
+IIX-6088,2022-06-17,Estacionamiento indebido,857
+IIX-6088,2017-02-21,Estacionamiento indebido,508
+IIX-6088,2016-01-05,Circular con luces apagadas,918
+LCP-4377,2015-12-23,Estacionamiento indebido,864
+LCP-4377,2023-04-29,No usar cinturón de seguridad,662
+YUH-9079,2024-06-05,No usar cinturón de seguridad,156
+YUH-9079,2017-04-29,Circular con luces apagadas,999
+YUH-9079,2015-09-10,Falta de seguro obligatorio,602
+YUH-9079,2018-02-11,No usar cinturón de seguridad,174
+XRQ-5652,2016-10-29,Exceso de velocidad,431
+XRQ-5652,2018-06-24,Circular con luces apagadas,184
+XRQ-5652,2019-01-13,Revisión técnica vencida,859
+XRQ-5652,2017-07-26,Circular con luces apagadas,185
+PHC-2220,2015-03-22,Circular con luces apagadas,967
+PHC-2220,2021-06-14,Revisión técnica vencida,705
+PHC-2220,2015-05-05,No portar licencia,999
+PHC-2220,2019-07-12,Uso de celular al conducir,496
+ZNA-5266,2021-07-24,Estacionamiento indebido,685
+OBQ-1914,2020-06-22,Falta de seguro obligatorio,542
+NWN-6505,2021-11-22,No usar cinturón de seguridad,106
+NWN-6505,2019-02-17,Circular con luces apagadas,365
+NWN-6505,2016-10-17,Estacionamiento indebido,433
+NWN-6505,2015-12-26,Falta de seguro obligatorio,116
+MEY-1921,2016-12-16,Uso de celular al conducir,185
+MEY-1921,2016-01-10,No portar licencia,288
+EKA-8126,2020-03-04,Revisión técnica vencida,609
+EKA-8126,2017-03-28,No usar cinturón de seguridad,235
+EKA-8126,2024-10-07,No respetar semáforo,801
+RCM-9157,2016-12-08,No usar cinturón de seguridad,973
+RCM-9157,2020-06-22,Uso de celular al conducir,526
+RCM-9157,2017-08-17,Circular con luces apagadas,560
+RCM-9157,2018-09-01,No usar cinturón de seguridad,595
+IQD-8824,2020-01-25,No respetar semáforo,782
+IQD-8824,2022-08-12,Exceso de velocidad,797
+IQD-8824,2022-08-22,No portar licencia,604
+IQD-8824,2019-09-10,Estacionamiento indebido,654
+IQD-8824,2017-10-12,Circular con luces apagadas,637
+CZD-8171,2023-08-30,Falta de seguro obligatorio,502
+CZD-8171,2016-01-29,Circular con luces apagadas,111
+CZD-8171,2017-05-09,No portar licencia,113
+DLF-7858,2015-11-23,Exceso de velocidad,835
+DLF-7858,2017-03-08,Uso de celular al conducir,446
+KIP-4006,2016-10-02,No portar licencia,564
+KIP-4006,2019-10-30,No usar cinturón de seguridad,362
+KIP-4006,2023-05-20,No respetar semáforo,128
+KIP-4006,2019-06-04,No portar licencia,753
+KIP-4006,2021-02-25,No usar cinturón de seguridad,233
+HVS-3427,2015-04-22,Estacionamiento indebido,851
+HVS-3427,2018-04-09,No portar licencia,882
+HVS-3427,2016-11-24,Exceso de velocidad,936
+GKB-9503,2018-04-03,Vehículo sin placas visibles,365
+GKB-9503,2022-06-21,Falta de seguro obligatorio,474
+GKB-9503,2016-06-07,Circular con luces apagadas,491
+BJK-1651,2020-10-30,Circular con luces apagadas,852
+BCF-9009,2016-07-13,Falta de seguro obligatorio,750
+BCF-9009,2022-03-06,Falta de seguro obligatorio,686
+KHE-6201,2016-01-06,Exceso de velocidad,421
+KHE-6201,2022-12-15,No respetar semáforo,852
+KHE-6201,2017-09-22,Estacionamiento indebido,890
+KHE-6201,2021-11-20,No respetar semáforo,644
+BSJ-6271,2023-07-28,Estacionamiento indebido,838
+BSJ-6271,2024-10-25,Circular con luces apagadas,987
+BGD-0161,2015-06-03,Exceso de velocidad,171
+BGD-0161,2015-11-09,No respetar semáforo,548
+IYI-6018,2015-05-10,Exceso de velocidad,396
+IYI-6018,2015-08-08,Falta de seguro obligatorio,480
+OIB-5326,2017-02-28,Exceso de velocidad,928
+OIB-5326,2018-02-13,Estacionamiento indebido,410
+DLJ-9504,2022-09-21,Uso de celular al conducir,199
+DLJ-9504,2019-07-26,Revisión técnica vencida,644
+DLJ-9504,2024-07-02,No usar cinturón de seguridad,889
+FTK-7134,2022-08-15,No respetar semáforo,334
+FTK-7134,2019-01-15,Exceso de velocidad,369
+FTK-7134,2017-03-12,No respetar semáforo,994
+HAX-7260,2024-01-28,Circular con luces apagadas,911
+HAX-7260,2015-03-13,Circular con luces apagadas,278
+HAX-7260,2015-03-31,No respetar semáforo,641
+HAX-7260,2023-04-16,Circular con luces apagadas,505
+HAX-7260,2015-11-21,No respetar semáforo,740
+XIA-2950,2021-04-21,Exceso de velocidad,372
+XIA-2950,2021-09-17,Estacionamiento indebido,129
+AVD-9884,2021-05-01,Falta de seguro obligatorio,387
+MWZ-1961,2023-11-08,Estacionamiento indebido,438
+MWZ-1961,2024-04-01,No portar licencia,567
+CYB-1550,2019-02-04,No respetar semáforo,805
+CYB-1550,2021-02-26,Vehículo sin placas visibles,563
+CYB-1550,2016-07-11,Vehículo sin placas visibles,140
+RZW-3006,2017-04-15,Circular con luces apagadas,646
+RZW-3006,2023-06-20,No portar licencia,322
+RZW-3006,2019-03-16,Falta de seguro obligatorio,819
+RZW-3006,2021-04-18,Revisión técnica vencida,626
+RZW-3006,2019-12-08,No portar licencia,768
+GLO-5917,2015-06-23,No respetar semáforo,494
+GLO-5917,2023-08-28,No portar licencia,247
+GLO-5917,2023-08-21,Estacionamiento indebido,951
+GLO-5917,2019-01-17,Revisión técnica vencida,826
+GLO-5917,2015-04-26,Exceso de velocidad,598
+AAW-9089,2021-03-12,Vehículo sin placas visibles,441
+AAW-9089,2018-07-30,Revisión técnica vencida,486
+MJD-1768,2020-07-25,Circular con luces apagadas,549
+AUK-5582,2024-12-30,No usar cinturón de seguridad,228
+AUK-5582,2022-03-17,Uso de celular al conducir,955
+AUK-5582,2017-02-14,Exceso de velocidad,198
+AUK-5582,2018-10-15,No usar cinturón de seguridad,511
+AUK-5582,2021-07-13,No portar licencia,478
+KEZ-6669,2020-04-02,Vehículo sin placas visibles,854
+KEZ-6669,2021-12-25,Circular con luces apagadas,421
+XRX-7519,2017-09-13,Falta de seguro obligatorio,375
+KOD-0639,2018-12-20,No usar cinturón de seguridad,165
+VLC-4889,2016-07-04,No portar licencia,715
+VLC-4889,2017-03-15,Vehículo sin placas visibles,541
+VLC-4889,2015-02-28,No portar licencia,249
+SLR-2952,2016-04-23,Falta de seguro obligatorio,972
+SLR-2952,2016-12-20,Falta de seguro obligatorio,296
+SLR-2952,2019-02-22,Estacionamiento indebido,760
+XPZ-9010,2017-10-26,No respetar semáforo,115
+XPZ-9010,2024-03-09,No usar cinturón de seguridad,692
+XPZ-9010,2019-06-18,Exceso de velocidad,708
+STD-3423,2022-04-29,Revisión técnica vencida,304
+STD-3423,2017-07-14,Exceso de velocidad,366
+STD-3423,2017-09-03,Falta de seguro obligatorio,725
+STD-3423,2016-03-07,No portar licencia,259
+STD-3423,2018-09-27,Falta de seguro obligatorio,969
+CAQ-1604,2024-08-05,Revisión técnica vencida,599
+CAQ-1604,2016-08-20,No usar cinturón de seguridad,797
+IWL-1236,2019-01-06,Revisión técnica vencida,131
+CZB-9714,2023-02-19,Uso de celular al conducir,234
+CZB-9714,2016-09-08,Estacionamiento indebido,752
+CZB-9714,2020-05-01,Exceso de velocidad,481
+CZB-9714,2020-09-28,Uso de celular al conducir,812
+CZB-9714,2023-02-14,Estacionamiento indebido,253
+PER-0816,2021-12-21,Circular con luces apagadas,328
+HLS-2187,2019-12-04,Uso de celular al conducir,686
+HLS-2187,2017-02-22,No usar cinturón de seguridad,411
+HLS-2187,2022-02-15,Exceso de velocidad,409
+HLS-2187,2022-03-22,Vehículo sin placas visibles,548
+HLS-2187,2021-04-09,Estacionamiento indebido,303
+UHA-5580,2023-07-19,Estacionamiento indebido,591
+UHA-5580,2019-03-15,Uso de celular al conducir,941
+WWE-6978,2018-09-23,Uso de celular al conducir,633
+WWE-6978,2023-03-29,Estacionamiento indebido,555
+QBB-8364,2023-03-08,No usar cinturón de seguridad,296
+QBB-8364,2018-10-23,Exceso de velocidad,756
+QBB-8364,2017-08-20,No usar cinturón de seguridad,773
+GFW-2658,2021-05-01,Uso de celular al conducir,870
+GFW-2658,2020-07-03,Circular con luces apagadas,891
+GFW-2658,2024-05-20,No portar licencia,764
+GFW-2658,2023-07-08,No respetar semáforo,383
+KZR-1847,2020-01-07,Estacionamiento indebido,515
+KZR-1847,2017-10-24,Revisión técnica vencida,210
+KZR-1847,2024-09-07,Exceso de velocidad,260
+RRI-3449,2015-11-17,Vehículo sin placas visibles,244
+RRI-3449,2024-04-20,Revisión técnica vencida,786
+RRI-3449,2018-08-24,Revisión técnica vencida,972
+BLR-2034,2021-01-26,No portar licencia,365
+BLR-2034,2021-07-31,No usar cinturón de seguridad,818
+BLR-2034,2020-01-24,Exceso de velocidad,571
+BLR-2034,2016-03-19,Falta de seguro obligatorio,707
+EGV-1013,2022-12-13,No respetar semáforo,479
+XZH-1788,2021-05-10,Exceso de velocidad,609
+XZH-1788,2018-07-09,Vehículo sin placas visibles,737
+XZH-1788,2020-09-06,Revisión técnica vencida,415
+XZH-1788,2015-07-27,Exceso de velocidad,762
+JCI-8846,2023-08-23,Circular con luces apagadas,454
+JCI-8846,2020-12-13,Revisión técnica vencida,799
+JCI-8846,2024-09-11,Estacionamiento indebido,980
+JCI-8846,2020-01-03,Circular con luces apagadas,164
+EKR-9654,2016-11-24,No portar licencia,781
+EKR-9654,2021-04-29,Vehículo sin placas visibles,984
+EKR-9654,2023-05-31,Circular con luces apagadas,372
+EKR-9654,2016-09-27,No usar cinturón de seguridad,638
+SNB-4731,2022-11-22,Falta de seguro obligatorio,214
+SNB-4731,2015-05-21,No usar cinturón de seguridad,379
+SNB-4731,2018-01-10,Estacionamiento indebido,698
+DOZ-4038,2018-11-05,Vehículo sin placas visibles,848
+DOZ-4038,2023-12-05,Uso de celular al conducir,519
+DOZ-4038,2015-10-07,No respetar semáforo,568
+DOZ-4038,2016-10-21,Vehículo sin placas visibles,364
+HHN-0568,2017-05-21,Exceso de velocidad,557
+HHN-0568,2019-03-29,No respetar semáforo,711
+HHN-0568,2022-11-08,Estacionamiento indebido,727
+HHN-0568,2015-12-28,No usar cinturón de seguridad,291
+HHN-0568,2023-05-23,Uso de celular al conducir,467
+PCH-7262,2024-08-23,Vehículo sin placas visibles,432
+PCH-7262,2022-05-06,No respetar semáforo,257
+PCH-7262,2020-04-02,Estacionamiento indebido,158
+PCH-7262,2021-07-02,Uso de celular al conducir,135
+NGB-7297,2021-05-19,Uso de celular al conducir,712
+NGB-7297,2024-06-19,No usar cinturón de seguridad,330
+NGB-7297,2021-06-28,Revisión técnica vencida,392
+NGB-7297,2016-10-15,Falta de seguro obligatorio,649
+NGB-7297,2019-09-18,Revisión técnica vencida,340
+XHE-6569,2018-12-01,Revisión técnica vencida,337
+XHE-6569,2017-03-30,Uso de celular al conducir,939
+XHE-6569,2022-02-25,No usar cinturón de seguridad,830
+XHE-6569,2021-11-20,Circular con luces apagadas,369
+PQL-3765,2022-08-18,Vehículo sin placas visibles,869
+PQL-3765,2019-09-26,No usar cinturón de seguridad,965
+PQL-3765,2018-04-01,Revisión técnica vencida,201
+ATG-0740,2015-03-26,Estacionamiento indebido,135
+ATG-0740,2019-07-02,Exceso de velocidad,394
+ATG-0740,2022-12-17,Vehículo sin placas visibles,467
+YLL-7417,2023-10-19,Falta de seguro obligatorio,768
+DUV-1127,2024-06-28,Revisión técnica vencida,289
+DUV-1127,2024-08-07,Exceso de velocidad,364
+DUV-1127,2023-05-03,Vehículo sin placas visibles,905
+DUV-1127,2018-06-14,Vehículo sin placas visibles,289
+AZS-1962,2020-06-10,No portar licencia,601
+AZS-1962,2023-05-14,Uso de celular al conducir,441
+UWQ-8057,2018-11-09,No portar licencia,875
+UZK-7773,2023-04-01,No usar cinturón de seguridad,349
+UZK-7773,2020-02-19,Revisión técnica vencida,994
+UZK-7773,2015-08-06,No respetar semáforo,572
+UZK-7773,2022-07-20,No respetar semáforo,741
+KBH-6726,2020-05-04,No respetar semáforo,137
+KBH-6726,2022-12-29,No portar licencia,106
+KBH-6726,2021-02-22,No usar cinturón de seguridad,779
+KBH-6726,2021-03-09,No respetar semáforo,533
+KBH-6726,2021-05-22,Estacionamiento indebido,698
+KMT-4072,2020-03-25,Revisión técnica vencida,453
+ZUJ-6897,2018-06-11,Revisión técnica vencida,924
+ZUJ-6897,2020-11-18,Estacionamiento indebido,765
+ZUJ-6897,2024-08-21,Estacionamiento indebido,587
+ZUJ-6897,2016-09-04,Falta de seguro obligatorio,576
+ZUJ-6897,2020-05-11,Revisión técnica vencida,938
+DJG-2614,2016-12-15,No portar licencia,532
+DJG-2614,2015-06-01,No portar licencia,552
+DJG-2614,2022-02-18,No respetar semáforo,382
+YXW-9738,2018-06-05,Uso de celular al conducir,782
+YXW-9738,2019-09-24,Vehículo sin placas visibles,701
+YXW-9738,2020-02-09,Exceso de velocidad,215
+WAQ-8516,2019-12-11,No usar cinturón de seguridad,871
+WAQ-8516,2022-01-04,Revisión técnica vencida,895
+WAQ-8516,2017-04-08,Vehículo sin placas visibles,872
+WAQ-8516,2021-10-06,Uso de celular al conducir,145
+WAQ-8516,2016-10-23,Circular con luces apagadas,949
+WWK-2492,2017-04-27,Uso de celular al conducir,482
+WWK-2492,2021-07-15,No usar cinturón de seguridad,914
+WWK-2492,2019-05-28,Estacionamiento indebido,414
+NMT-0656,2020-10-07,Revisión técnica vencida,418
+UCP-7515,2022-01-09,Revisión técnica vencida,449
+UCP-7515,2024-11-03,Revisión técnica vencida,451
+UCP-7515,2024-02-05,Exceso de velocidad,964
+UCP-7515,2016-07-20,Revisión técnica vencida,230
+DEN-2539,2018-06-19,Uso de celular al conducir,590
+DEN-2539,2024-05-05,Falta de seguro obligatorio,654
+DEN-2539,2016-11-13,Revisión técnica vencida,654
+DEN-2539,2021-08-12,No usar cinturón de seguridad,982
+FGM-3536,2017-03-27,No portar licencia,947
+FGM-3536,2022-05-15,Vehículo sin placas visibles,918
+FGM-3536,2020-11-25,Circular con luces apagadas,865
+FGM-3536,2017-07-07,Vehículo sin placas visibles,708
+FGM-3536,2024-12-20,Vehículo sin placas visibles,539
+TMA-7970,2018-11-25,No usar cinturón de seguridad,856
+ZON-6104,2024-07-31,No usar cinturón de seguridad,664
+NOK-1860,2022-12-01,Vehículo sin placas visibles,210
+NOK-1860,2017-02-28,Revisión técnica vencida,874
+NOK-1860,2022-07-30,Revisión técnica vencida,701
+HLM-6001,2017-04-13,No portar licencia,677
+HLM-6001,2017-10-22,Estacionamiento indebido,274
+HLM-6001,2020-02-07,Falta de seguro obligatorio,604
+HLM-6001,2024-12-21,No portar licencia,282
+HLM-6001,2016-12-07,Revisión técnica vencida,557
+MFZ-5029,2017-09-17,No usar cinturón de seguridad,793
+MFZ-5029,2021-02-13,Exceso de velocidad,549
+MFZ-5029,2018-01-06,Revisión técnica vencida,207
+MFZ-5029,2015-06-15,Revisión técnica vencida,976
+RXI-8569,2021-03-25,No usar cinturón de seguridad,146
+RXI-8569,2020-08-09,Falta de seguro obligatorio,706
+RXI-8569,2017-10-08,Falta de seguro obligatorio,720
+RXI-8569,2016-06-27,Circular con luces apagadas,532
+RXI-8569,2022-08-19,Uso de celular al conducir,933
+GOE-2078,2022-03-07,Estacionamiento indebido,752
+HVQ-3800,2023-05-18,Revisión técnica vencida,316
+HVQ-3800,2024-10-16,No respetar semáforo,711
+HVQ-3800,2019-03-20,Circular con luces apagadas,810
+HVQ-3800,2017-10-25,No portar licencia,188
+HVQ-3800,2022-12-12,No usar cinturón de seguridad,811
+UBE-6980,2024-12-18,Estacionamiento indebido,202
+UBE-6980,2020-02-10,Uso de celular al conducir,961
+SFG-6568,2019-11-29,Revisión técnica vencida,888
+SFG-6568,2015-06-13,No respetar semáforo,463
+SFG-6568,2024-02-18,No respetar semáforo,614
+SFG-6568,2015-04-06,Exceso de velocidad,498
+SFG-6568,2016-04-03,Circular con luces apagadas,830
+DRZ-5068,2022-08-14,Revisión técnica vencida,481
+MXD-0925,2018-08-09,Circular con luces apagadas,929
+MXD-0925,2019-11-11,No usar cinturón de seguridad,475
+BIR-4678,2015-08-03,No portar licencia,345
+BIR-4678,2021-04-20,Revisión técnica vencida,825
+WAW-8610,2019-10-19,No usar cinturón de seguridad,113
+WAW-8610,2019-02-27,Circular con luces apagadas,377
+WAW-8610,2018-11-16,Estacionamiento indebido,428
+BDP-8864,2023-09-28,Circular con luces apagadas,512
+BDP-8864,2020-11-16,Revisión técnica vencida,907
+DZV-9799,2020-11-12,Falta de seguro obligatorio,471
+DZV-9799,2020-09-24,Uso de celular al conducir,478
+DZV-9799,2021-06-29,No respetar semáforo,807
+DZV-9799,2022-07-06,No usar cinturón de seguridad,984
+DZV-9799,2016-04-18,Revisión técnica vencida,894
+FDW-4877,2022-01-14,Falta de seguro obligatorio,350
+FDW-4877,2022-02-12,Falta de seguro obligatorio,220
+FDW-4877,2018-06-02,Vehículo sin placas visibles,270
+FDW-4877,2024-09-28,Uso de celular al conducir,383
+FDW-4877,2019-04-11,Revisión técnica vencida,549
+NNZ-8505,2022-10-30,Exceso de velocidad,411
+WPR-5679,2021-04-29,Falta de seguro obligatorio,217
+UGU-1075,2023-06-27,Exceso de velocidad,312
+UGU-1075,2021-10-25,Revisión técnica vencida,119
+MDK-5100,2022-01-23,Estacionamiento indebido,197
+MDK-5100,2019-06-07,No usar cinturón de seguridad,664
+MDK-5100,2016-02-28,Vehículo sin placas visibles,194
+MDK-5100,2018-11-16,Falta de seguro obligatorio,465
+MDK-5100,2015-01-29,Estacionamiento indebido,303
+OBL-9827,2024-12-03,No usar cinturón de seguridad,770
+OBL-9827,2024-12-04,Exceso de velocidad,646
+OBL-9827,2022-07-25,Uso de celular al conducir,102
+SOF-8914,2021-09-16,No portar licencia,188
+SOF-8914,2021-04-15,No respetar semáforo,164
+SOF-8914,2021-07-28,Uso de celular al conducir,739
+SOF-8914,2016-03-15,No usar cinturón de seguridad,813
+SOF-8914,2023-03-12,Circular con luces apagadas,924
+ZWU-2409,2020-06-01,Estacionamiento indebido,497
+ZWU-2409,2020-12-24,Falta de seguro obligatorio,576
+CQO-0786,2018-02-21,No usar cinturón de seguridad,989
+CQO-0786,2015-11-16,Falta de seguro obligatorio,677
+VDH-2658,2018-03-11,No portar licencia,887
+VDH-2658,2015-02-06,Estacionamiento indebido,428
+VDH-2658,2017-12-11,Vehículo sin placas visibles,367
+VDH-2658,2016-10-22,No portar licencia,120
+CQP-8645,2023-10-26,Estacionamiento indebido,183
+CQP-8645,2016-09-02,Circular con luces apagadas,385
+CQP-8645,2015-10-20,Exceso de velocidad,389
+OML-9723,2017-06-30,Revisión técnica vencida,569
+OML-9723,2016-04-20,Estacionamiento indebido,363
+OML-9723,2016-05-09,No respetar semáforo,904
+OML-9723,2023-04-10,Exceso de velocidad,806
+OML-9723,2019-04-17,Falta de seguro obligatorio,444
+TOM-7602,2015-12-12,No respetar semáforo,516
+TOM-7602,2020-12-15,No portar licencia,631
+TOM-7602,2020-06-20,Uso de celular al conducir,417
+TOM-7602,2019-09-29,No portar licencia,858
+TOM-7602,2021-08-06,No respetar semáforo,860
+JZZ-3400,2021-05-20,Falta de seguro obligatorio,956
+JZZ-3400,2017-02-28,Exceso de velocidad,627
+JZZ-3400,2022-11-03,Vehículo sin placas visibles,334
+JZZ-3400,2020-04-24,No portar licencia,202
+JZZ-3400,2017-01-24,No respetar semáforo,695
+ZTH-6743,2021-09-01,Circular con luces apagadas,690
+PVT-8397,2016-01-15,Uso de celular al conducir,997
+PVT-8397,2021-04-29,Estacionamiento indebido,900
+PSW-9938,2019-11-14,Revisión técnica vencida,128
+PSW-9938,2023-10-03,Vehículo sin placas visibles,107
+PSW-9938,2022-12-29,Vehículo sin placas visibles,636
+RYH-7859,2018-09-29,Estacionamiento indebido,538
+SHZ-6645,2022-04-13,No usar cinturón de seguridad,242
+SHZ-6645,2018-10-26,Estacionamiento indebido,137
+SHZ-6645,2023-09-11,Estacionamiento indebido,266
+SHZ-6645,2021-04-10,Circular con luces apagadas,106
+SHZ-6645,2019-04-14,Uso de celular al conducir,589
+KNY-4505,2015-04-18,Estacionamiento indebido,101
+KNY-4505,2015-01-21,Circular con luces apagadas,819
+KNY-4505,2015-05-19,Estacionamiento indebido,734
+KNY-4505,2015-01-04,Revisión técnica vencida,168
+KNY-4505,2020-08-03,No usar cinturón de seguridad,445
+VOG-0892,2016-04-05,No respetar semáforo,653
+VOG-0892,2018-11-26,No usar cinturón de seguridad,765
+VOG-0892,2021-03-03,Exceso de velocidad,667
+VOG-0892,2023-03-26,Exceso de velocidad,442
+GUF-2783,2017-10-26,No portar licencia,466
+QFR-7367,2015-08-03,No usar cinturón de seguridad,226
+QFR-7367,2018-04-22,No respetar semáforo,196
+QFR-7367,2017-04-27,Estacionamiento indebido,333
+QFR-7367,2018-04-13,Exceso de velocidad,275
+QFR-7367,2018-10-21,Revisión técnica vencida,467
+PYU-4244,2015-06-02,Revisión técnica vencida,847
+PYU-4244,2024-12-23,Revisión técnica vencida,452
+PYU-4244,2021-07-05,Uso de celular al conducir,327
+PYU-4244,2021-09-05,No usar cinturón de seguridad,260
+SXG-9293,2023-05-29,No usar cinturón de seguridad,694
+SXG-9293,2019-06-24,Uso de celular al conducir,957
+SXG-9293,2022-09-15,Circular con luces apagadas,716
+SXG-9293,2015-05-29,No usar cinturón de seguridad,745
+XXO-1236,2018-12-28,Uso de celular al conducir,713
+XXO-1236,2019-08-25,No portar licencia,601
+XXO-1236,2016-05-23,Exceso de velocidad,250
+XXO-1236,2017-01-04,Revisión técnica vencida,468
+XXO-1236,2020-04-08,Exceso de velocidad,658
+GCJ-3701,2018-05-26,Revisión técnica vencida,314
+GCJ-3701,2018-01-09,Vehículo sin placas visibles,884
+GCJ-3701,2019-07-28,No usar cinturón de seguridad,353
+GCJ-3701,2024-07-14,No respetar semáforo,755
+GCJ-3701,2024-01-21,Estacionamiento indebido,325
+SEM-3138,2024-02-18,Uso de celular al conducir,521
+SEM-3138,2019-04-03,No usar cinturón de seguridad,124
+SEM-3138,2019-02-11,Falta de seguro obligatorio,270
+SEM-3138,2015-12-12,Revisión técnica vencida,1000
+SEM-3138,2017-09-03,No respetar semáforo,227
+TYU-3395,2024-11-11,Falta de seguro obligatorio,892
+TYU-3395,2020-03-13,Circular con luces apagadas,539
+TYU-3395,2024-04-04,No respetar semáforo,276
+XAJ-1814,2024-02-21,Falta de seguro obligatorio,474
+XAJ-1814,2023-07-10,Estacionamiento indebido,888
+XAJ-1814,2020-10-04,No respetar semáforo,597
+XAJ-1814,2017-02-20,Exceso de velocidad,341
+IRS-7568,2016-05-07,Uso de celular al conducir,272
+IRS-7568,2020-11-20,No usar cinturón de seguridad,366
+IRS-7568,2020-04-05,Falta de seguro obligatorio,749
+IRS-7568,2024-05-13,No portar licencia,567
+LUU-4134,2021-05-26,Revisión técnica vencida,538
+LUU-4134,2017-06-11,No respetar semáforo,521
+LUU-4134,2020-12-07,Exceso de velocidad,991
+LUU-4134,2018-07-05,Revisión técnica vencida,679
+GUY-0793,2017-04-22,No portar licencia,366
+GUY-0793,2018-06-18,Estacionamiento indebido,704
+GUY-0793,2017-01-03,Uso de celular al conducir,443
+TAQ-0239,2017-09-22,No portar licencia,818
+TAQ-0239,2023-06-03,Falta de seguro obligatorio,843
+TAQ-0239,2022-04-22,Revisión técnica vencida,563
+ZDS-7523,2024-05-22,Vehículo sin placas visibles,954
+ZDS-7523,2015-03-17,Estacionamiento indebido,105
+ENE-8330,2021-01-03,No usar cinturón de seguridad,787
+TUP-6461,2022-07-11,Exceso de velocidad,703
+TUP-6461,2017-08-05,Falta de seguro obligatorio,844
+TUP-6461,2023-02-17,Circular con luces apagadas,402
+OBS-4159,2019-05-25,No respetar semáforo,283
+OBS-4159,2017-11-10,Revisión técnica vencida,237
+OBS-4159,2021-01-15,Estacionamiento indebido,645
+OBS-4159,2016-07-31,Exceso de velocidad,251
+OBS-4159,2022-03-01,Estacionamiento indebido,148
+OTG-4848,2015-05-13,Exceso de velocidad,362
+JUI-5362,2019-07-17,Vehículo sin placas visibles,430
+TPY-3040,2024-05-26,Uso de celular al conducir,213
+TPY-3040,2022-03-03,No portar licencia,196
+TPY-3040,2015-08-29,No usar cinturón de seguridad,557
+TPY-3040,2021-09-30,No usar cinturón de seguridad,736
+TPY-3040,2016-10-03,Circular con luces apagadas,274
+RIT-1611,2017-04-07,Falta de seguro obligatorio,395
+RIT-1611,2016-12-26,Exceso de velocidad,825
+RIT-1611,2022-12-04,Revisión técnica vencida,986
+RIT-1611,2021-04-07,Uso de celular al conducir,665
+TKS-5343,2020-10-01,Vehículo sin placas visibles,863
+TKS-5343,2019-09-28,Estacionamiento indebido,841
+TKS-5343,2024-11-24,Exceso de velocidad,928
+IQF-2685,2021-11-30,Revisión técnica vencida,689
+TVP-7584,2022-12-28,Exceso de velocidad,115
+XHI-9510,2016-06-17,No respetar semáforo,511
+XHI-9510,2023-08-03,Uso de celular al conducir,747
+XHI-9510,2019-03-22,Estacionamiento indebido,490
+XHI-9510,2022-05-10,Estacionamiento indebido,813
+XHI-9510,2022-11-15,Falta de seguro obligatorio,927
+FIH-2215,2017-11-27,No usar cinturón de seguridad,415
+FIH-2215,2015-01-27,Falta de seguro obligatorio,283
+FIH-2215,2021-02-05,Vehículo sin placas visibles,160
+OLD-6151,2019-09-29,Falta de seguro obligatorio,900
+OLD-6151,2023-01-15,Falta de seguro obligatorio,337
+OLD-6151,2017-07-21,Revisión técnica vencida,701
+OLD-6151,2015-08-14,Revisión técnica vencida,661
+GPK-5620,2023-10-24,Circular con luces apagadas,913
+GPK-5620,2023-04-18,No respetar semáforo,372
+GPK-5620,2019-08-29,Estacionamiento indebido,284
+GPK-5620,2018-04-27,No respetar semáforo,957
+GPK-5620,2019-03-31,No usar cinturón de seguridad,674
+YSI-3799,2018-08-21,Circular con luces apagadas,763
+YSI-3799,2016-10-22,Uso de celular al conducir,380
+YSI-3799,2018-02-20,Estacionamiento indebido,304
+RJK-7931,2016-09-04,Falta de seguro obligatorio,923
+RJK-7931,2018-07-24,Exceso de velocidad,242
+RJK-7931,2019-02-08,Falta de seguro obligatorio,331
+RJK-7931,2019-10-26,No respetar semáforo,739
+TCL-1985,2018-08-09,Estacionamiento indebido,796
+TCL-1985,2017-06-07,Circular con luces apagadas,151
+TCL-1985,2017-11-19,Exceso de velocidad,706
+TCL-1985,2023-01-09,Revisión técnica vencida,729
+TCL-1985,2024-04-25,No respetar semáforo,232
+ZWO-2312,2017-10-11,Exceso de velocidad,351
+ZWO-2312,2015-02-21,Circular con luces apagadas,818
+MAR-7338,2024-06-26,No respetar semáforo,414
+MAR-7338,2020-05-10,No usar cinturón de seguridad,372
+MAR-7338,2015-11-12,Vehículo sin placas visibles,115
+MAR-7338,2018-03-27,Falta de seguro obligatorio,150
+LFO-7708,2021-06-18,Estacionamiento indebido,783
+LFO-7708,2024-06-23,Exceso de velocidad,510
+LFO-7708,2019-09-30,Revisión técnica vencida,276
+BAK-4415,2024-06-02,No usar cinturón de seguridad,386
+BAK-4415,2015-01-26,Estacionamiento indebido,134
+PUV-0547,2016-12-20,Revisión técnica vencida,445
+PUV-0547,2015-05-04,Falta de seguro obligatorio,426
+ROK-3900,2019-02-17,Revisión técnica vencida,268
+THQ-9687,2016-07-31,No respetar semáforo,731
+THQ-9687,2015-02-16,Vehículo sin placas visibles,576
+THQ-9687,2023-06-23,Falta de seguro obligatorio,348
+THQ-9687,2019-05-06,Revisión técnica vencida,231
+THQ-9687,2022-01-29,No usar cinturón de seguridad,801
+GTG-1374,2019-10-27,No respetar semáforo,620
+VQU-7437,2020-04-07,No respetar semáforo,737
+VQU-7437,2020-09-05,Estacionamiento indebido,797
+VQU-7437,2022-01-22,Uso de celular al conducir,670
+VQU-7437,2018-06-07,Uso de celular al conducir,413
+VQU-7437,2022-08-23,No portar licencia,619
+QSG-2782,2017-10-10,Vehículo sin placas visibles,401
+QSG-2782,2018-04-06,Exceso de velocidad,290
+QSG-2782,2018-03-10,Falta de seguro obligatorio,949
+QSG-2782,2024-08-12,No usar cinturón de seguridad,883
+SIV-4245,2022-02-07,Falta de seguro obligatorio,146
+GXC-1900,2018-01-27,Falta de seguro obligatorio,567
+HJB-7688,2019-12-03,Circular con luces apagadas,532
+HJB-7688,2023-04-05,Estacionamiento indebido,607
+EPM-7054,2019-11-11,Circular con luces apagadas,977
+EPM-7054,2015-05-27,Revisión técnica vencida,371
+EPM-7054,2021-11-16,Vehículo sin placas visibles,827
+YDP-0697,2023-11-07,Circular con luces apagadas,334
+YDP-0697,2015-10-27,No portar licencia,223
+YDP-0697,2017-03-14,No usar cinturón de seguridad,576
+WSA-6231,2017-04-05,No usar cinturón de seguridad,685
+WSA-6231,2020-08-05,No usar cinturón de seguridad,268
+WSA-6231,2024-01-26,Circular con luces apagadas,803
+WSA-6231,2022-08-24,No usar cinturón de seguridad,446
+ZLT-0601,2015-08-21,Falta de seguro obligatorio,797
+ZLT-0601,2017-10-10,No respetar semáforo,590
+ZLT-0601,2015-12-14,Revisión técnica vencida,919
+ZLT-0601,2019-04-12,Revisión técnica vencida,322
+ZLT-0601,2018-10-15,Estacionamiento indebido,749
+UIF-5398,2019-05-29,No portar licencia,226
+AIR-7795,2016-06-16,Vehículo sin placas visibles,213
+AIR-7795,2018-11-06,Falta de seguro obligatorio,568
+YCB-4946,2020-09-04,Vehículo sin placas visibles,153
+YCB-4946,2021-02-13,Falta de seguro obligatorio,115
+YCB-4946,2024-11-03,Vehículo sin placas visibles,964
+YCB-4946,2017-12-10,Uso de celular al conducir,894
+LUM-6235,2016-01-20,Revisión técnica vencida,690
+KUH-8188,2018-07-04,Uso de celular al conducir,334
+KUH-8188,2019-08-05,Exceso de velocidad,886
+KUH-8188,2016-04-24,No usar cinturón de seguridad,122
+KUH-8188,2019-08-25,No usar cinturón de seguridad,710
+XYS-0800,2017-08-19,Falta de seguro obligatorio,627
+XYS-0800,2022-12-12,No respetar semáforo,634
+XYS-0800,2018-07-31,Uso de celular al conducir,146
+XYS-0800,2015-04-30,No respetar semáforo,162
+XYS-0800,2015-07-08,No usar cinturón de seguridad,215
+HXI-0555,2022-05-25,Exceso de velocidad,657
+HXI-0555,2018-06-22,Exceso de velocidad,285
+HXI-0555,2023-03-03,Estacionamiento indebido,138
+HXI-0555,2020-12-12,Exceso de velocidad,406
+ZRQ-0026,2017-05-22,Circular con luces apagadas,666
+ZMC-9194,2022-08-09,Revisión técnica vencida,857
+ZMC-9194,2019-04-22,Exceso de velocidad,103
+HBY-4404,2018-02-16,Revisión técnica vencida,947
+HBY-4404,2021-04-20,Estacionamiento indebido,745
+HBY-4404,2017-11-13,Vehículo sin placas visibles,587
+WDU-6352,2017-10-25,No respetar semáforo,980
+WDU-6352,2020-01-11,Revisión técnica vencida,829
+WDU-6352,2019-03-25,No portar licencia,546
+URY-5318,2020-07-24,No respetar semáforo,412
+URY-5318,2015-02-16,Exceso de velocidad,673
+URY-5318,2021-12-01,No usar cinturón de seguridad,682
+QQR-5924,2018-11-08,Falta de seguro obligatorio,885
+VUW-1722,2023-05-10,Estacionamiento indebido,300
+VUW-1722,2022-11-20,Circular con luces apagadas,132
+VUW-1722,2015-10-30,Revisión técnica vencida,403
+VUW-1722,2024-10-19,No portar licencia,642
+DBQ-9255,2020-10-15,Falta de seguro obligatorio,623
+DBQ-9255,2022-07-05,Exceso de velocidad,130
+DBQ-9255,2020-08-25,No respetar semáforo,650
+VRT-3557,2017-08-24,Estacionamiento indebido,518
+XIU-2533,2024-03-14,Circular con luces apagadas,837
+XIU-2533,2022-12-27,Exceso de velocidad,767
+XIU-2533,2019-11-03,Uso de celular al conducir,280
+XIU-2533,2023-02-10,Vehículo sin placas visibles,369
+XIU-2533,2024-06-16,Revisión técnica vencida,255
+ENX-9550,2024-02-24,Uso de celular al conducir,448
+ENX-9550,2019-07-30,Falta de seguro obligatorio,606
+RQN-7202,2021-05-17,Exceso de velocidad,315
+RQN-7202,2021-11-22,Circular con luces apagadas,879
+RQN-7202,2016-07-30,Estacionamiento indebido,550
+GNW-2617,2020-01-17,No portar licencia,452
+GNW-2617,2023-08-11,No portar licencia,839
+GNW-2617,2015-10-15,Circular con luces apagadas,308
+GNW-2617,2018-07-14,Circular con luces apagadas,460
+FMH-9511,2024-03-09,Vehículo sin placas visibles,988
+FMH-9511,2015-12-11,Circular con luces apagadas,202
+FMH-9511,2015-07-30,Exceso de velocidad,903
+FMH-9511,2024-12-01,Exceso de velocidad,437
+FMH-9511,2022-10-11,Revisión técnica vencida,868
+ZUF-1751,2018-01-30,No usar cinturón de seguridad,254
+CGN-6079,2018-02-27,Circular con luces apagadas,820
+CGN-6079,2018-02-08,No portar licencia,663
+CGN-6079,2016-02-17,No portar licencia,375
+IWH-0069,2015-07-08,Estacionamiento indebido,656
+IWH-0069,2016-05-12,Circular con luces apagadas,386
+IWH-0069,2020-08-21,Vehículo sin placas visibles,561
+IWH-0069,2016-03-01,Uso de celular al conducir,694
+XBL-7619,2015-12-19,No respetar semáforo,398
+XBL-7619,2018-10-27,Uso de celular al conducir,905
+AEV-6162,2021-04-22,No usar cinturón de seguridad,293
+AEV-6162,2021-08-25,Vehículo sin placas visibles,494
+AWD-3123,2019-11-04,No respetar semáforo,561
+AWD-3123,2017-10-31,Estacionamiento indebido,825
+AWD-3123,2017-02-17,Falta de seguro obligatorio,800
+AWD-3123,2018-10-20,Vehículo sin placas visibles,456
+WFN-1148,2024-06-21,Exceso de velocidad,147
+OBH-1482,2024-01-04,Uso de celular al conducir,563
+OBH-1482,2024-03-29,Falta de seguro obligatorio,411
+OBH-1482,2021-04-16,Exceso de velocidad,993
+XCO-7937,2018-12-08,Vehículo sin placas visibles,564
+XCO-7937,2015-05-05,Falta de seguro obligatorio,682
+XCO-7937,2016-11-07,No portar licencia,498
+XCO-7937,2019-12-04,No respetar semáforo,339
+XCO-7937,2018-09-21,No portar licencia,759
+BZH-0449,2023-01-20,Estacionamiento indebido,188
+REE-1558,2022-05-03,Estacionamiento indebido,774
+REE-1558,2017-04-12,Vehículo sin placas visibles,476
+REE-1558,2021-09-19,No respetar semáforo,700
+SMG-4631,2017-09-08,Uso de celular al conducir,794
+SMG-4631,2018-01-22,Uso de celular al conducir,185
+SMG-4631,2015-10-05,Falta de seguro obligatorio,925
+SMG-4631,2019-02-20,Estacionamiento indebido,994
+SMG-4631,2017-01-26,No respetar semáforo,989
+AQQ-4604,2017-02-07,Vehículo sin placas visibles,616
+AQQ-4604,2015-02-28,Uso de celular al conducir,529
+AQQ-4604,2021-11-18,No usar cinturón de seguridad,953
+YQD-7589,2023-05-12,Revisión técnica vencida,230
+HBJ-3975,2020-07-13,Exceso de velocidad,774
+HBJ-3975,2024-11-19,Circular con luces apagadas,465
+HBJ-3975,2022-12-15,Exceso de velocidad,618
+HBJ-3975,2018-10-27,No portar licencia,382
+QXT-4181,2021-07-10,No respetar semáforo,544
+QXT-4181,2021-02-13,No respetar semáforo,677
+QXT-4181,2018-06-26,Uso de celular al conducir,398
+QXT-4181,2015-12-18,No portar licencia,469
+VIY-7854,2023-07-19,No respetar semáforo,623
+VIY-7854,2020-12-01,Falta de seguro obligatorio,378
+VIY-7854,2024-12-23,Exceso de velocidad,607
+VIY-7854,2024-07-03,No respetar semáforo,217
+VIY-7854,2015-08-12,Estacionamiento indebido,898
+UBX-4827,2024-02-12,Estacionamiento indebido,882
+UBX-4827,2019-03-05,No portar licencia,861
+UBX-4827,2024-12-16,Estacionamiento indebido,956
+UBX-4827,2022-02-13,Circular con luces apagadas,767
+KVW-3394,2021-05-12,No usar cinturón de seguridad,857
+KVW-3394,2024-12-09,Exceso de velocidad,700
+EXQ-6051,2021-10-25,Circular con luces apagadas,743
+EXQ-6051,2019-08-08,Estacionamiento indebido,348
+EXQ-6051,2022-12-23,Uso de celular al conducir,900
+EXQ-6051,2015-07-09,Vehículo sin placas visibles,556
+EXQ-6051,2020-03-01,Revisión técnica vencida,870
+RJX-7623,2021-10-26,Vehículo sin placas visibles,612
+RJX-7623,2018-07-20,No usar cinturón de seguridad,552
+RJX-7623,2022-05-26,Uso de celular al conducir,593
+RJX-7623,2017-07-03,Revisión técnica vencida,835
+MVA-0070,2021-05-28,Uso de celular al conducir,209
+MVA-0070,2015-06-29,Vehículo sin placas visibles,514
+MVA-0070,2021-01-10,Estacionamiento indebido,285
+MVA-0070,2021-08-13,Estacionamiento indebido,494
+MVA-0070,2018-02-26,Exceso de velocidad,787
+OMT-5291,2015-12-10,No respetar semáforo,466
+OMT-5291,2023-01-02,Revisión técnica vencida,226
+OMT-5291,2024-01-12,Uso de celular al conducir,352
+OMT-5291,2021-10-12,Circular con luces apagadas,875
+IDX-0259,2022-01-11,No portar licencia,853
+IDX-0259,2024-05-18,Falta de seguro obligatorio,346
+IDX-0259,2023-12-14,Estacionamiento indebido,351
+YIJ-5207,2017-03-21,Circular con luces apagadas,630
+CSH-0492,2015-05-23,Uso de celular al conducir,396
+VWB-5764,2016-11-19,Vehículo sin placas visibles,953
+VWB-5764,2022-04-19,Revisión técnica vencida,619
+VWB-5764,2022-01-11,No respetar semáforo,151
+TCB-0131,2018-12-18,Estacionamiento indebido,379
+TCB-0131,2017-10-20,Revisión técnica vencida,709
+TCB-0131,2023-09-11,Falta de seguro obligatorio,904
+TCB-0131,2015-06-24,Falta de seguro obligatorio,439
+PYM-3244,2015-06-27,No respetar semáforo,735
+PYM-3244,2021-12-21,No portar licencia,747
+PYM-3244,2024-10-19,No portar licencia,446
+PYM-3244,2024-07-16,Vehículo sin placas visibles,492
+MJL-0257,2017-07-18,Exceso de velocidad,117
+EDI-0878,2020-02-15,Vehículo sin placas visibles,508
+EDI-0878,2018-06-08,Revisión técnica vencida,969
+EDI-0878,2024-02-14,Revisión técnica vencida,473
+EDI-0878,2016-08-24,No usar cinturón de seguridad,989
+EDI-0878,2019-06-27,Circular con luces apagadas,778
+YWU-6349,2023-08-02,Estacionamiento indebido,732
+YWU-6349,2022-04-13,Vehículo sin placas visibles,108
+CNN-3494,2016-07-24,Falta de seguro obligatorio,792
+CNN-3494,2023-04-19,Uso de celular al conducir,316
+GSM-8048,2023-07-19,No usar cinturón de seguridad,754
+GSM-8048,2016-10-18,Estacionamiento indebido,925
+GSM-8048,2024-02-09,Vehículo sin placas visibles,762
+GSM-8048,2022-05-19,Vehículo sin placas visibles,465
+GSM-8048,2016-05-14,Estacionamiento indebido,605
+CCB-7938,2016-05-05,Revisión técnica vencida,816
+CCB-7938,2021-06-19,Uso de celular al conducir,690
+CCB-7938,2018-04-09,Falta de seguro obligatorio,212
+MFL-1074,2016-09-24,Exceso de velocidad,415
+MFL-1074,2015-03-24,No respetar semáforo,462
+MFL-1074,2015-05-07,Uso de celular al conducir,727
+MQB-5248,2021-03-29,Exceso de velocidad,778
+MQB-5248,2022-03-27,No usar cinturón de seguridad,505
+MQB-5248,2020-01-21,Exceso de velocidad,330
+MQB-5248,2023-02-26,Circular con luces apagadas,751
+MRC-3083,2024-01-16,Exceso de velocidad,695
+MRC-3083,2023-11-26,No respetar semáforo,420
+MRC-3083,2018-09-25,Estacionamiento indebido,454
+NDU-8920,2016-05-11,No respetar semáforo,154
+NDU-8920,2020-10-14,Uso de celular al conducir,941
+NDU-8920,2023-10-17,Falta de seguro obligatorio,385
+NDU-8920,2019-07-24,Circular con luces apagadas,310
+SSA-9162,2015-10-24,Estacionamiento indebido,450
+SSA-9162,2016-08-30,No usar cinturón de seguridad,870
+YDX-3212,2015-02-03,Circular con luces apagadas,933
+MEO-1252,2022-08-10,Estacionamiento indebido,567
+MEO-1252,2017-04-27,Revisión técnica vencida,591
+MEO-1252,2015-12-01,No respetar semáforo,255
+MEO-1252,2016-06-18,Revisión técnica vencida,578
+MEO-1252,2016-10-05,Circular con luces apagadas,562
+XTS-6639,2024-08-13,Circular con luces apagadas,743
+XTS-6639,2023-05-11,Falta de seguro obligatorio,487
+LFJ-1634,2023-05-15,No portar licencia,440
+LFJ-1634,2021-03-26,No portar licencia,159
+NUN-7962,2019-02-07,Circular con luces apagadas,590
+NUN-7962,2024-02-06,No portar licencia,313
+NUN-7962,2021-09-19,Falta de seguro obligatorio,916
+NUN-7962,2020-04-12,Falta de seguro obligatorio,249
+QSV-0508,2024-01-03,Revisión técnica vencida,855
+QSV-0508,2023-04-14,Falta de seguro obligatorio,257
+QSV-0508,2024-12-17,Falta de seguro obligatorio,990
+QSV-0508,2020-01-10,Falta de seguro obligatorio,930
+FVM-0215,2021-02-05,Vehículo sin placas visibles,986
+FVM-0215,2020-03-18,No respetar semáforo,414
+WQH-1605,2015-11-24,Revisión técnica vencida,981
+WQH-1605,2024-09-29,No respetar semáforo,135
+WQH-1605,2018-04-23,Circular con luces apagadas,594
+PCM-0330,2018-05-23,Revisión técnica vencida,529
+PCM-0330,2017-03-25,Exceso de velocidad,842
+PCM-0330,2022-10-15,Vehículo sin placas visibles,932
+PCM-0330,2022-05-01,No usar cinturón de seguridad,474
+PCM-0330,2018-07-19,Uso de celular al conducir,939
+MAO-8767,2018-01-07,Falta de seguro obligatorio,558
+MAO-8767,2022-06-28,No usar cinturón de seguridad,760
+MAO-8767,2023-11-12,Estacionamiento indebido,674
+GVF-8964,2015-02-09,No respetar semáforo,328
+GVF-8964,2015-02-28,Circular con luces apagadas,245
+GVF-8964,2023-04-14,No respetar semáforo,938
+TQF-2223,2024-05-02,Falta de seguro obligatorio,851
+TQF-2223,2018-02-05,Exceso de velocidad,119
+RHN-0385,2017-08-11,Revisión técnica vencida,729
+RHN-0385,2018-02-20,Uso de celular al conducir,447
+RHN-0385,2015-02-07,Revisión técnica vencida,244
+RHN-0385,2016-12-01,Estacionamiento indebido,441
+QIP-4206,2024-04-09,Uso de celular al conducir,855
+QIP-4206,2024-01-25,Estacionamiento indebido,977
+JMU-5797,2017-09-01,Falta de seguro obligatorio,184
+JMU-5797,2023-04-17,No portar licencia,429
+JMU-5797,2015-02-03,Circular con luces apagadas,821
+MFF-9753,2021-12-03,Vehículo sin placas visibles,456
+MFF-9753,2017-11-10,Estacionamiento indebido,237
+AXI-1151,2017-10-06,Vehículo sin placas visibles,870
+AXI-1151,2024-09-15,Uso de celular al conducir,352
+AXI-1151,2015-03-03,Circular con luces apagadas,164
+AXI-1151,2021-08-26,Falta de seguro obligatorio,302
+KNL-5317,2016-02-22,Vehículo sin placas visibles,273
+KNL-5317,2021-05-17,No respetar semáforo,470
+SYO-9628,2022-08-10,Exceso de velocidad,617
+SYO-9628,2021-12-31,Uso de celular al conducir,172
+SYO-9628,2015-06-02,Falta de seguro obligatorio,993
+SYO-9628,2021-11-06,No respetar semáforo,392
+RXH-6920,2023-01-03,Uso de celular al conducir,320
+RXH-6920,2017-01-23,Revisión técnica vencida,107
+RXH-6920,2024-12-23,Revisión técnica vencida,213
+RXH-6920,2022-01-19,Estacionamiento indebido,806
+RXH-6920,2019-03-14,Revisión técnica vencida,402
+DSG-8958,2019-08-28,No respetar semáforo,642
+DSG-8958,2017-07-17,Estacionamiento indebido,529
+TAX-4995,2022-03-25,Exceso de velocidad,461
+TAX-4995,2018-08-09,Falta de seguro obligatorio,1000
+TAX-4995,2019-03-10,No portar licencia,361
+XAV-7299,2017-02-27,No respetar semáforo,692
+XAV-7299,2024-05-18,Uso de celular al conducir,651
+XAV-7299,2024-10-03,Circular con luces apagadas,971
+XAV-7299,2022-04-26,Falta de seguro obligatorio,838
+XAV-7299,2022-02-24,Circular con luces apagadas,135
+ZSY-3030,2019-10-10,Exceso de velocidad,913
+QTU-1418,2020-06-13,No respetar semáforo,825
+QTU-1418,2021-05-16,Vehículo sin placas visibles,720
+PIC-8314,2019-06-01,Vehículo sin placas visibles,432
+PIC-8314,2018-07-06,Circular con luces apagadas,133
+PIC-8314,2022-08-24,Revisión técnica vencida,213
+RJK-5128,2024-12-01,Falta de seguro obligatorio,197
+RJK-5128,2023-06-23,Circular con luces apagadas,303
+CUF-3267,2018-08-29,Circular con luces apagadas,433
+CUF-3267,2024-11-13,Vehículo sin placas visibles,988
+CUF-3267,2016-09-30,No respetar semáforo,885
+CUF-3267,2019-02-13,No usar cinturón de seguridad,840
+CUF-3267,2017-08-20,Falta de seguro obligatorio,657
+IWZ-7756,2021-11-13,Exceso de velocidad,764
+IWZ-7756,2019-07-23,Circular con luces apagadas,406
+IWZ-7756,2021-02-08,Falta de seguro obligatorio,300
+IWZ-7756,2015-04-10,No usar cinturón de seguridad,188
+DDK-9778,2019-12-05,No usar cinturón de seguridad,824
+DDK-9778,2021-08-29,No respetar semáforo,644
+FFN-5455,2017-02-22,Revisión técnica vencida,120
+FFN-5455,2022-04-29,No usar cinturón de seguridad,676
+FFN-5455,2022-01-31,Falta de seguro obligatorio,354
+VMH-1598,2023-04-10,Estacionamiento indebido,509
+VMH-1598,2020-04-10,Revisión técnica vencida,603
+VMH-1598,2024-06-16,No respetar semáforo,222
+ZYM-9392,2019-07-10,Revisión técnica vencida,672
+ZYM-9392,2017-11-25,Estacionamiento indebido,583
+ZYM-9392,2017-02-17,No usar cinturón de seguridad,683
+ZYM-9392,2018-01-28,Vehículo sin placas visibles,519
+AYO-9042,2024-02-09,No usar cinturón de seguridad,505
+AYO-9042,2022-07-26,Falta de seguro obligatorio,786
+AYO-9042,2018-09-04,No respetar semáforo,806
+AYO-9042,2023-07-11,Falta de seguro obligatorio,588
+HUK-3382,2015-10-03,Circular con luces apagadas,628
+HUK-3382,2021-09-18,Circular con luces apagadas,782
+HUK-3382,2023-11-24,Vehículo sin placas visibles,788
+HUK-3382,2016-10-06,Uso de celular al conducir,600
+HUK-3382,2019-11-19,Circular con luces apagadas,427
+MIF-8892,2016-06-20,Estacionamiento indebido,852
+OWN-4724,2023-12-26,Estacionamiento indebido,575
+OWN-4724,2016-02-25,No respetar semáforo,992
+FKT-3272,2019-11-28,No usar cinturón de seguridad,360
+FKT-3272,2021-12-14,Falta de seguro obligatorio,501
+BKL-3033,2015-10-27,Falta de seguro obligatorio,474
+GDA-3733,2018-01-19,Circular con luces apagadas,456
+GDA-3733,2020-02-27,Falta de seguro obligatorio,723
+COX-8648,2020-07-04,No portar licencia,867
+COX-8648,2021-03-30,Estacionamiento indebido,887
+COX-8648,2024-10-15,Revisión técnica vencida,444
+COX-8648,2019-07-14,Exceso de velocidad,549
+ZSW-4726,2023-04-23,Estacionamiento indebido,384
+ZSW-4726,2021-11-03,Exceso de velocidad,285
+ZSW-4726,2021-04-24,Falta de seguro obligatorio,492
+ZSW-4726,2016-03-17,Falta de seguro obligatorio,856
+ZSW-4726,2017-03-01,No respetar semáforo,819
+BUI-4399,2017-04-12,Revisión técnica vencida,316
+BUI-4399,2018-03-17,No usar cinturón de seguridad,949
+BUI-4399,2015-10-03,Uso de celular al conducir,366
+NNB-7813,2015-12-18,No usar cinturón de seguridad,806
+NNB-7813,2016-01-28,Uso de celular al conducir,267
+NNB-7813,2022-04-14,Exceso de velocidad,233
+NNB-7813,2023-04-20,Circular con luces apagadas,610
+NNB-7813,2015-11-27,Revisión técnica vencida,909
+OXG-0476,2017-02-04,Exceso de velocidad,117
+OXG-0476,2021-03-28,No usar cinturón de seguridad,726
+OXG-0476,2015-02-17,Estacionamiento indebido,479
+OXG-0476,2018-10-15,Exceso de velocidad,311
+OXG-0476,2024-07-23,No usar cinturón de seguridad,998
+GFO-9586,2023-09-01,No portar licencia,499
+GFO-9586,2024-04-14,Vehículo sin placas visibles,1000
+GFO-9586,2015-09-06,Estacionamiento indebido,194
+GFO-9586,2023-06-15,No respetar semáforo,164
+GFO-9586,2023-08-04,No usar cinturón de seguridad,838
+SER-0164,2020-09-23,No respetar semáforo,476
+SER-0164,2023-02-13,Revisión técnica vencida,353
+SER-0164,2018-12-26,Vehículo sin placas visibles,632
+HRN-8735,2023-07-31,Vehículo sin placas visibles,308
+HRN-8735,2020-08-25,Estacionamiento indebido,750
+HRN-8735,2023-09-05,No usar cinturón de seguridad,245
+HRN-8735,2020-08-16,Vehículo sin placas visibles,739
+GNT-4697,2020-09-22,Circular con luces apagadas,901
+GNT-4697,2016-10-19,Falta de seguro obligatorio,873
+GNT-4697,2020-11-12,Exceso de velocidad,390
+JDN-0139,2016-08-12,No usar cinturón de seguridad,407
+JDN-0139,2016-05-14,No respetar semáforo,179
+QKQ-8102,2023-12-05,No usar cinturón de seguridad,655
+QKQ-8102,2023-07-19,Circular con luces apagadas,393
+GFR-4563,2024-08-30,Exceso de velocidad,622
+JEL-1446,2023-08-04,Vehículo sin placas visibles,129
+JEL-1446,2019-09-05,Exceso de velocidad,925
+JEL-1446,2022-06-20,No portar licencia,562
+BPH-9867,2021-02-19,No portar licencia,928
+BPH-9867,2017-02-23,Uso de celular al conducir,850
+WEJ-6061,2019-05-29,No portar licencia,504
+WEJ-6061,2019-03-01,No usar cinturón de seguridad,385
+WEJ-6061,2022-07-03,No usar cinturón de seguridad,402
+WEJ-6061,2023-02-19,No respetar semáforo,111
+WEJ-6061,2021-04-17,Estacionamiento indebido,861
+QNL-1527,2018-01-17,Falta de seguro obligatorio,955
+IUZ-0702,2024-05-06,Falta de seguro obligatorio,109
+IUZ-0702,2024-07-20,Falta de seguro obligatorio,249
+IUZ-0702,2023-09-22,Circular con luces apagadas,469
+BJF-2632,2016-12-28,No respetar semáforo,783
+BJF-2632,2017-05-04,Falta de seguro obligatorio,522
+BJF-2632,2022-05-25,Circular con luces apagadas,197
+BJF-2632,2018-05-24,Revisión técnica vencida,388
+BJF-2632,2017-05-09,No usar cinturón de seguridad,150
+HSI-8672,2024-06-10,Circular con luces apagadas,742
+UOK-8430,2017-11-15,Estacionamiento indebido,349
+UOK-8430,2023-06-10,No portar licencia,313
+UOK-8430,2018-03-13,Revisión técnica vencida,414
+UOK-8430,2016-07-06,No usar cinturón de seguridad,364
+LIV-9994,2022-01-15,No respetar semáforo,250
+LIV-9994,2021-12-04,Uso de celular al conducir,936
+LIV-9994,2023-03-08,No respetar semáforo,296
+LIV-9994,2023-11-08,Exceso de velocidad,740
+LIV-9994,2021-08-27,Revisión técnica vencida,633
+EPP-4019,2024-06-20,No usar cinturón de seguridad,299
+LTS-4496,2020-12-20,No portar licencia,994
+LTS-4496,2024-05-21,No usar cinturón de seguridad,190
+LTS-4496,2024-04-22,Uso de celular al conducir,910
+LTS-4496,2019-04-04,Circular con luces apagadas,352
+LTS-4496,2021-04-15,Vehículo sin placas visibles,147
+VFZ-3321,2016-07-15,Circular con luces apagadas,247
+ZDG-3110,2023-10-23,No portar licencia,123
+ZDG-3110,2021-06-24,Uso de celular al conducir,780
+JKK-3507,2021-06-21,Revisión técnica vencida,132
+FUX-6432,2015-10-22,Circular con luces apagadas,522
+FUX-6432,2023-04-14,Circular con luces apagadas,972
+RFA-9563,2024-10-21,Estacionamiento indebido,803
+RFA-9563,2021-05-26,No respetar semáforo,445
+RFA-9563,2024-06-09,Falta de seguro obligatorio,742
+ZIW-1786,2023-07-27,Exceso de velocidad,523
+QBY-8828,2019-05-21,Estacionamiento indebido,771
+QBY-8828,2016-10-27,Exceso de velocidad,326
+QBY-8828,2015-04-01,No usar cinturón de seguridad,372
+QBY-8828,2015-03-07,Uso de celular al conducir,480
+DRB-6846,2022-01-02,No respetar semáforo,971
+DRB-6846,2015-10-13,Exceso de velocidad,402
+DRB-6846,2018-07-01,No usar cinturón de seguridad,560
+DRB-6846,2015-08-29,Estacionamiento indebido,788
+DRB-6846,2015-03-13,No respetar semáforo,271
+CNG-2452,2020-10-07,No portar licencia,242
+CNG-2452,2023-10-06,Exceso de velocidad,115
+DCY-9830,2017-04-17,No respetar semáforo,693
+DCY-9830,2018-06-29,Revisión técnica vencida,496
+DCY-9830,2017-03-23,Revisión técnica vencida,305
+DCY-9830,2024-05-04,Exceso de velocidad,903
+DCY-9830,2018-04-27,Estacionamiento indebido,285
+FCN-8553,2018-03-22,Uso de celular al conducir,905
+PYB-8148,2018-05-24,Falta de seguro obligatorio,864
+PYB-8148,2024-03-25,Revisión técnica vencida,954
+PYB-8148,2017-08-18,Exceso de velocidad,292
+ZAU-5351,2018-11-07,Revisión técnica vencida,788
+ZAU-5351,2024-09-20,Exceso de velocidad,557
+ZAU-5351,2017-12-23,No usar cinturón de seguridad,244
+ZAU-5351,2017-09-27,Vehículo sin placas visibles,385
+ZAU-5351,2016-09-17,Revisión técnica vencida,185
+AQL-1521,2022-02-28,Falta de seguro obligatorio,751
+AQL-1521,2016-06-07,Exceso de velocidad,194
+AQL-1521,2016-07-12,Exceso de velocidad,178
+YPP-1481,2022-10-31,Revisión técnica vencida,302
+YPP-1481,2017-03-31,Estacionamiento indebido,743
+YPP-1481,2024-03-21,Uso de celular al conducir,525
+RJI-2184,2024-01-12,Exceso de velocidad,122
+RJI-2184,2018-11-02,No portar licencia,116
+RJI-2184,2019-09-14,Revisión técnica vencida,924
+RJI-2184,2019-07-01,Vehículo sin placas visibles,815
+QZZ-5660,2017-12-28,Vehículo sin placas visibles,785
+QZZ-5660,2016-04-17,No portar licencia,967
+QZZ-5660,2020-06-27,Revisión técnica vencida,878
+UJN-8513,2016-09-29,Circular con luces apagadas,184
+UJN-8513,2021-08-01,Falta de seguro obligatorio,741
+UJN-8513,2023-07-23,Revisión técnica vencida,993
+BFJ-7065,2022-04-22,Exceso de velocidad,389
+BFJ-7065,2019-02-12,Exceso de velocidad,391
+BFJ-7065,2020-04-14,Revisión técnica vencida,181
+BFJ-7065,2021-10-06,Uso de celular al conducir,530
+BKW-0953,2018-03-30,No respetar semáforo,419
+BKW-0953,2018-11-12,Exceso de velocidad,245
+BKW-0953,2018-03-26,No portar licencia,109
+BKW-0953,2020-03-06,No portar licencia,726
+BKW-0953,2024-08-04,No respetar semáforo,229
+LRS-6157,2020-11-23,No portar licencia,168
+LRS-6157,2016-08-13,Revisión técnica vencida,389
+LRS-6157,2016-05-31,Vehículo sin placas visibles,754
+LRS-6157,2016-05-24,Revisión técnica vencida,799
+IBE-0710,2018-11-17,No respetar semáforo,930
+IBE-0710,2020-05-14,No portar licencia,866
+IBE-0710,2015-03-28,No usar cinturón de seguridad,228
+IBE-0710,2019-11-23,Estacionamiento indebido,821
+IBE-0710,2023-08-29,Exceso de velocidad,270
+KXX-2704,2023-09-01,No usar cinturón de seguridad,996
+KXX-2704,2015-02-21,Vehículo sin placas visibles,826
+KXX-2704,2015-11-10,Estacionamiento indebido,253
+KXX-2704,2015-01-28,No usar cinturón de seguridad,480
+KXX-2704,2021-06-14,Revisión técnica vencida,135
+FAI-0786,2016-06-18,Revisión técnica vencida,115
+FAI-0786,2015-02-12,Uso de celular al conducir,365
+FAI-0786,2020-05-17,No respetar semáforo,947
+FAI-0786,2020-09-15,No portar licencia,408
+FAH-9654,2020-06-06,Estacionamiento indebido,107
+SWJ-2104,2023-06-05,Exceso de velocidad,473
+SWJ-2104,2015-01-16,Revisión técnica vencida,662
+SWJ-2104,2022-11-11,Falta de seguro obligatorio,812
+SWJ-2104,2018-06-20,Estacionamiento indebido,254
+CFK-5472,2022-11-29,No usar cinturón de seguridad,868
+CFK-5472,2020-04-18,Revisión técnica vencida,226
+XBE-4165,2023-07-30,Circular con luces apagadas,722
+XBE-4165,2021-08-13,No usar cinturón de seguridad,580
+XBE-4165,2023-02-19,Revisión técnica vencida,991
+XBE-4165,2017-05-18,Exceso de velocidad,364
+XBE-4165,2021-09-01,Exceso de velocidad,870
+VUI-7827,2018-06-05,Vehículo sin placas visibles,533
+VUI-7827,2016-11-30,Estacionamiento indebido,897
+VUI-7827,2019-03-09,No portar licencia,460
+VUI-7827,2017-07-28,No respetar semáforo,529
+SLW-2213,2023-07-29,Circular con luces apagadas,258
+FEE-8971,2019-10-17,Uso de celular al conducir,765
+FEE-8971,2017-01-29,No respetar semáforo,593
+FEE-8971,2018-08-08,Exceso de velocidad,701
+FEE-8971,2018-04-24,Vehículo sin placas visibles,391
+ZIO-2248,2017-09-15,Uso de celular al conducir,936
+DMN-4297,2024-10-02,No usar cinturón de seguridad,172
+DMN-4297,2023-10-18,No usar cinturón de seguridad,329
+DMN-4297,2016-07-15,Exceso de velocidad,975
+DMN-4297,2023-07-03,Circular con luces apagadas,337
+DMN-4297,2020-10-01,No usar cinturón de seguridad,374
+XBN-9979,2023-05-01,Circular con luces apagadas,345
+XBN-9979,2019-06-01,Circular con luces apagadas,587
+XBN-9979,2016-09-09,Exceso de velocidad,324
+TMC-7237,2022-12-12,Uso de celular al conducir,614
+RDL-7946,2018-08-24,Falta de seguro obligatorio,640
+RDL-7946,2016-11-04,No usar cinturón de seguridad,581
+RDL-7946,2024-08-10,No respetar semáforo,306
+IQM-3975,2021-05-28,Estacionamiento indebido,546
+IQM-3975,2018-09-04,No respetar semáforo,796
+IQM-3975,2015-09-11,No respetar semáforo,135
+IDQ-6005,2015-03-18,Uso de celular al conducir,501
+IDQ-6005,2016-05-28,Revisión técnica vencida,109
+IDQ-6005,2017-05-09,Estacionamiento indebido,513
+URW-3034,2020-06-03,No respetar semáforo,324
+URW-3034,2017-01-25,No portar licencia,171
+URW-3034,2024-02-17,Falta de seguro obligatorio,433
+URW-3034,2021-09-22,Uso de celular al conducir,863
+URW-3034,2015-02-17,Falta de seguro obligatorio,264
+MOL-9344,2022-02-08,Vehículo sin placas visibles,960
+WKN-4782,2024-08-04,Uso de celular al conducir,729
+WKN-4782,2023-07-06,Estacionamiento indebido,320
+WKN-4782,2015-07-22,Revisión técnica vencida,831
+WKN-4782,2023-12-26,Circular con luces apagadas,529
+WKN-4782,2022-10-17,Estacionamiento indebido,568
+RRE-2217,2022-10-09,Revisión técnica vencida,493
+RRE-2217,2023-11-11,Falta de seguro obligatorio,334
+RRE-2217,2016-09-06,Revisión técnica vencida,231
+ZRW-9301,2015-12-23,Vehículo sin placas visibles,618
+ZRW-9301,2016-09-04,No usar cinturón de seguridad,388
+ZRW-9301,2015-04-16,No usar cinturón de seguridad,381
+YGJ-5781,2017-09-10,Revisión técnica vencida,656
+YGJ-5781,2016-07-21,No usar cinturón de seguridad,592
+YGJ-5781,2022-01-16,Vehículo sin placas visibles,572
+YGJ-5781,2021-07-14,Falta de seguro obligatorio,889
+ZSG-9799,2019-07-13,Exceso de velocidad,972
+ZSG-9799,2019-04-01,Revisión técnica vencida,782
+ZSG-9799,2024-01-11,No usar cinturón de seguridad,636
+ZSG-9799,2021-04-18,Uso de celular al conducir,907
+ZSG-9799,2015-03-08,Circular con luces apagadas,289
+GWL-0159,2019-02-04,Circular con luces apagadas,280
+GWL-0159,2020-12-10,Estacionamiento indebido,238
+NYR-5486,2015-08-15,No usar cinturón de seguridad,701
+NYR-5486,2015-07-11,Revisión técnica vencida,627
+ANG-0422,2016-06-05,Falta de seguro obligatorio,282
+ANG-0422,2022-08-28,Estacionamiento indebido,749
+DTN-4537,2024-08-04,Falta de seguro obligatorio,534
+DTN-4537,2017-04-01,Uso de celular al conducir,747
+LPD-6688,2020-12-18,No portar licencia,671
+LPD-6688,2017-07-24,Circular con luces apagadas,262
+LPD-6688,2015-02-19,Exceso de velocidad,384
+LPD-6688,2021-10-04,No portar licencia,945
+LPD-6688,2021-10-15,Circular con luces apagadas,442
+QQS-4563,2016-04-18,Uso de celular al conducir,645
+QQS-4563,2016-08-27,Falta de seguro obligatorio,903
+QQS-4563,2022-01-28,No portar licencia,170
+QQS-4563,2015-08-18,No portar licencia,709
+MIM-0701,2023-05-29,Falta de seguro obligatorio,378
+MIM-0701,2017-07-14,Exceso de velocidad,807
+LGI-0298,2024-06-07,Estacionamiento indebido,523
+RBP-0223,2015-07-11,Falta de seguro obligatorio,360
+SSJ-6703,2018-04-28,Exceso de velocidad,736
+SSJ-6703,2019-09-12,No usar cinturón de seguridad,712
+SSJ-6703,2018-04-21,Revisión técnica vencida,148
+SSJ-6703,2023-07-14,No portar licencia,262
+MWX-3356,2015-04-21,Uso de celular al conducir,420
+MWX-3356,2018-12-18,No respetar semáforo,470
+STL-1976,2020-08-07,Uso de celular al conducir,795
+STL-1976,2023-01-12,Estacionamiento indebido,170
+STL-1976,2016-07-06,Estacionamiento indebido,943
+STL-1976,2019-06-26,Exceso de velocidad,706
+XMQ-2617,2018-11-16,Estacionamiento indebido,188
+XMQ-2617,2017-05-21,No usar cinturón de seguridad,386
+XMQ-2617,2023-03-28,Vehículo sin placas visibles,130
+XMQ-2617,2015-05-16,Exceso de velocidad,945
+YRW-2169,2016-05-06,No portar licencia,894
+YRW-2169,2020-04-10,Revisión técnica vencida,526
+YRW-2169,2016-02-04,Vehículo sin placas visibles,876
+YOZ-6154,2022-10-02,No portar licencia,538
+YOZ-6154,2019-10-18,Circular con luces apagadas,677
+AUV-0599,2023-03-11,Circular con luces apagadas,959
+AUV-0599,2023-08-07,No portar licencia,412
+AUV-0599,2023-06-08,No respetar semáforo,840
+SCX-4953,2018-07-30,No usar cinturón de seguridad,312
+SCX-4953,2024-10-13,No portar licencia,833
+WYV-0267,2018-06-19,Exceso de velocidad,775
+WYV-0267,2019-03-12,Vehículo sin placas visibles,515
+WYV-0267,2020-06-16,Uso de celular al conducir,695
+WYV-0267,2020-05-31,Estacionamiento indebido,951
+WYV-0267,2015-03-06,No portar licencia,975
+ORZ-9501,2019-01-08,No usar cinturón de seguridad,176
+ORZ-9501,2021-09-01,Vehículo sin placas visibles,399
+ORZ-9501,2024-05-26,Revisión técnica vencida,751
+UCO-7984,2019-02-12,Estacionamiento indebido,133
+UCO-7984,2023-08-21,Exceso de velocidad,564
+PEJ-5314,2016-10-03,Estacionamiento indebido,211
+PEJ-5314,2017-04-18,Estacionamiento indebido,189
+PEJ-5314,2023-03-04,No usar cinturón de seguridad,277
+PEJ-5314,2023-09-18,Revisión técnica vencida,408
+PEJ-5314,2020-05-16,Uso de celular al conducir,261
+KIG-0493,2023-01-30,Circular con luces apagadas,628
+KIG-0493,2024-09-23,Exceso de velocidad,136
+KIG-0493,2015-02-22,Estacionamiento indebido,818
+KIG-0493,2021-06-12,No respetar semáforo,596
+KIG-0493,2023-08-12,Exceso de velocidad,323
+AOK-9575,2024-08-30,No usar cinturón de seguridad,129
+AOK-9575,2021-12-12,Estacionamiento indebido,139
+AOK-9575,2016-09-17,No portar licencia,438
+AOK-9575,2022-01-28,No usar cinturón de seguridad,838
+AOK-9575,2018-11-21,No usar cinturón de seguridad,309
+JXP-3389,2019-11-28,Exceso de velocidad,175
+JXP-3389,2021-07-14,No usar cinturón de seguridad,983
+JXP-3389,2020-04-12,Vehículo sin placas visibles,197
+JXP-3389,2019-11-03,No portar licencia,245
+JXP-3389,2024-04-21,Estacionamiento indebido,236
+OZR-6694,2019-01-09,Estacionamiento indebido,544
+OZR-6694,2019-04-14,No respetar semáforo,515
+OZR-6694,2022-09-16,Falta de seguro obligatorio,358
+BGS-3288,2020-08-23,No usar cinturón de seguridad,844
+BGS-3288,2019-05-05,Estacionamiento indebido,180
+GUT-2696,2021-06-12,Estacionamiento indebido,666
+GUT-2696,2020-02-29,Revisión técnica vencida,367
+GUT-2696,2024-10-22,Revisión técnica vencida,199
+GUT-2696,2024-12-21,No portar licencia,555
+GUT-2696,2020-01-08,Exceso de velocidad,334
+XWC-2310,2015-05-01,Revisión técnica vencida,828
+XWC-2310,2021-02-25,Exceso de velocidad,988
+XWC-2310,2016-12-27,No respetar semáforo,626
+FDI-5145,2020-11-16,Vehículo sin placas visibles,846
+FDI-5145,2017-10-26,Falta de seguro obligatorio,670
+FDI-5145,2018-09-03,No respetar semáforo,490
+FDI-5145,2019-04-02,No portar licencia,744
+FDI-5145,2020-08-16,No portar licencia,464
+WSN-2351,2019-10-31,Estacionamiento indebido,600
+WSN-2351,2022-02-23,Estacionamiento indebido,915
+WSN-2351,2023-03-20,Circular con luces apagadas,240
+KYW-3083,2020-02-14,No portar licencia,668
+KYW-3083,2015-11-08,Estacionamiento indebido,533
+KYW-3083,2024-11-02,Vehículo sin placas visibles,507
+KYW-3083,2020-02-01,Estacionamiento indebido,265
+KYW-3083,2021-03-12,Estacionamiento indebido,570
+IBY-2796,2021-06-10,No portar licencia,273
+IBY-2796,2024-08-23,No portar licencia,739
+IBY-2796,2020-12-26,No portar licencia,373
+MFB-6469,2019-02-11,Revisión técnica vencida,335
+MFB-6469,2023-10-15,Estacionamiento indebido,383
+YLI-7102,2017-12-08,Estacionamiento indebido,388
+YLI-7102,2018-09-06,Circular con luces apagadas,253
+YLI-7102,2017-11-19,Vehículo sin placas visibles,158
+EFU-4277,2018-03-14,Circular con luces apagadas,410
+EFU-4277,2020-07-08,No portar licencia,677
+UJG-9380,2019-11-29,Exceso de velocidad,506
+UJG-9380,2020-10-04,Revisión técnica vencida,617
+UJG-9380,2015-04-25,No usar cinturón de seguridad,941
+UJG-9380,2017-05-17,No respetar semáforo,166
+UJG-9380,2016-12-29,Uso de celular al conducir,398
+YYB-6639,2017-02-14,Revisión técnica vencida,484
+YYB-6639,2019-03-12,Vehículo sin placas visibles,389
+YYB-6639,2019-05-06,Vehículo sin placas visibles,301
+YYB-6639,2018-02-21,Exceso de velocidad,652
+MYB-5995,2022-04-05,No respetar semáforo,512
+MYB-5995,2023-06-24,Revisión técnica vencida,205
+MYB-5995,2023-11-02,Falta de seguro obligatorio,536
+MYB-5995,2022-11-09,Circular con luces apagadas,103
+MYB-5995,2024-12-05,Falta de seguro obligatorio,404
+PWR-5896,2015-10-07,No portar licencia,450
+BGH-4474,2017-11-07,Estacionamiento indebido,519
+QTY-5666,2021-06-19,No usar cinturón de seguridad,179
+MPZ-8993,2020-12-26,No portar licencia,540
+MPZ-8993,2017-06-11,No respetar semáforo,295
+RMN-6125,2016-03-03,Exceso de velocidad,782
+RMN-6125,2016-05-15,Falta de seguro obligatorio,511
+RMN-6125,2024-07-25,Revisión técnica vencida,684
+UWS-8891,2021-04-30,No respetar semáforo,487
+UWS-8891,2016-07-19,Estacionamiento indebido,921
+UWS-8891,2021-04-20,No usar cinturón de seguridad,823
+UWS-8891,2023-06-13,No portar licencia,881
+OFD-7902,2020-02-22,No usar cinturón de seguridad,129
+OFD-7902,2016-07-17,Falta de seguro obligatorio,756
+OFD-7902,2016-09-08,No portar licencia,324
+OFD-7902,2018-01-09,Exceso de velocidad,195
+KYZ-5053,2017-06-25,Estacionamiento indebido,723
+KYZ-5053,2019-06-23,No usar cinturón de seguridad,265
+KYZ-5053,2016-06-06,Uso de celular al conducir,662
+KYZ-5053,2021-02-27,Circular con luces apagadas,431
+KYZ-5053,2017-05-08,Exceso de velocidad,958
+TRO-4764,2022-02-07,Circular con luces apagadas,656
+TRO-4764,2016-11-14,Uso de celular al conducir,824
+YLM-4271,2018-01-08,Revisión técnica vencida,972
+YLM-4271,2021-12-21,No respetar semáforo,405
+YLM-4271,2022-10-09,Exceso de velocidad,551
+YLM-4271,2018-10-06,Revisión técnica vencida,173
+YLM-4271,2020-10-11,Revisión técnica vencida,865
+GJG-4304,2018-04-01,No portar licencia,122
+GJG-4304,2022-04-18,Falta de seguro obligatorio,316
+GJG-4304,2021-03-05,No respetar semáforo,230
+GJG-4304,2019-06-09,Vehículo sin placas visibles,230
+UQI-5276,2023-01-12,Estacionamiento indebido,983
+UQI-5276,2024-03-02,No portar licencia,506
+UQI-5276,2024-02-02,Falta de seguro obligatorio,351
+UQI-5276,2016-03-26,Circular con luces apagadas,478
+SPD-5958,2024-02-08,Falta de seguro obligatorio,667
+SPD-5958,2019-05-23,Falta de seguro obligatorio,188
+SPD-5958,2018-01-17,Uso de celular al conducir,597
+SPD-5958,2016-11-07,Estacionamiento indebido,316
+SPD-5958,2022-02-22,Exceso de velocidad,831
+JXP-6497,2018-08-19,No respetar semáforo,363
+JXP-6497,2018-05-09,No respetar semáforo,264
+JXP-6497,2022-05-21,Estacionamiento indebido,131
+JXP-6497,2023-02-07,No portar licencia,750
+JXP-6497,2024-08-10,Revisión técnica vencida,420
+FHM-8522,2016-08-22,Uso de celular al conducir,757
+CDF-8694,2023-10-12,No portar licencia,430
+CDF-8694,2022-07-08,No respetar semáforo,848
+JOA-6290,2015-11-27,Estacionamiento indebido,784
+JOA-6290,2019-02-14,Falta de seguro obligatorio,865
+WRU-8409,2016-03-08,Revisión técnica vencida,170
+WRU-8409,2019-07-11,No respetar semáforo,815
+RON-4329,2020-09-15,Estacionamiento indebido,447
+RON-4329,2018-03-05,No usar cinturón de seguridad,716
+TRS-1535,2017-11-20,Exceso de velocidad,444
+TRS-1535,2022-03-11,No usar cinturón de seguridad,199
+TRS-1535,2024-07-22,No respetar semáforo,827
+TRS-1535,2024-10-29,Uso de celular al conducir,161
+TRS-1535,2018-08-11,Estacionamiento indebido,125
+KOH-4660,2017-08-20,Uso de celular al conducir,411
+BMZ-3911,2020-03-28,No usar cinturón de seguridad,258
+UFQ-4670,2020-03-08,No usar cinturón de seguridad,382
+UFQ-4670,2022-08-01,Revisión técnica vencida,219
+UFQ-4670,2015-10-24,Estacionamiento indebido,426
+UFQ-4670,2018-10-11,Revisión técnica vencida,618
+UFQ-4670,2020-02-21,No respetar semáforo,667
+WHP-3736,2015-11-04,Revisión técnica vencida,178
+WHP-3736,2016-04-16,Revisión técnica vencida,192
+QMB-8793,2021-10-03,No portar licencia,786
+QMB-8793,2020-07-18,Vehículo sin placas visibles,188
+QMB-8793,2023-06-29,Falta de seguro obligatorio,592
+QMB-8793,2017-02-11,Revisión técnica vencida,819
+KPQ-2487,2017-08-24,No portar licencia,372
+KPQ-2487,2019-05-18,Uso de celular al conducir,255
+LEY-6853,2021-08-23,Vehículo sin placas visibles,328
+LEY-6853,2019-10-28,Circular con luces apagadas,517
+LEY-6853,2024-07-18,Uso de celular al conducir,464
+LEY-6853,2021-12-08,No respetar semáforo,895
+LEY-6853,2023-08-28,Uso de celular al conducir,707
+VVP-2203,2015-09-03,Uso de celular al conducir,790
+VVP-2203,2017-02-21,No usar cinturón de seguridad,538
+VVP-2203,2019-07-14,Estacionamiento indebido,497
+VVP-2203,2019-05-18,No usar cinturón de seguridad,455
+BSK-8879,2023-08-30,Revisión técnica vencida,567
+BSK-8879,2021-02-24,No respetar semáforo,415
+BSK-8879,2020-02-21,Uso de celular al conducir,937
+JLS-3814,2019-08-24,Revisión técnica vencida,369
+JLS-3814,2023-10-27,Revisión técnica vencida,923
+JLS-3814,2017-09-04,Revisión técnica vencida,664
+VDN-4475,2024-06-17,Circular con luces apagadas,714
+VDN-4475,2021-03-21,No respetar semáforo,921
+VDN-4475,2022-12-09,Uso de celular al conducir,514
+UOR-1575,2022-08-06,Circular con luces apagadas,679
+UOR-1575,2016-10-08,Circular con luces apagadas,204
+UOR-1575,2020-08-29,No usar cinturón de seguridad,179
+UOR-1575,2016-09-19,Falta de seguro obligatorio,322
+TFF-7682,2018-11-17,Exceso de velocidad,306
+TFF-7682,2023-12-08,Revisión técnica vencida,876
+DUZ-1150,2018-11-18,Vehículo sin placas visibles,701
+DUZ-1150,2024-09-15,Uso de celular al conducir,640
+PFO-3070,2024-11-06,Uso de celular al conducir,277
+MWF-0824,2019-01-29,Vehículo sin placas visibles,529
+MWF-0824,2017-04-18,Exceso de velocidad,539
+MWF-0824,2017-03-06,Exceso de velocidad,865
+MWF-0824,2018-10-09,Exceso de velocidad,572
+NPN-0306,2021-05-24,Estacionamiento indebido,483
+GVQ-7412,2019-06-24,Circular con luces apagadas,462
+GVQ-7412,2017-03-27,Estacionamiento indebido,286
+GVQ-7412,2016-08-04,No respetar semáforo,858
+GVQ-7412,2020-12-17,Circular con luces apagadas,544
+DJI-9654,2021-08-31,Vehículo sin placas visibles,441
+DJI-9654,2024-07-29,Exceso de velocidad,829
+DJI-9654,2021-07-31,Exceso de velocidad,774
+DJI-9654,2024-11-28,Circular con luces apagadas,128
+DJI-9654,2016-08-31,Circular con luces apagadas,759
+SYP-1690,2018-05-06,Circular con luces apagadas,697
+UVQ-1116,2022-11-13,Falta de seguro obligatorio,845
+UVQ-1116,2019-02-14,No respetar semáforo,315
+UVQ-1116,2015-11-16,Revisión técnica vencida,664
+UVQ-1116,2018-11-01,No respetar semáforo,501
+PMK-9106,2024-09-20,Estacionamiento indebido,894
+PMK-9106,2016-04-28,No usar cinturón de seguridad,824
+PMK-9106,2023-12-30,Circular con luces apagadas,735
+PMK-9106,2023-12-05,Revisión técnica vencida,187
+PMK-9106,2018-12-22,Uso de celular al conducir,319
+IFQ-1658,2020-02-29,Exceso de velocidad,603
+IFQ-1658,2016-01-29,Vehículo sin placas visibles,441
+IFQ-1658,2015-12-25,No usar cinturón de seguridad,849
+IFQ-1658,2016-02-20,Estacionamiento indebido,739
+IFQ-1658,2019-11-01,Circular con luces apagadas,631
+XYG-3449,2024-04-26,Falta de seguro obligatorio,845
+HIU-3349,2016-06-17,No usar cinturón de seguridad,940
+HIU-3349,2015-05-17,No portar licencia,231
+HIU-3349,2015-06-11,Falta de seguro obligatorio,525
+NFQ-9187,2019-11-21,Circular con luces apagadas,194
+NCM-5993,2017-05-21,Revisión técnica vencida,675
+NCM-5993,2022-03-06,Circular con luces apagadas,518
+NCM-5993,2016-03-30,Revisión técnica vencida,978
+JTX-8094,2020-01-07,Revisión técnica vencida,930
+JTX-8094,2017-05-19,No usar cinturón de seguridad,834
+JTX-8094,2024-11-15,No usar cinturón de seguridad,303
+JTX-8094,2020-05-22,Falta de seguro obligatorio,712
+APE-9763,2023-11-28,Circular con luces apagadas,111
+FSR-5236,2023-04-21,No respetar semáforo,342
+FSR-5236,2021-05-04,No respetar semáforo,784
+FSR-5236,2015-03-12,Estacionamiento indebido,172
+FSR-5236,2022-08-23,Estacionamiento indebido,435
+FSR-5236,2022-10-12,No respetar semáforo,779
+LQT-6081,2017-12-25,Vehículo sin placas visibles,141
+PXS-3046,2021-06-29,No respetar semáforo,711
+PXS-3046,2018-02-02,Estacionamiento indebido,518
+PXS-3046,2023-02-22,No usar cinturón de seguridad,634
+PXS-3046,2023-11-20,Falta de seguro obligatorio,502
+JBE-6957,2018-05-27,Estacionamiento indebido,827
+JBE-6957,2016-11-27,Circular con luces apagadas,496
+JBE-6957,2024-02-06,Vehículo sin placas visibles,779
+JBE-6957,2020-07-15,No portar licencia,732
+JBE-6957,2024-08-11,Circular con luces apagadas,929
+XKF-4339,2021-08-17,Exceso de velocidad,282
+VXY-1444,2018-12-16,No portar licencia,978
+VXY-1444,2016-04-27,Estacionamiento indebido,484
+VXY-1444,2020-01-19,No respetar semáforo,866
+VXY-1444,2024-05-13,No respetar semáforo,975
+IYR-4053,2019-01-28,Circular con luces apagadas,712
+IYR-4053,2023-06-11,Estacionamiento indebido,624
+KCS-6397,2018-11-16,Exceso de velocidad,943
+KCS-6397,2020-04-16,Exceso de velocidad,971
+SXO-1575,2018-04-06,Revisión técnica vencida,788
+SXO-1575,2020-02-04,Exceso de velocidad,496
+SXO-1575,2024-05-09,Revisión técnica vencida,890
+SXO-1575,2023-05-31,Exceso de velocidad,532
+SXO-1575,2020-02-16,Uso de celular al conducir,145
+CGD-6990,2018-01-10,Falta de seguro obligatorio,371
+CGD-6990,2017-05-28,Estacionamiento indebido,473
+CGD-6990,2019-03-03,Circular con luces apagadas,682
+CGD-6990,2020-08-14,Vehículo sin placas visibles,427
+CGD-6990,2016-04-04,Circular con luces apagadas,838
+MET-3288,2016-08-13,Exceso de velocidad,255
+MET-3288,2018-06-20,Estacionamiento indebido,922
+MET-3288,2018-12-02,Revisión técnica vencida,415
+MET-3288,2020-04-02,Falta de seguro obligatorio,569
+MET-3288,2019-01-17,No portar licencia,507
+RAN-2713,2017-09-06,No usar cinturón de seguridad,112
+PMY-0068,2023-09-22,Falta de seguro obligatorio,885
+PMY-0068,2016-03-24,Uso de celular al conducir,315
+PMY-0068,2019-09-07,Uso de celular al conducir,520
+PMY-0068,2020-09-27,No portar licencia,372
+ZHI-0464,2018-05-08,Falta de seguro obligatorio,149
+ZHI-0464,2023-08-01,Estacionamiento indebido,508
+ZHI-0464,2021-09-02,Revisión técnica vencida,549
+ZHI-0464,2023-02-08,No respetar semáforo,243
+AAZ-5982,2019-11-10,No usar cinturón de seguridad,587
+AAZ-5982,2023-12-04,No usar cinturón de seguridad,616
+RML-7738,2023-12-02,Vehículo sin placas visibles,845
+RML-7738,2015-06-05,Estacionamiento indebido,562
+RML-7738,2022-12-27,No respetar semáforo,127
+FFC-0129,2023-04-27,Circular con luces apagadas,210
+FFC-0129,2022-03-22,Revisión técnica vencida,644
+FFC-0129,2022-09-16,Exceso de velocidad,466
+FFC-0129,2018-11-17,No portar licencia,874
+FFC-0129,2020-11-16,Revisión técnica vencida,679
+IPV-3174,2024-06-11,Revisión técnica vencida,784
+IPV-3174,2020-07-30,Falta de seguro obligatorio,502
+IPV-3174,2024-12-16,Falta de seguro obligatorio,226
+IPV-3174,2021-01-01,No respetar semáforo,363
+AWF-8238,2024-03-10,Vehículo sin placas visibles,968
+ZAC-9460,2022-02-07,Uso de celular al conducir,988
+ZAC-9460,2019-01-25,No portar licencia,829
+CHN-5819,2016-10-02,Uso de celular al conducir,327
+CHN-5819,2020-03-15,Circular con luces apagadas,168
+CHN-5819,2023-07-22,Falta de seguro obligatorio,587
+CHN-5819,2024-07-07,No respetar semáforo,992
+BZX-3339,2016-04-03,No portar licencia,789
+BZX-3339,2016-04-21,Exceso de velocidad,237
+BZX-3339,2022-03-06,Vehículo sin placas visibles,562
+ROH-8814,2022-10-12,Revisión técnica vencida,181
+ROH-8814,2019-01-23,Circular con luces apagadas,254
+ROH-8814,2016-10-09,Exceso de velocidad,954
+ROH-8814,2018-05-09,No usar cinturón de seguridad,772
+ICO-3898,2021-04-02,No usar cinturón de seguridad,290
+ICO-3898,2016-10-09,Revisión técnica vencida,273
+ICO-3898,2021-04-10,Falta de seguro obligatorio,272
+LLZ-4988,2023-10-06,Revisión técnica vencida,824
+LLZ-4988,2017-01-19,Estacionamiento indebido,745
+JZY-3574,2021-11-18,Revisión técnica vencida,654
+JZY-3574,2022-08-19,Falta de seguro obligatorio,772
+JZY-3574,2024-06-10,Uso de celular al conducir,448
+JZY-3574,2017-03-03,Uso de celular al conducir,875
+XTR-4947,2015-11-25,No respetar semáforo,221
+XTR-4947,2019-10-04,Exceso de velocidad,768
+XVD-2265,2021-02-18,No respetar semáforo,196
+XVD-2265,2020-11-09,Revisión técnica vencida,470
+XVD-2265,2023-10-09,Revisión técnica vencida,735
+TXL-9983,2019-12-07,Falta de seguro obligatorio,861
+TXL-9983,2023-09-12,Uso de celular al conducir,255
+TXL-9983,2016-01-17,Circular con luces apagadas,263
+QVC-6860,2017-11-18,Vehículo sin placas visibles,807
+QVC-6860,2023-11-14,No respetar semáforo,162
+QVC-6860,2020-06-21,No respetar semáforo,655
+FTQ-0892,2017-02-07,No respetar semáforo,276
+FTQ-0892,2018-12-15,Revisión técnica vencida,234
+FTQ-0892,2022-12-25,No usar cinturón de seguridad,444
+FTQ-0892,2021-11-24,Exceso de velocidad,718
+ZQU-3588,2015-04-07,Circular con luces apagadas,549
+IXR-9700,2021-12-01,Exceso de velocidad,342
+IXR-9700,2023-05-05,Revisión técnica vencida,772
+IXR-9700,2022-07-11,Falta de seguro obligatorio,395
+XRK-4630,2022-01-17,Exceso de velocidad,118
+XRK-4630,2018-05-02,No usar cinturón de seguridad,526
+SIC-6425,2019-02-28,Circular con luces apagadas,477
+SIC-6425,2020-10-24,Circular con luces apagadas,281
+WXL-4442,2017-04-21,No usar cinturón de seguridad,251
+WXL-4442,2018-02-06,Exceso de velocidad,499
+CEZ-0728,2018-07-05,No portar licencia,304
+BYF-6193,2018-02-02,Exceso de velocidad,751
+BYF-6193,2019-04-29,Uso de celular al conducir,805
+BYF-6193,2024-02-28,Falta de seguro obligatorio,837
+QTG-4316,2020-01-12,Exceso de velocidad,184
+QTG-4316,2016-09-15,Estacionamiento indebido,977
+ENF-7634,2017-09-15,Exceso de velocidad,572
+ENF-7634,2020-08-03,No respetar semáforo,219
+ENF-7634,2024-11-25,Uso de celular al conducir,821
+ENF-7634,2015-04-28,Falta de seguro obligatorio,155
+REZ-5722,2017-11-18,No portar licencia,637
+DSH-3558,2024-12-04,Vehículo sin placas visibles,642
+DSH-3558,2016-06-15,Falta de seguro obligatorio,970
+DSH-3558,2021-05-31,Circular con luces apagadas,972
+ZPS-8112,2017-02-28,Circular con luces apagadas,300
+ZPS-8112,2022-07-17,Estacionamiento indebido,875
+ZPS-8112,2023-04-30,Exceso de velocidad,461
+ZPS-8112,2023-06-30,Falta de seguro obligatorio,259
+ZPS-8112,2023-09-29,Revisión técnica vencida,781
+JSQ-3493,2019-08-08,Revisión técnica vencida,799
+JSQ-3493,2017-12-14,Circular con luces apagadas,621
+FYT-4115,2016-09-19,Revisión técnica vencida,491
+FYT-4115,2019-05-03,Uso de celular al conducir,379
+FYT-4115,2024-02-22,Falta de seguro obligatorio,523
+FYT-4115,2020-10-08,Falta de seguro obligatorio,244
+GKK-0466,2016-02-01,Vehículo sin placas visibles,439
+GKK-0466,2019-02-08,Estacionamiento indebido,930
+GKK-0466,2020-06-26,Vehículo sin placas visibles,755
+GKK-0466,2023-01-24,No portar licencia,610
+AQL-4915,2017-08-27,Exceso de velocidad,607
+AQL-4915,2015-07-10,No portar licencia,219
+OLT-7152,2022-11-05,Uso de celular al conducir,834
+OLT-7152,2020-03-09,Circular con luces apagadas,716
+OLT-7152,2024-06-09,Falta de seguro obligatorio,943
+OLT-7152,2024-06-13,Uso de celular al conducir,573
+OLT-7152,2021-11-09,Uso de celular al conducir,730
+SZX-9624,2017-02-09,Estacionamiento indebido,591
+SZX-9624,2018-09-05,No portar licencia,958
+WRX-8268,2021-09-15,No portar licencia,254
+WRX-8268,2015-02-26,Estacionamiento indebido,106
+WRX-8268,2015-05-14,Estacionamiento indebido,425
+LOJ-7957,2021-08-22,Falta de seguro obligatorio,707
+TRA-3591,2015-10-31,Revisión técnica vencida,921
+TRA-3591,2022-05-19,Revisión técnica vencida,799
+TRA-3591,2023-03-30,No respetar semáforo,406
+TRA-3591,2016-06-10,Exceso de velocidad,404
+AEK-8711,2020-01-03,No portar licencia,572
+AEK-8711,2022-11-19,Estacionamiento indebido,448
+AEK-8711,2020-10-07,No portar licencia,422
+AEK-8711,2016-02-05,No portar licencia,173
+AEK-8711,2017-11-11,Falta de seguro obligatorio,172
+DYS-3334,2024-08-23,Falta de seguro obligatorio,188
+DYS-3334,2023-08-11,Vehículo sin placas visibles,807
+DYS-3334,2024-09-13,Vehículo sin placas visibles,940
+DYS-3334,2018-01-13,No respetar semáforo,509
+NKV-9122,2021-01-08,Falta de seguro obligatorio,225
+NKV-9122,2023-01-03,Revisión técnica vencida,106
+NKV-9122,2016-01-05,No respetar semáforo,162
+WSN-8132,2016-02-22,Exceso de velocidad,552
+WSN-8132,2021-09-13,No portar licencia,437
+YSW-0570,2020-04-26,Estacionamiento indebido,874
+YSW-0570,2020-07-15,No respetar semáforo,479
+AVV-5460,2019-12-03,No portar licencia,101
+IOH-4686,2024-05-06,Exceso de velocidad,664
+IOH-4686,2020-04-01,Vehículo sin placas visibles,758
+IOH-4686,2022-05-19,No respetar semáforo,255
+IOH-4686,2020-07-16,No usar cinturón de seguridad,176
+IOH-4686,2016-09-15,No portar licencia,691
+SJF-8417,2015-11-02,Vehículo sin placas visibles,515
+YOS-0786,2016-04-26,No usar cinturón de seguridad,784
+YOS-0786,2016-02-23,Estacionamiento indebido,696
+YOS-0786,2023-07-19,No respetar semáforo,882
+YOS-0786,2022-09-04,Uso de celular al conducir,324
+HCK-1601,2020-07-17,No respetar semáforo,337
+HCK-1601,2021-05-28,Falta de seguro obligatorio,904
+GDU-6774,2015-11-17,No respetar semáforo,416
+GDU-6774,2020-05-11,Estacionamiento indebido,898
+GDU-6774,2020-03-12,Falta de seguro obligatorio,777
+GDU-6774,2023-07-25,No portar licencia,112
+SJV-2370,2015-10-07,No usar cinturón de seguridad,714
+SJV-2370,2015-03-29,Circular con luces apagadas,571
+SJV-2370,2019-10-20,No usar cinturón de seguridad,227
+SJV-2370,2021-10-04,Vehículo sin placas visibles,763
+SJV-2370,2017-12-23,No portar licencia,118
+ASN-7951,2016-05-30,Vehículo sin placas visibles,339
+ASN-7951,2018-09-20,Circular con luces apagadas,889
+ASN-7951,2024-09-10,No portar licencia,319
+ASN-7951,2017-02-25,No usar cinturón de seguridad,281
+NJR-1456,2020-01-24,Uso de celular al conducir,758
+NJR-1456,2019-12-26,Vehículo sin placas visibles,831
+NJR-1456,2023-01-29,No portar licencia,767
+NJR-1456,2022-06-28,Falta de seguro obligatorio,732
+NJR-1456,2019-10-24,Falta de seguro obligatorio,495
+TAZ-8322,2017-11-30,Falta de seguro obligatorio,408
+TAZ-8322,2022-02-26,No portar licencia,366
+TAZ-8322,2018-11-10,Vehículo sin placas visibles,932
+TAZ-8322,2019-10-22,Estacionamiento indebido,621
+RKR-1977,2018-04-27,Circular con luces apagadas,156
+NWU-5559,2022-04-28,Circular con luces apagadas,654
+NWU-5559,2015-01-22,Vehículo sin placas visibles,273
+TKI-7716,2016-04-22,No usar cinturón de seguridad,148
+TKI-7716,2020-10-04,Revisión técnica vencida,643
+TKI-7716,2017-09-02,Falta de seguro obligatorio,540
+TKI-7716,2016-10-30,Circular con luces apagadas,878
+ZLN-8438,2024-07-02,Uso de celular al conducir,515
+ZLN-8438,2017-06-25,Uso de celular al conducir,428
+OCZ-3426,2023-12-10,No respetar semáforo,556
+PBV-9142,2017-04-24,Revisión técnica vencida,1000
+PBV-9142,2017-08-17,Revisión técnica vencida,294
+PBV-9142,2016-01-08,Circular con luces apagadas,656
+AYO-4482,2015-03-13,Vehículo sin placas visibles,880
+AYO-4482,2021-03-08,Uso de celular al conducir,695
+FWL-7540,2023-02-15,Revisión técnica vencida,681
+FWL-7540,2017-04-18,Uso de celular al conducir,361
+UFC-1153,2015-05-06,Falta de seguro obligatorio,258
+ATH-5130,2020-01-30,No usar cinturón de seguridad,650
+ATH-5130,2023-09-04,Estacionamiento indebido,786
+ATH-5130,2022-07-07,Vehículo sin placas visibles,921
+ATH-5130,2020-09-09,Circular con luces apagadas,799
+ATH-5130,2018-10-07,Exceso de velocidad,429
+TDH-8062,2016-10-01,No portar licencia,110
+TDH-8062,2017-08-06,Exceso de velocidad,940
+TDH-8062,2016-07-25,Revisión técnica vencida,959
+TDH-8062,2018-07-07,Circular con luces apagadas,535
+TDH-8062,2019-11-10,Revisión técnica vencida,778
+BGR-7483,2018-08-17,Exceso de velocidad,741
+BGR-7483,2015-07-19,No usar cinturón de seguridad,966
+BGR-7483,2023-01-19,Estacionamiento indebido,901
+BGR-7483,2018-01-19,Falta de seguro obligatorio,141
+BGR-7483,2022-10-22,No respetar semáforo,747
+NXX-3829,2020-03-10,No respetar semáforo,701
+NXX-3829,2023-08-17,No respetar semáforo,460
+NXX-3829,2022-09-03,No portar licencia,940
+NXX-3829,2021-11-24,Circular con luces apagadas,371
+NXX-3829,2019-09-08,Vehículo sin placas visibles,737
+TXU-5170,2024-10-13,Falta de seguro obligatorio,968
+TXU-5170,2015-06-30,No usar cinturón de seguridad,592
+TXU-5170,2015-06-18,Revisión técnica vencida,791
+LRW-3606,2021-11-23,Vehículo sin placas visibles,789
+LRW-3606,2021-09-17,No respetar semáforo,208
+LRW-3606,2021-01-13,Circular con luces apagadas,258
+LRW-3606,2021-02-13,Uso de celular al conducir,936
+LRW-3606,2021-08-08,Falta de seguro obligatorio,495
+VGL-2619,2017-03-24,Uso de celular al conducir,660
+VGL-2619,2016-04-28,Vehículo sin placas visibles,145
+VGL-2619,2021-09-01,Estacionamiento indebido,172
+VGL-2619,2017-07-12,Uso de celular al conducir,869
+VGL-2619,2023-11-25,Exceso de velocidad,762
+XSX-3308,2016-01-22,Falta de seguro obligatorio,239
+XSX-3308,2016-03-08,Falta de seguro obligatorio,169
+XSX-3308,2018-11-18,Uso de celular al conducir,703
+XSX-3308,2024-09-18,Estacionamiento indebido,242
+LQW-6138,2020-04-25,No respetar semáforo,563
+LQW-6138,2022-03-14,No portar licencia,745
+LQW-6138,2018-01-04,Circular con luces apagadas,732
+LQW-6138,2023-05-15,Falta de seguro obligatorio,883
+LQW-6138,2024-04-03,Vehículo sin placas visibles,145
+TVL-1779,2022-10-21,No portar licencia,278
+TVL-1779,2023-08-21,Falta de seguro obligatorio,532
+TVL-1779,2016-01-19,Revisión técnica vencida,548
+TVL-1779,2023-12-31,Circular con luces apagadas,950
+TVL-1779,2023-06-30,Estacionamiento indebido,239
+GPS-5347,2024-12-03,Circular con luces apagadas,395
+GPS-5347,2021-11-26,Estacionamiento indebido,573
+GPS-5347,2019-01-09,Circular con luces apagadas,114
+WHV-1989,2019-12-11,No respetar semáforo,632
+WHV-1989,2015-08-18,Falta de seguro obligatorio,903
+WHV-1989,2018-10-14,Falta de seguro obligatorio,483
+WHV-1989,2020-12-27,No portar licencia,565
+WHV-1989,2020-03-04,No respetar semáforo,350
+XOL-3952,2023-09-24,Uso de celular al conducir,507
+XOL-3952,2016-03-01,Revisión técnica vencida,340
+XOL-3952,2015-12-26,No portar licencia,206
+XOL-3952,2015-12-30,Estacionamiento indebido,359
+GCU-8099,2020-05-30,Exceso de velocidad,699
+GCU-8099,2015-01-12,No portar licencia,721
+GCU-8099,2022-04-20,Uso de celular al conducir,967
+GCU-8099,2020-01-08,Revisión técnica vencida,624
+XCC-0525,2019-12-19,No portar licencia,930
+XCC-0525,2018-02-17,Uso de celular al conducir,574
+XCC-0525,2018-04-05,Revisión técnica vencida,852
+XCC-0525,2019-07-01,No usar cinturón de seguridad,680
+XCC-0525,2024-07-27,No portar licencia,176
+EUR-5666,2018-09-26,No respetar semáforo,677
+EUR-5666,2024-05-09,Estacionamiento indebido,780
+HTK-8891,2015-01-05,Uso de celular al conducir,927
+HTK-8891,2021-09-28,Vehículo sin placas visibles,116
+OVH-7320,2021-07-06,Uso de celular al conducir,964
+OVH-7320,2015-05-10,Falta de seguro obligatorio,386
+OVH-7320,2020-01-05,No portar licencia,780
+OVH-7320,2024-10-02,No respetar semáforo,141
+OVH-7320,2016-01-24,No portar licencia,655
+LKZ-1596,2024-09-17,Exceso de velocidad,740
+EPP-6475,2018-12-17,Uso de celular al conducir,245
+NEA-3564,2017-09-05,Revisión técnica vencida,653
+YMK-6367,2015-08-06,No respetar semáforo,886
+JFN-1935,2019-01-22,Circular con luces apagadas,956
+JFN-1935,2021-10-09,Estacionamiento indebido,380
+JFN-1935,2024-11-15,No respetar semáforo,140
+JFN-1935,2016-07-06,Estacionamiento indebido,490
+JFN-1935,2017-03-08,No usar cinturón de seguridad,362
+BZG-7518,2018-11-30,Revisión técnica vencida,653
+BZG-7518,2019-08-11,No portar licencia,913
+XGM-6224,2019-09-21,Falta de seguro obligatorio,160
+XGM-6224,2020-05-06,Falta de seguro obligatorio,281
+XGM-6224,2016-08-13,Falta de seguro obligatorio,171
+XGM-6224,2020-09-22,Revisión técnica vencida,344
+PJP-7597,2022-06-28,Uso de celular al conducir,733
+PJP-7597,2023-11-08,Uso de celular al conducir,905
+PJP-7597,2024-05-14,Exceso de velocidad,700
+PJP-7597,2021-04-17,Exceso de velocidad,620
+SMX-9885,2015-01-11,Uso de celular al conducir,897
+SMX-9885,2019-09-28,Uso de celular al conducir,675
+SMX-9885,2021-03-12,No portar licencia,489
+SMX-9885,2018-12-20,Exceso de velocidad,294
+SMX-9885,2023-11-01,Estacionamiento indebido,969
+IBS-8760,2015-06-05,Uso de celular al conducir,995
+IBS-8760,2017-03-06,Estacionamiento indebido,731
+IBS-8760,2021-01-13,Estacionamiento indebido,758
+IBS-8760,2019-11-20,Exceso de velocidad,233
+GVP-8593,2024-02-09,No usar cinturón de seguridad,176
+GVP-8593,2016-05-05,Revisión técnica vencida,939
+GVP-8593,2021-04-28,No usar cinturón de seguridad,861
+OSO-1077,2015-04-21,Revisión técnica vencida,165
+OSO-1077,2023-08-03,Estacionamiento indebido,472
+OSO-1077,2015-08-08,Vehículo sin placas visibles,418
+OSO-1077,2024-12-05,Exceso de velocidad,622
+OSO-1077,2024-06-27,No usar cinturón de seguridad,755
+TXB-3142,2017-06-19,Circular con luces apagadas,513
+TXB-3142,2016-05-27,Exceso de velocidad,734
+TXB-3142,2022-03-29,Circular con luces apagadas,339
+TXB-3142,2019-06-03,Uso de celular al conducir,884
+TXB-3142,2024-03-21,No respetar semáforo,677
+TKV-7434,2015-07-14,Revisión técnica vencida,195
+TKV-7434,2021-10-21,Exceso de velocidad,803
+TKV-7434,2015-09-24,No respetar semáforo,897
+TKV-7434,2019-03-14,Uso de celular al conducir,126
+TKV-7434,2024-10-29,Exceso de velocidad,409
+IQW-7271,2023-09-20,Vehículo sin placas visibles,590
+ASS-5454,2024-12-20,Exceso de velocidad,391
+ASS-5454,2019-11-16,Revisión técnica vencida,737
+ASS-5454,2015-05-18,No usar cinturón de seguridad,915
+ASS-5454,2020-02-04,Revisión técnica vencida,138
+BDT-2971,2015-03-05,Uso de celular al conducir,896
+TJE-6030,2016-06-22,Falta de seguro obligatorio,688
+TJE-6030,2023-01-07,No portar licencia,709
+TJE-6030,2022-04-17,Estacionamiento indebido,356
+AVB-1209,2024-10-27,Uso de celular al conducir,830
+AVB-1209,2021-08-19,Revisión técnica vencida,367
+AVB-1209,2021-12-18,Exceso de velocidad,281
+EYL-3411,2016-05-12,Vehículo sin placas visibles,925
+EYL-3411,2019-06-24,Revisión técnica vencida,661
+EYL-3411,2021-01-03,Exceso de velocidad,808
+EYL-3411,2022-02-18,No respetar semáforo,104
+SCI-3136,2017-02-11,Falta de seguro obligatorio,293
+SCI-3136,2023-11-28,Vehículo sin placas visibles,993
+SCI-3136,2023-02-25,Vehículo sin placas visibles,826
+SCI-3136,2019-09-26,Falta de seguro obligatorio,513
+SCI-3136,2021-10-23,Revisión técnica vencida,416
+ZIE-8610,2017-01-07,Estacionamiento indebido,853
+GVR-0644,2019-03-20,No usar cinturón de seguridad,161
+GVR-0644,2022-10-09,Vehículo sin placas visibles,897
+TMM-3040,2017-12-11,Estacionamiento indebido,971
+TMM-3040,2020-06-24,Vehículo sin placas visibles,641
+TMM-3040,2022-11-30,No respetar semáforo,997
+TMM-3040,2024-01-13,Estacionamiento indebido,394
+TMM-3040,2019-04-08,Exceso de velocidad,274
+WJY-6543,2019-09-22,Revisión técnica vencida,510
+WJY-6543,2022-01-22,No respetar semáforo,545
+WJY-6543,2021-11-16,Estacionamiento indebido,484
+MLF-0960,2019-09-15,Vehículo sin placas visibles,701
+MLF-0960,2019-04-30,Vehículo sin placas visibles,624
+MLF-0960,2017-12-04,No respetar semáforo,166
+MLF-0960,2018-05-16,Circular con luces apagadas,116
+HUM-8239,2019-05-27,Estacionamiento indebido,266
+HUM-8239,2023-02-16,No portar licencia,650
+HUM-8239,2024-08-31,Exceso de velocidad,952
+HUM-8239,2015-10-20,No portar licencia,753
+XGT-6754,2018-01-12,Exceso de velocidad,806
+XGT-6754,2024-02-04,Uso de celular al conducir,243
+XGT-6754,2017-01-24,No usar cinturón de seguridad,440
+XGT-6754,2022-05-16,No respetar semáforo,158
+MIN-4601,2023-09-15,No usar cinturón de seguridad,730
+MIN-4601,2016-10-02,Vehículo sin placas visibles,477
+MIN-4601,2022-08-12,Exceso de velocidad,141
+ZVB-9520,2019-06-14,Circular con luces apagadas,740
+ZVB-9520,2024-11-12,No respetar semáforo,722
+ZVB-9520,2022-08-07,Vehículo sin placas visibles,586
+ZSX-9065,2022-11-20,Revisión técnica vencida,609
+ZSX-9065,2017-08-17,Exceso de velocidad,210
+ZSX-9065,2024-02-25,Circular con luces apagadas,160
+HGQ-2960,2021-05-24,No respetar semáforo,904
+HGQ-2960,2019-08-07,No respetar semáforo,752
+HGQ-2960,2016-06-29,No respetar semáforo,847
+HGQ-2960,2021-06-26,Falta de seguro obligatorio,408
+HGQ-2960,2017-11-30,Exceso de velocidad,639
+LMO-9536,2024-09-19,Revisión técnica vencida,255
+DGF-6434,2023-12-05,Uso de celular al conducir,833
+DGF-6434,2021-12-08,No portar licencia,906
+DGF-6434,2021-09-22,Vehículo sin placas visibles,689
+GFU-5692,2021-04-21,Falta de seguro obligatorio,703
+GFU-5692,2020-12-29,Circular con luces apagadas,158
+TQP-6917,2018-06-29,Circular con luces apagadas,558
+FXN-1697,2017-06-10,Estacionamiento indebido,832
+FXN-1697,2024-10-23,Exceso de velocidad,141
+FXN-1697,2021-04-02,Estacionamiento indebido,743
+FXN-1697,2017-10-03,Vehículo sin placas visibles,866
+FXN-1697,2017-03-15,No respetar semáforo,222
+DMK-1057,2022-07-08,Exceso de velocidad,959
+JPL-1598,2017-07-28,Falta de seguro obligatorio,179
+JPL-1598,2021-10-04,No usar cinturón de seguridad,883
+KYC-3343,2021-06-30,Circular con luces apagadas,166
+KYC-3343,2018-08-27,Revisión técnica vencida,600
+DBK-0141,2019-11-23,Circular con luces apagadas,409
+DBK-0141,2016-10-18,No portar licencia,115
+DBK-0141,2016-08-29,Uso de celular al conducir,116
+DBK-0141,2018-05-12,Revisión técnica vencida,264
+DBK-0141,2023-01-27,Estacionamiento indebido,384
+AVI-6733,2021-10-03,Falta de seguro obligatorio,137
+AVI-6733,2018-06-09,Falta de seguro obligatorio,750
+VTQ-4103,2020-03-08,No respetar semáforo,504
+VTQ-4103,2024-12-20,Falta de seguro obligatorio,815
+VTQ-4103,2019-01-11,Falta de seguro obligatorio,573
+VTQ-4103,2016-09-13,No portar licencia,578
+HQI-0518,2018-12-15,No portar licencia,625
+HQI-0518,2020-06-09,Uso de celular al conducir,974
+HQI-0518,2024-11-09,Estacionamiento indebido,692
+QKK-3588,2015-09-09,Uso de celular al conducir,227
+QKK-3588,2015-08-14,Vehículo sin placas visibles,297
+QKK-3588,2016-09-14,Exceso de velocidad,108
+QKK-3588,2018-01-16,No portar licencia,600
+QKK-3588,2019-09-18,Exceso de velocidad,106
+PMB-4816,2021-09-08,Revisión técnica vencida,942
+PMB-4816,2018-03-08,Circular con luces apagadas,739
+PMB-4816,2022-04-11,Exceso de velocidad,888
+TCV-4214,2017-09-25,Revisión técnica vencida,556
+TCV-4214,2023-03-12,Estacionamiento indebido,962
+TCV-4214,2023-06-11,Circular con luces apagadas,365
+TCV-4214,2018-09-20,Uso de celular al conducir,938
+XVL-7126,2016-03-07,Circular con luces apagadas,735
+QDB-1778,2024-07-31,Revisión técnica vencida,730
+QDB-1778,2016-01-27,Circular con luces apagadas,998
+NOM-8843,2018-07-21,No portar licencia,265
+EGG-9641,2017-06-03,No usar cinturón de seguridad,745
+RMD-2907,2019-01-06,Uso de celular al conducir,125
+RMD-2907,2023-12-20,No portar licencia,469
+RMD-2907,2018-07-19,Revisión técnica vencida,433
+RMD-2907,2020-07-18,Estacionamiento indebido,521
+PIM-0264,2015-01-16,No usar cinturón de seguridad,273
+JHN-7016,2023-06-29,Estacionamiento indebido,763
+JHN-7016,2023-01-18,No respetar semáforo,754
+JHN-7016,2019-03-18,Circular con luces apagadas,631
+JHN-7016,2017-05-05,Falta de seguro obligatorio,337
+LUJ-1826,2018-10-25,No portar licencia,693
+LUJ-1826,2024-05-13,Vehículo sin placas visibles,712
+LUJ-1826,2020-02-07,No portar licencia,326
+LUJ-1826,2018-10-11,No usar cinturón de seguridad,167
+LUJ-1826,2015-05-14,Vehículo sin placas visibles,121
+FNU-5499,2024-11-27,Estacionamiento indebido,368
+FNU-5499,2015-06-17,No portar licencia,445
+FNU-5499,2020-12-07,Uso de celular al conducir,251
+SDE-5336,2016-08-29,Exceso de velocidad,401
+SDE-5336,2016-06-17,Revisión técnica vencida,959
+SDE-5336,2016-05-19,Revisión técnica vencida,869
+SDE-5336,2016-04-10,Uso de celular al conducir,211
+SDE-5336,2021-11-26,No portar licencia,127
+FOF-1936,2015-11-13,No respetar semáforo,812
+SLV-6420,2017-01-13,Revisión técnica vencida,346
+SLV-6420,2015-10-27,Uso de celular al conducir,522
+HZY-0233,2019-04-15,Uso de celular al conducir,784
+EEW-3853,2024-12-30,Vehículo sin placas visibles,605
+APJ-8066,2018-12-09,Estacionamiento indebido,398
+APJ-8066,2024-11-07,No portar licencia,560
+TOV-7772,2021-10-22,Falta de seguro obligatorio,460
+TOV-7772,2022-12-11,No portar licencia,961
+TOV-7772,2017-05-12,Estacionamiento indebido,464
+TOV-7772,2021-09-26,Exceso de velocidad,643
+FNR-8819,2022-09-13,No portar licencia,573
+KIF-4778,2024-06-25,Estacionamiento indebido,789
+KIF-4778,2021-06-09,Revisión técnica vencida,806
+KIF-4778,2019-02-07,Estacionamiento indebido,232
+ZOD-5155,2021-03-01,Falta de seguro obligatorio,942
+ZOD-5155,2015-10-27,Vehículo sin placas visibles,821
+ZOD-5155,2018-04-26,Vehículo sin placas visibles,276
+ZOD-5155,2019-04-04,Revisión técnica vencida,922
+ZOD-5155,2018-04-10,Estacionamiento indebido,262
+KIX-4895,2021-12-01,No respetar semáforo,556
+KIX-4895,2020-06-03,Estacionamiento indebido,972
+KIX-4895,2015-08-13,Exceso de velocidad,560
+KIX-4895,2023-02-23,Vehículo sin placas visibles,364
+KIX-4895,2015-04-13,No usar cinturón de seguridad,855
+LUL-0490,2018-09-05,Estacionamiento indebido,342
+LUL-0490,2022-07-31,No portar licencia,174
+LUL-0490,2024-06-01,Uso de celular al conducir,904
+MSC-5444,2018-08-07,Falta de seguro obligatorio,803
+MSC-5444,2015-04-25,Falta de seguro obligatorio,925
+MSC-5444,2016-08-13,No usar cinturón de seguridad,954
+QKS-1003,2019-10-15,Circular con luces apagadas,628
+QKS-1003,2017-01-23,Uso de celular al conducir,130
+QKS-1003,2017-12-01,Revisión técnica vencida,591
+QKS-1003,2020-06-08,No portar licencia,355
+BJX-9725,2023-09-19,Estacionamiento indebido,267
+BJX-9725,2020-10-18,Estacionamiento indebido,248
+BJX-9725,2018-10-01,No portar licencia,906
+PEA-0025,2021-10-04,Uso de celular al conducir,250
+PEA-0025,2018-08-26,Circular con luces apagadas,835
+MJM-1358,2021-10-30,Uso de celular al conducir,455
+MJM-1358,2017-07-16,Falta de seguro obligatorio,646
+MJM-1358,2016-03-13,Falta de seguro obligatorio,565
+HPF-8253,2017-08-02,Estacionamiento indebido,918
+HPF-8253,2022-04-06,No respetar semáforo,968
+HPF-8253,2018-08-12,Estacionamiento indebido,724
+JJA-7061,2018-06-02,Circular con luces apagadas,855
+GYB-0473,2020-04-15,Revisión técnica vencida,559
+GYB-0473,2023-08-03,Vehículo sin placas visibles,814
+GYB-0473,2015-06-26,Exceso de velocidad,377
+NCW-4527,2022-12-17,Circular con luces apagadas,474
+NCW-4527,2021-09-18,Exceso de velocidad,267
+NCW-4527,2024-05-19,Uso de celular al conducir,543
+RAC-2981,2021-05-03,No portar licencia,828
+RAC-2981,2020-02-25,Vehículo sin placas visibles,567
+RAC-2981,2024-08-04,No portar licencia,189
+YGG-8185,2024-02-02,No respetar semáforo,833
+JII-8029,2015-02-26,No usar cinturón de seguridad,626
+JII-8029,2018-11-10,Circular con luces apagadas,158
+JII-8029,2016-05-04,Exceso de velocidad,367
+JII-8029,2021-04-29,No portar licencia,454
+JII-8029,2022-03-27,Vehículo sin placas visibles,232
+FRF-7083,2016-05-23,Falta de seguro obligatorio,938
+FRF-7083,2022-05-08,No respetar semáforo,689
+FRF-7083,2015-12-18,Uso de celular al conducir,360
+FRF-7083,2024-09-03,No usar cinturón de seguridad,681
+DZW-1660,2020-04-14,Revisión técnica vencida,389
+DZW-1660,2023-06-19,Falta de seguro obligatorio,828
+CWW-9113,2015-12-11,No usar cinturón de seguridad,619
+CWW-9113,2022-09-12,No usar cinturón de seguridad,529
+CWW-9113,2016-03-13,No portar licencia,994
+CWW-9113,2019-06-21,No portar licencia,300
+CWW-9113,2019-05-29,Uso de celular al conducir,796
+CLQ-4232,2024-04-29,Uso de celular al conducir,142
+USS-0969,2018-07-20,No respetar semáforo,887
+USS-0969,2015-08-19,Falta de seguro obligatorio,290
+USS-0969,2019-04-15,Revisión técnica vencida,287
+USS-0969,2016-12-20,No usar cinturón de seguridad,905
+EUB-4950,2018-12-04,Revisión técnica vencida,646
+EUB-4950,2015-07-22,Vehículo sin placas visibles,449
+EUB-4950,2020-11-09,Estacionamiento indebido,323
+SLY-3730,2023-10-27,Exceso de velocidad,544
+SLY-3730,2021-06-26,Falta de seguro obligatorio,694
+SLY-3730,2020-02-03,No portar licencia,636
+SLY-3730,2015-12-04,Estacionamiento indebido,926
+SLY-3730,2021-09-15,Uso de celular al conducir,758
+ZGC-6102,2020-03-20,No portar licencia,976
+ZGC-6102,2021-12-11,No portar licencia,709
+ZGC-6102,2016-02-29,Exceso de velocidad,904
+CXA-3500,2024-04-28,No respetar semáforo,114
+CXA-3500,2015-09-18,Exceso de velocidad,666
+CXA-3500,2020-08-11,No portar licencia,204
+CXA-3500,2020-02-10,Revisión técnica vencida,868
+BMV-6184,2023-04-06,No usar cinturón de seguridad,252
+BMV-6184,2017-01-08,No respetar semáforo,467
+BMV-6184,2023-10-16,Exceso de velocidad,944
+NHF-8447,2019-10-02,Exceso de velocidad,828
+NHF-8447,2016-04-29,No respetar semáforo,770
+NHF-8447,2019-03-19,Vehículo sin placas visibles,286
+PDT-7734,2023-01-29,Vehículo sin placas visibles,805
+AEE-3105,2019-09-27,No portar licencia,246
+AEE-3105,2018-11-21,Exceso de velocidad,446
+AEE-3105,2022-01-04,Uso de celular al conducir,978
+AEE-3105,2021-02-18,Revisión técnica vencida,819
+NXL-8528,2024-06-17,Falta de seguro obligatorio,232
+NXL-8528,2018-12-21,Exceso de velocidad,201
+NXL-8528,2024-06-01,Circular con luces apagadas,110
+TTA-5323,2017-08-25,No respetar semáforo,233
+GPI-3358,2016-10-18,Falta de seguro obligatorio,856
+QDV-0115,2015-09-03,Exceso de velocidad,780
+QDV-0115,2024-12-12,Falta de seguro obligatorio,865
+QDV-0115,2018-01-18,Estacionamiento indebido,330
+QDV-0115,2015-09-30,Revisión técnica vencida,356
+QDV-0115,2020-10-12,No usar cinturón de seguridad,579
+TER-7819,2016-09-28,No usar cinturón de seguridad,985
+TER-7819,2020-10-12,Vehículo sin placas visibles,711
+TER-7819,2019-09-04,Revisión técnica vencida,518
+TER-7819,2021-04-26,No usar cinturón de seguridad,607
+TER-7819,2015-12-15,Vehículo sin placas visibles,760
+TEB-9818,2023-05-09,Falta de seguro obligatorio,974
+TEB-9818,2024-10-05,No usar cinturón de seguridad,127
+TEB-9818,2020-02-04,Exceso de velocidad,919
+RFH-2376,2016-09-19,Circular con luces apagadas,423
+QVY-8178,2022-05-12,Falta de seguro obligatorio,452
+QVY-8178,2023-06-01,Estacionamiento indebido,951
+QVY-8178,2024-02-06,Falta de seguro obligatorio,357
+QXY-9386,2021-04-11,Vehículo sin placas visibles,297
+QXY-9386,2021-07-14,Vehículo sin placas visibles,160
+TVE-5771,2024-01-03,No usar cinturón de seguridad,916
+TVE-5771,2016-06-17,Uso de celular al conducir,117
+TVE-5771,2017-03-22,Falta de seguro obligatorio,265
+TVE-5771,2017-12-11,No portar licencia,176
+LDS-0224,2015-10-11,Exceso de velocidad,764
+LDS-0224,2024-10-26,No usar cinturón de seguridad,395
+LDS-0224,2020-09-10,Uso de celular al conducir,730
+LDS-0224,2023-04-14,Vehículo sin placas visibles,208
+QPU-6370,2015-01-28,Falta de seguro obligatorio,497
+QPU-6370,2018-04-10,Circular con luces apagadas,728
+ONS-3651,2018-09-29,Uso de celular al conducir,903
+JIX-2866,2017-01-09,No portar licencia,707
+JIX-2866,2018-08-07,Revisión técnica vencida,231
+ZFZ-8233,2019-09-04,Exceso de velocidad,249
+ZFZ-8233,2019-11-01,Estacionamiento indebido,313
+ZFZ-8233,2018-06-04,Exceso de velocidad,324
+ZFZ-8233,2015-09-08,Exceso de velocidad,809
+IRH-0014,2017-01-28,Exceso de velocidad,366
+IRH-0014,2024-04-23,Vehículo sin placas visibles,999
+IRH-0014,2019-09-22,Vehículo sin placas visibles,717
+IRH-0014,2024-04-22,Falta de seguro obligatorio,959
+SFL-4130,2021-05-11,Circular con luces apagadas,684
+SFL-4130,2016-06-05,Falta de seguro obligatorio,913
+SFL-4130,2019-08-05,Falta de seguro obligatorio,291
+SFL-4130,2021-02-17,Falta de seguro obligatorio,824
+SFL-4130,2023-11-21,Uso de celular al conducir,821
+EMN-7941,2017-06-19,No usar cinturón de seguridad,888
+EMN-7941,2021-05-25,Falta de seguro obligatorio,740
+EMN-7941,2016-02-29,Circular con luces apagadas,746
+EMN-7941,2021-10-02,Exceso de velocidad,255
+MPY-7057,2021-11-17,Uso de celular al conducir,268
+JFO-6898,2018-09-16,Exceso de velocidad,406
+IGI-7838,2024-11-08,No portar licencia,394
+IGI-7838,2023-06-01,Revisión técnica vencida,606
+IGI-7838,2022-09-23,Exceso de velocidad,799
+IGI-7838,2019-10-23,No respetar semáforo,518
+IGI-7838,2021-09-23,Vehículo sin placas visibles,148
+MLB-9631,2023-01-28,Falta de seguro obligatorio,912
+GBA-5182,2019-11-25,Revisión técnica vencida,638
+HPA-5000,2016-08-30,Uso de celular al conducir,935
+HPA-5000,2021-03-18,Vehículo sin placas visibles,664
+FYU-3205,2024-01-04,Vehículo sin placas visibles,460
+FYU-3205,2015-02-08,No portar licencia,574
+FYU-3205,2018-02-05,Uso de celular al conducir,137
+FYU-3205,2015-11-09,Exceso de velocidad,466
+PBX-4995,2022-01-07,No usar cinturón de seguridad,190
+PBX-4995,2023-01-29,No respetar semáforo,333
+PBX-4995,2022-10-07,Vehículo sin placas visibles,636
+FCS-0522,2015-01-24,Estacionamiento indebido,148
+JRC-1373,2019-06-04,Exceso de velocidad,490
+PQE-6022,2022-09-07,No usar cinturón de seguridad,421
+PQE-6022,2023-10-16,Uso de celular al conducir,419
+PQE-6022,2019-06-24,Exceso de velocidad,555
+PQE-6022,2018-06-21,Uso de celular al conducir,613
+BVF-1969,2017-01-12,No usar cinturón de seguridad,485
+BVF-1969,2018-03-29,No usar cinturón de seguridad,438
+BVF-1969,2016-03-29,Uso de celular al conducir,601
+BVF-1969,2018-05-26,Vehículo sin placas visibles,531
+BVF-1969,2017-06-02,No respetar semáforo,757
+IAE-0085,2019-08-25,Exceso de velocidad,813
+IAE-0085,2020-05-15,Estacionamiento indebido,616
+IAE-0085,2019-09-28,No usar cinturón de seguridad,905
+IAE-0085,2021-11-04,No portar licencia,734
+IAE-0085,2020-07-26,No portar licencia,547
+AWS-8883,2021-02-15,Uso de celular al conducir,726
+AWS-8883,2017-09-01,Revisión técnica vencida,119
+AWS-8883,2019-11-11,Circular con luces apagadas,578
+AWS-8883,2021-12-29,Estacionamiento indebido,497
+IWD-9015,2018-06-26,No respetar semáforo,525
+IWD-9015,2017-04-09,No usar cinturón de seguridad,125
+KVK-5093,2017-04-06,No portar licencia,860
+NBR-9443,2017-01-06,Uso de celular al conducir,817
+XPV-4924,2024-02-15,Estacionamiento indebido,173
+XPV-4924,2020-11-19,Exceso de velocidad,154
+ZLQ-5309,2022-08-20,No portar licencia,240
+MEY-9155,2018-07-20,Falta de seguro obligatorio,292
+MEY-9155,2017-08-28,Estacionamiento indebido,919
+MEY-9155,2021-11-13,Uso de celular al conducir,208
+WCA-8017,2024-01-10,Estacionamiento indebido,659
+ZBZ-6862,2023-10-06,Circular con luces apagadas,557
+VCT-2018,2015-04-16,Falta de seguro obligatorio,345
+VCT-2018,2023-05-01,Vehículo sin placas visibles,389
+UKQ-3555,2019-05-25,Uso de celular al conducir,446
+UKQ-3555,2015-10-20,No usar cinturón de seguridad,916
+UKQ-3555,2024-03-02,Exceso de velocidad,252
+UKQ-3555,2017-02-15,No portar licencia,173
+CCF-6043,2024-01-05,Vehículo sin placas visibles,212
+CCF-6043,2015-10-20,No usar cinturón de seguridad,949
+CCF-6043,2015-06-24,Estacionamiento indebido,263
+CCF-6043,2024-09-10,Revisión técnica vencida,499
+CCF-6043,2015-05-10,Revisión técnica vencida,328
+MUZ-7772,2016-01-10,Exceso de velocidad,519
+MUZ-7772,2018-12-05,No usar cinturón de seguridad,763
+JEL-8934,2024-06-02,Estacionamiento indebido,399
+JEL-8934,2024-04-18,Uso de celular al conducir,537
+JEL-8934,2023-08-06,No respetar semáforo,374
+JEL-8934,2019-09-21,Estacionamiento indebido,564
+JEL-8934,2024-07-30,Revisión técnica vencida,650
+ZWX-8008,2022-04-07,No respetar semáforo,462
+OEJ-8820,2020-02-13,Uso de celular al conducir,833
+OEJ-8820,2020-06-10,Estacionamiento indebido,898
+OEJ-8820,2021-05-20,Exceso de velocidad,773
+OEJ-8820,2022-03-17,Vehículo sin placas visibles,831
+OEJ-8820,2021-12-30,Exceso de velocidad,259
+ACJ-4130,2015-09-13,No respetar semáforo,109
+ACJ-4130,2015-01-14,Uso de celular al conducir,573
+ACJ-4130,2022-06-30,Falta de seguro obligatorio,741
+UDC-6565,2022-02-19,Falta de seguro obligatorio,615
+UDC-6565,2024-12-20,No respetar semáforo,987
+UDC-6565,2020-04-27,Vehículo sin placas visibles,804
+UDC-6565,2016-09-11,No usar cinturón de seguridad,539
+UDC-6565,2020-01-18,Circular con luces apagadas,150
+WZC-1080,2016-08-28,No usar cinturón de seguridad,726
+WZC-1080,2021-11-28,Estacionamiento indebido,233
+WZC-1080,2016-02-24,Vehículo sin placas visibles,264
+VVE-7898,2024-11-27,No respetar semáforo,230
+VVE-7898,2018-11-04,No respetar semáforo,789
+VVE-7898,2018-12-05,No usar cinturón de seguridad,349
+VVE-7898,2017-04-27,No usar cinturón de seguridad,595
+VVE-7898,2016-07-07,No portar licencia,771
+AAE-3810,2024-10-06,No usar cinturón de seguridad,470
+AAE-3810,2019-09-08,No portar licencia,653
+AAE-3810,2018-09-26,Exceso de velocidad,728
+AAE-3810,2022-12-24,Exceso de velocidad,866
+AAE-3810,2022-05-16,Exceso de velocidad,692
+PEG-8728,2016-04-25,Estacionamiento indebido,454
+PEG-8728,2018-02-09,Revisión técnica vencida,850
+PEG-8728,2022-08-02,No usar cinturón de seguridad,215
+PEG-8728,2020-12-02,Vehículo sin placas visibles,818
+PEG-8728,2024-06-29,Revisión técnica vencida,500
+HJE-6532,2021-06-29,No respetar semáforo,231
+SHJ-6026,2020-08-03,Circular con luces apagadas,478
+SHJ-6026,2021-12-20,Estacionamiento indebido,280
+GFL-8826,2015-11-18,Vehículo sin placas visibles,930
+RNM-5862,2020-04-15,Falta de seguro obligatorio,899
+RNM-5862,2018-10-24,Uso de celular al conducir,745
+HBL-7633,2021-02-07,No usar cinturón de seguridad,111
+HBL-7633,2021-04-15,Vehículo sin placas visibles,919
+HBL-7633,2023-12-23,Estacionamiento indebido,121
+HBL-7633,2020-05-16,Uso de celular al conducir,456
+SMG-7351,2019-05-08,No portar licencia,799
+SMG-7351,2019-02-13,Vehículo sin placas visibles,489
+WCJ-5468,2016-12-17,Circular con luces apagadas,128
+WCJ-5468,2020-07-18,Revisión técnica vencida,482
+WCJ-5468,2018-05-15,No portar licencia,907
+WCJ-5468,2022-04-05,Revisión técnica vencida,883
+RTO-9711,2015-08-03,Circular con luces apagadas,350
+RTO-9711,2021-08-19,Uso de celular al conducir,268
+RTO-9711,2017-05-20,No respetar semáforo,755
+RTO-9711,2022-03-19,Circular con luces apagadas,540
+RTO-9711,2021-02-16,Falta de seguro obligatorio,141
+RYD-9738,2020-04-09,Revisión técnica vencida,257
+RYD-9738,2017-04-15,Exceso de velocidad,333
+RYD-9738,2022-11-09,Revisión técnica vencida,468
+VJF-9733,2023-12-04,Vehículo sin placas visibles,263
+VJF-9733,2017-06-30,Circular con luces apagadas,470
+VJF-9733,2020-03-11,No usar cinturón de seguridad,624
+VJF-9733,2023-04-21,Falta de seguro obligatorio,235
+VOB-3838,2022-08-23,Revisión técnica vencida,433
+VOB-3838,2017-10-29,Vehículo sin placas visibles,283
+VOB-3838,2018-07-30,No portar licencia,457
+VOB-3838,2018-08-03,Uso de celular al conducir,954
+JEI-0604,2018-01-13,Revisión técnica vencida,111
+JEI-0604,2020-04-13,No portar licencia,708
+JEI-0604,2024-12-08,Falta de seguro obligatorio,242
+JKI-1128,2020-05-19,No respetar semáforo,423
+JKI-1128,2021-01-16,Estacionamiento indebido,620
+JKI-1128,2016-12-22,Revisión técnica vencida,423
+JKI-1128,2018-12-05,No portar licencia,905
+JKI-1128,2023-10-16,No respetar semáforo,858
+JJP-7823,2022-02-26,Uso de celular al conducir,769
+JJP-7823,2016-07-31,Estacionamiento indebido,974
+JJP-7823,2021-12-23,Revisión técnica vencida,100
+PPI-1100,2023-07-31,No portar licencia,867
+PPI-1100,2024-12-06,Falta de seguro obligatorio,847
+LOE-5461,2015-06-05,Vehículo sin placas visibles,286
+WHY-1060,2017-11-30,Uso de celular al conducir,678
+WHY-1060,2022-06-19,Vehículo sin placas visibles,577
+WHY-1060,2016-07-25,Exceso de velocidad,649
+SCC-3300,2017-06-17,Circular con luces apagadas,156
+SCC-3300,2020-06-11,Vehículo sin placas visibles,713
+SCC-3300,2016-11-10,Vehículo sin placas visibles,492
+SCC-3300,2019-01-29,No respetar semáforo,725
+SCC-3300,2024-05-09,No usar cinturón de seguridad,840
+UOQ-4536,2022-07-27,No respetar semáforo,881
+LWE-3609,2018-07-07,Circular con luces apagadas,758
+DZG-0382,2022-01-22,Exceso de velocidad,526
+DZG-0382,2022-02-17,Circular con luces apagadas,453
+DZG-0382,2021-03-28,Uso de celular al conducir,788
+DZG-0382,2017-08-22,No usar cinturón de seguridad,742
+HUI-8318,2020-07-25,Exceso de velocidad,686
+QCH-1826,2024-10-29,No portar licencia,736
+RZY-6989,2018-05-23,No respetar semáforo,395
+RZY-6989,2017-01-06,No respetar semáforo,936
+RZY-6989,2017-06-22,No portar licencia,483
+RZY-6989,2022-09-08,Falta de seguro obligatorio,272
+TCX-1066,2018-12-12,Circular con luces apagadas,426
+FAO-4992,2023-03-11,Revisión técnica vencida,321
+FAO-4992,2020-01-20,Exceso de velocidad,333
+FAO-4992,2016-10-09,Estacionamiento indebido,694
+BAM-0967,2021-04-30,No respetar semáforo,811
+BAM-0967,2024-01-16,Vehículo sin placas visibles,387
+BAM-0967,2022-11-03,Uso de celular al conducir,812
+BAM-0967,2018-09-04,Exceso de velocidad,999
+BAM-0967,2020-09-27,No usar cinturón de seguridad,124
+PWH-0737,2021-07-15,Estacionamiento indebido,537
+PWH-0737,2018-02-25,No respetar semáforo,310
+PWH-0737,2018-09-12,Exceso de velocidad,220
+NOG-1155,2023-11-07,No portar licencia,467
+NOG-1155,2023-11-14,No usar cinturón de seguridad,460
+ZWX-2943,2023-12-23,Vehículo sin placas visibles,395
+ZWX-2943,2020-07-11,Vehículo sin placas visibles,548
+ZWX-2943,2022-06-11,Circular con luces apagadas,669
+YJO-4789,2020-09-16,No usar cinturón de seguridad,515
+YJO-4789,2016-08-15,Uso de celular al conducir,188
+YJO-4789,2023-05-08,Exceso de velocidad,131
+YJO-4789,2016-06-27,Estacionamiento indebido,467
+JMA-2794,2019-03-17,No respetar semáforo,566
+JMA-2794,2024-10-23,Vehículo sin placas visibles,939
+JMA-2794,2018-04-14,Circular con luces apagadas,979
+JMA-2794,2022-05-06,No portar licencia,619
+JMA-2794,2020-09-28,No portar licencia,119
+WRQ-8924,2016-09-08,No respetar semáforo,705
+WRQ-8924,2017-07-15,Falta de seguro obligatorio,355
+WRQ-8924,2016-04-20,Circular con luces apagadas,135
+WRQ-8924,2021-01-11,Revisión técnica vencida,758
+WGM-1537,2020-10-01,Estacionamiento indebido,848
+WGM-1537,2021-12-20,Revisión técnica vencida,971
+WGM-1537,2017-09-28,Vehículo sin placas visibles,339
+WGM-1537,2020-05-16,No respetar semáforo,747
+WGM-1537,2022-11-26,Vehículo sin placas visibles,987
+IZY-3215,2016-11-13,No portar licencia,696
+KEY-0405,2021-02-14,Exceso de velocidad,910
+KEY-0405,2019-07-15,Revisión técnica vencida,547
+KEY-0405,2017-09-30,No usar cinturón de seguridad,209
+KEY-0405,2020-11-03,No usar cinturón de seguridad,530
+KEY-0405,2018-05-24,Vehículo sin placas visibles,587
+JTF-3864,2022-04-01,Falta de seguro obligatorio,177
+JTF-3864,2022-09-17,Uso de celular al conducir,102
+LVY-7143,2019-05-22,Estacionamiento indebido,264
+LVY-7143,2022-05-24,Vehículo sin placas visibles,124
+LVY-7143,2018-04-11,Falta de seguro obligatorio,234
+NBL-6967,2017-10-12,Vehículo sin placas visibles,788
+NBL-6967,2018-05-02,No usar cinturón de seguridad,393
+NBL-6967,2018-04-04,Falta de seguro obligatorio,623
+NBL-6967,2019-03-29,Exceso de velocidad,650
+UCZ-8239,2023-01-24,Falta de seguro obligatorio,249
+UCZ-8239,2016-02-23,No usar cinturón de seguridad,875
+UCZ-8239,2020-09-13,No usar cinturón de seguridad,230
+UCZ-8239,2017-06-15,No portar licencia,554
+ISA-1569,2020-06-27,Falta de seguro obligatorio,499
+ISA-1569,2022-06-24,Vehículo sin placas visibles,935
+ISA-1569,2023-08-10,No usar cinturón de seguridad,986
+ISA-1569,2023-03-13,Circular con luces apagadas,374
+ISA-1569,2016-03-11,No usar cinturón de seguridad,398
+JHQ-0832,2023-08-13,Exceso de velocidad,258
+JHQ-0832,2024-06-25,Vehículo sin placas visibles,745
+JHQ-0832,2021-07-26,No usar cinturón de seguridad,554
+JHQ-0832,2016-12-30,No usar cinturón de seguridad,998
+EGL-8137,2017-07-16,Estacionamiento indebido,703
+EGL-8137,2016-09-03,Exceso de velocidad,263
+TRM-8433,2023-04-09,Circular con luces apagadas,437
+TRM-8433,2021-03-06,Exceso de velocidad,718
+TRM-8433,2018-07-28,Estacionamiento indebido,286
+CFU-6902,2016-06-20,Estacionamiento indebido,116
+CFU-6902,2022-07-06,No portar licencia,515
+CFU-6902,2021-02-20,No respetar semáforo,575
+IEF-1035,2019-11-16,Revisión técnica vencida,575
+IEF-1035,2020-07-16,Falta de seguro obligatorio,624
+GXD-9901,2020-04-28,Estacionamiento indebido,491
+GXD-9901,2018-05-01,No portar licencia,593
+FUJ-0164,2020-09-17,Estacionamiento indebido,271
+FUJ-0164,2020-10-27,No respetar semáforo,445
+FUJ-0164,2016-05-12,Circular con luces apagadas,654
+FUJ-0164,2016-01-01,No respetar semáforo,391
+BIE-5583,2021-09-13,Exceso de velocidad,302
+BIE-5583,2019-03-27,Revisión técnica vencida,225
+BIE-5583,2021-10-17,Vehículo sin placas visibles,278
+BIE-5583,2018-01-29,Circular con luces apagadas,575
+BIE-5583,2020-05-07,Vehículo sin placas visibles,525
+RHL-8765,2018-11-16,No portar licencia,228
+RHL-8765,2016-06-21,Exceso de velocidad,766
+TKR-4799,2022-01-08,Revisión técnica vencida,773
+TKR-4799,2017-03-06,Estacionamiento indebido,253
+CJF-9744,2023-05-01,Vehículo sin placas visibles,845
+CJF-9744,2016-02-01,No portar licencia,929
+MJF-1086,2020-10-17,No usar cinturón de seguridad,929
+GWP-6976,2022-04-26,Estacionamiento indebido,687
+GWP-6976,2022-10-20,Circular con luces apagadas,932
+GWP-6976,2019-07-29,Vehículo sin placas visibles,624
+GGC-7375,2020-02-05,Estacionamiento indebido,742
+EPZ-7322,2022-03-31,No usar cinturón de seguridad,181
+EPZ-7322,2019-01-02,Uso de celular al conducir,838
+DVQ-1571,2020-07-15,No portar licencia,248
+DVQ-1571,2016-02-02,Uso de celular al conducir,310
+DVQ-1571,2024-12-03,No portar licencia,571
+HDR-4067,2021-07-03,Circular con luces apagadas,714
+HDR-4067,2017-10-05,Vehículo sin placas visibles,799
+HDR-4067,2023-06-23,Revisión técnica vencida,183
+HDR-4067,2023-04-09,Revisión técnica vencida,381
+HDR-4067,2021-06-16,No portar licencia,361
+KMU-3112,2023-05-28,No respetar semáforo,138
+KMU-3112,2017-02-15,Revisión técnica vencida,941
+KMU-3112,2020-01-14,Vehículo sin placas visibles,740
+KMU-3112,2016-12-06,No usar cinturón de seguridad,959
+YYK-1672,2019-08-06,Exceso de velocidad,763
+ZYV-4969,2017-07-11,Uso de celular al conducir,212
+ZYV-4969,2021-12-30,Uso de celular al conducir,287
+ZYV-4969,2022-08-02,Revisión técnica vencida,202
+KYS-6265,2021-07-16,No usar cinturón de seguridad,822
+KYS-6265,2020-01-12,Vehículo sin placas visibles,557
+KYS-6265,2021-12-17,No respetar semáforo,768
+ZCJ-6834,2024-09-14,No respetar semáforo,738
+ZCJ-6834,2024-05-08,Falta de seguro obligatorio,865
+ZCJ-6834,2021-03-03,No usar cinturón de seguridad,595
+EPH-7552,2022-12-13,No usar cinturón de seguridad,830
+EPH-7552,2017-07-27,No portar licencia,512
+EPH-7552,2023-12-19,Revisión técnica vencida,443
+SNJ-0191,2024-02-15,No portar licencia,461
+SNJ-0191,2015-06-20,Uso de celular al conducir,569
+UYU-4075,2019-07-21,No portar licencia,613
+UGO-6889,2018-08-24,Estacionamiento indebido,313
+UGO-6889,2015-09-05,Revisión técnica vencida,340
+UGO-6889,2022-03-14,Revisión técnica vencida,1000
+EZB-1114,2019-05-04,Exceso de velocidad,233
+EZB-1114,2020-10-04,Circular con luces apagadas,781
+EZB-1114,2016-08-30,Revisión técnica vencida,119
+FQJ-6375,2019-05-06,Circular con luces apagadas,738
+FQJ-6375,2022-05-01,Falta de seguro obligatorio,520
+FQJ-6375,2016-12-14,Falta de seguro obligatorio,875
+FQJ-6375,2020-11-23,No respetar semáforo,202
+FQJ-6375,2024-10-06,Uso de celular al conducir,682
+NAD-6732,2023-11-27,Revisión técnica vencida,769
+NAD-6732,2015-06-12,No respetar semáforo,307
+LOE-2897,2020-01-27,Falta de seguro obligatorio,440
+LOE-2897,2024-04-13,Uso de celular al conducir,479
+LOE-2897,2020-10-25,Estacionamiento indebido,539
+LOE-2897,2017-04-02,No respetar semáforo,661
+LOE-2897,2017-04-18,Circular con luces apagadas,992
+DFA-0188,2024-03-17,Circular con luces apagadas,750
+DFA-0188,2015-04-30,Falta de seguro obligatorio,349
+DFA-0188,2018-07-08,No usar cinturón de seguridad,786
+DFA-0188,2016-03-10,Revisión técnica vencida,216
+INN-7412,2022-02-22,Uso de celular al conducir,236
+INN-7412,2017-08-13,No usar cinturón de seguridad,714
+INN-7412,2021-01-27,Uso de celular al conducir,328
+INN-7412,2020-07-18,Exceso de velocidad,721
+CYU-2407,2015-12-01,Revisión técnica vencida,928
+CYU-2407,2023-05-01,No respetar semáforo,118
+OIS-4258,2015-04-19,No respetar semáforo,279
+OIS-4258,2016-04-24,No portar licencia,857
+OIS-4258,2023-06-07,Exceso de velocidad,787
+MTZ-6556,2021-09-13,Revisión técnica vencida,971
+MTZ-6556,2021-12-15,No usar cinturón de seguridad,792
+MTZ-6556,2020-11-21,No portar licencia,900
+MTZ-6556,2020-04-30,Estacionamiento indebido,969
+MPS-5422,2020-12-30,Estacionamiento indebido,208
+MPS-5422,2018-02-27,Circular con luces apagadas,816
+MPS-5422,2017-07-10,Vehículo sin placas visibles,521
+MPS-5422,2016-05-07,Revisión técnica vencida,974
+MPS-5422,2016-03-08,Estacionamiento indebido,698
+HOC-5062,2019-05-28,Falta de seguro obligatorio,835
+HOC-5062,2024-04-05,Revisión técnica vencida,503
+CRH-1781,2015-03-26,No portar licencia,655
+RRR-8873,2019-12-05,Uso de celular al conducir,493
+EUV-3371,2018-02-25,No usar cinturón de seguridad,437
+EUV-3371,2017-07-31,Exceso de velocidad,298
+DIG-6150,2022-06-23,No respetar semáforo,515
+DIG-6150,2024-10-27,Falta de seguro obligatorio,600
+DIG-6150,2024-07-14,Revisión técnica vencida,705
+DIG-6150,2022-06-20,No usar cinturón de seguridad,819
+DIG-6150,2024-08-31,Estacionamiento indebido,890
+WNX-7811,2023-02-07,Revisión técnica vencida,729
+ZEL-2285,2023-01-17,Revisión técnica vencida,869
+ZEL-2285,2020-05-18,Falta de seguro obligatorio,954
+ZEL-2285,2015-02-02,Estacionamiento indebido,597
+XCZ-9813,2018-06-15,No respetar semáforo,119
+XCZ-9813,2023-01-24,No portar licencia,343
+XCZ-9813,2024-01-26,No portar licencia,817
+ZWQ-2691,2024-10-05,No usar cinturón de seguridad,107
+ZWQ-2691,2016-12-04,Circular con luces apagadas,720
+ZWQ-2691,2016-10-19,Exceso de velocidad,450
+ZWQ-2691,2017-01-08,No usar cinturón de seguridad,367
+SIT-7987,2022-03-10,No portar licencia,666
+SIT-7987,2017-12-26,Falta de seguro obligatorio,241
+TCY-7049,2022-05-31,No respetar semáforo,372
+TCY-7049,2016-01-19,No portar licencia,746
+TCY-7049,2021-07-08,No usar cinturón de seguridad,601
+TCY-7049,2015-11-23,Uso de celular al conducir,635
+TCY-7049,2021-10-04,Revisión técnica vencida,656
+LED-8751,2015-06-18,Falta de seguro obligatorio,116
+LED-8751,2018-04-14,Revisión técnica vencida,984
+LED-8751,2024-12-15,Vehículo sin placas visibles,368
+LED-8751,2015-11-01,No usar cinturón de seguridad,724
+NCL-2076,2021-08-30,No respetar semáforo,474
+NCL-2076,2015-06-16,Circular con luces apagadas,126
+NCL-2076,2017-11-17,Uso de celular al conducir,607
+NCL-2076,2019-05-22,No respetar semáforo,688
+YZO-0685,2017-01-17,No usar cinturón de seguridad,624
+YZO-0685,2019-01-23,Estacionamiento indebido,244
+YZO-0685,2021-09-26,No portar licencia,898
+YZO-0685,2023-07-13,Falta de seguro obligatorio,791
+RLD-3129,2016-10-12,Exceso de velocidad,751
+RLD-3129,2016-07-12,Circular con luces apagadas,736
+RLD-3129,2022-04-03,Revisión técnica vencida,970
+BAC-7106,2019-01-30,Uso de celular al conducir,474
+BAC-7106,2021-12-30,Uso de celular al conducir,301
+BAC-7106,2023-12-23,Exceso de velocidad,599
+VGQ-0122,2022-07-08,Circular con luces apagadas,546
+VGQ-0122,2024-08-23,No respetar semáforo,636
+VGQ-0122,2018-05-13,Uso de celular al conducir,158
+NEH-2486,2024-12-28,Revisión técnica vencida,224
+NEH-2486,2018-05-17,Revisión técnica vencida,313
+NEH-2486,2019-09-14,Vehículo sin placas visibles,890
+NEH-2486,2020-06-28,Falta de seguro obligatorio,352
+DWC-3586,2023-03-08,Circular con luces apagadas,377
+DWC-3586,2019-08-31,Falta de seguro obligatorio,846
