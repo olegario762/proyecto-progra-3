@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 
 /*
@@ -13,23 +14,22 @@ import javax.swing.table.DefaultTableModel;
 public class Vehiculos extends javax.swing.JFrame {
     
     
-     DefaultTableModel modeloVehiculos = new DefaultTableModel();
-    DefaultTableModel modeloTraspasos = new DefaultTableModel();
     
     Lista_Vehiculos ve = new Lista_Vehiculos();
-     Lista_Traspasos listaTraspasos = new Lista_Traspasos();
-    Lista_Doble list_multas = new Lista_Doble();
-
+    ArbolVehiculos arbol = new ArbolVehiculos(); 
+   
    
     
     
     
     public Vehiculos() {
         initComponents();
+        DefaultTableModel modelo_ve = (DefaultTableModel) tabla_vehi.getModel();
+        modelo_ve.setRowCount(0); // Limpiar por si acaso
+        Importar_archivos_multas.cargarVehiculos(modelo_ve, ve, arbol);
         
-        Importar_archivos_multas.cargarTodosLosArchivos(modeloVehiculos, list_multas, ve);
-        Importar_archivos_multas.cargarTraspasos(modeloTraspasos, listaTraspasos, ve);
-        Importar_archivos_multas.cargarVehiculos(modeloVehiculos, ve);
+      
+        
         
         
         
@@ -54,6 +54,7 @@ public class Vehiculos extends javax.swing.JFrame {
         Traspaso = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        pre = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -111,6 +112,14 @@ public class Vehiculos extends javax.swing.JFrame {
         });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 350, 140, -1));
 
+        pre.setText("Preorden");
+        pre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                preActionPerformed(evt);
+            }
+        });
+        jPanel1.add(pre, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 280, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -135,10 +144,7 @@ public class Vehiculos extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-         DefaultTableModel modelo_ve = (DefaultTableModel) tabla_vehi.getModel();
-        modelo_ve.setRowCount(0);
-   
-        Importar_archivos_multas.cargarVehiculos(modelo_ve, ve);
+         
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void TraspasoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TraspasoActionPerformed
@@ -160,6 +166,22 @@ public class Vehiculos extends javax.swing.JFrame {
         multas.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void preActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_preActionPerformed
+         DefaultTableModel modelo = (DefaultTableModel) tabla_vehi.getModel();
+    modelo.setRowCount(0); // limpia la tabla
+
+    ArrayList<Vehiculo> lista = arbol.obtenerListaPreOrden(); // obtenemos la lista
+
+    for (Vehiculo v : lista) {
+        modelo.addRow(new Object[]{
+            v.getDepartamento(), v.getPlaca(), v.getDpi(), v.getNombre(),
+            v.getMarca(), v.getModelo(), v.getAnio(),
+            v.getMultas(), v.getTraspasos()
+        });
+    }
+
+    }//GEN-LAST:event_preActionPerformed
 
     /**
      * @param args the command line arguments
@@ -203,6 +225,7 @@ public class Vehiculos extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JButton pre;
     private javax.swing.JTable tabla_vehi;
     // End of variables declaration//GEN-END:variables
 }

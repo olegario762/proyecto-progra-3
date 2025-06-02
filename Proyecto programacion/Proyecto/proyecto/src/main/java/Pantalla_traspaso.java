@@ -13,28 +13,22 @@ import javax.swing.table.DefaultTableModel;
 public class Pantalla_traspaso extends javax.swing.JFrame {
     
     
+    DefaultTableModel modelo_traspasos = new DefaultTableModel();
 
-   
-
- 
+    Lista_Traspasos listaTraspasos = new Lista_Traspasos();
+    Lista_Vehiculos ve = new Lista_Vehiculos();
     Lista_Doble list_multas = new Lista_Doble();
-    
-    Lista_Traspasos Tras = new Lista_Traspasos();
-    Lista_Vehiculos listaVehiculos = new Lista_Vehiculos();
 
-    /**
-     * Creates new form Pantalla_traspaso
-     */
+
     public Pantalla_traspaso() {
         initComponents();
         
-         DefaultTableModel modelo = (DefaultTableModel) Traspasos_tabla.getModel();
+        modelo_traspasos = (DefaultTableModel) Traspasos_tabla.getModel();
 
-        // Cargar todos los datos desde los archivos
-        Importar_archivos_multas.cargarTodosLosArchivos(modelo, list_multas, listaVehiculos);
-        Importar_archivos_multas.cargarTraspasos(modelo, Tras, listaVehiculos);
-        Importar_archivos_multas.cargarVehiculos(modelo, listaVehiculos);
       
+        
+   
+        
         
         this.setExtendedState(MAXIMIZED_BOTH);
         this.setLocationRelativeTo(null);
@@ -129,24 +123,34 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void importarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_importarActionPerformed
-         DefaultTableModel modelo = (DefaultTableModel) Traspasos_tabla.getModel();
-        modelo.setRowCount(0); // Limpiar tabla
-        Importar_archivos_multas.cargarTraspasos(modelo, Tras, listaVehiculos); 
-        
-        
-        // DefaultTableModel modelo_ve = (DefaultTableModel) tabla_vehi.getModel();
-       // modelo_ve.setRowCount(0);
+    
+
+    Importar_archivos_multas.cargarTodosLosArchivos_multas(modelo_traspasos, list_multas, ve);
    
-       // Importar_archivos_multas.cargarVehiculos(modelo_ve, ve);
+
+   
+    System.out.println("Verificando si la lista de vehículos tiene datos:");
+    Nodo_Vehiculo aux = ve.cabeza; 
+    int contador = 0;
+    while (aux != null) {
+        System.out.println("- Vehículo: " + aux.placa);
+        contador++;
+        aux = aux.siguiente;
+    }
+    System.out.println("Total de vehículos cargados: " + contador);
+        
+        
+        modelo_traspasos.setRowCount(0); 
+        
+        
+    Importar_archivos_multas.cargarTraspasos(modelo_traspasos, listaTraspasos, ve);
     }//GEN-LAST:event_importarActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

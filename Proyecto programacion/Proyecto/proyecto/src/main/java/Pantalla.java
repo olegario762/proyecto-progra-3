@@ -35,9 +35,9 @@ public class Pantalla extends javax.swing.JFrame {
     public Pantalla() {
         
         initComponents();
-         Importar_archivos_multas.cargarTodosLosArchivos(modeloVehiculos, list, listaVehiculos);
+         Importar_archivos_multas.cargarTodosLosArchivos_multas(modeloVehiculos, list, listaVehiculos);
           Importar_archivos_multas.cargarTraspasos(modeloTraspasos, Tras, listaVehiculos);
-           Importar_archivos_multas.cargarVehiculos(modeloVehiculos, listaVehiculos);
+         
         
         
         this.setExtendedState(MAXIMIZED_BOTH);
@@ -250,10 +250,7 @@ public class Pantalla extends javax.swing.JFrame {
     
    
     private void ImportarMultasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ImportarMultasMouseClicked
-       DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
-        modelo.setRowCount(0);
-        listaVehiculos.vaciar();
-        Importar_archivos_multas.cargarTodosLosArchivos(modelo, list, listaVehiculos);
+       
             
  
     
@@ -352,9 +349,9 @@ public class Pantalla extends javax.swing.JFrame {
         int filaSeleccionada = tabla1.getSelectedRow();
 
         if (filaSeleccionada != -1) {
-            String placa = tabla1.getValueAt(filaSeleccionada, 0).toString(); // columna 0 = placa
-            list.eliminarPorPlaca(placa); // eliminar en lista doblemente enlazada
-            ((DefaultTableModel) tabla1.getModel()).removeRow(filaSeleccionada); // eliminar en la tabla
+            String placa = tabla1.getValueAt(filaSeleccionada, 0).toString(); 
+            list.eliminarPorPlaca(placa); 
+            ((DefaultTableModel) tabla1.getModel()).removeRow(filaSeleccionada); 
             JOptionPane.showMessageDialog(null, "Registro eliminado correctamente.");
         } else {
             JOptionPane.showMessageDialog(null, "Por favor selecciona una fila para eliminar.");
@@ -436,7 +433,10 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void ImportarMultasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ImportarMultasActionPerformed
-    
+         DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
+        modelo.setRowCount(0);
+      
+        Importar_archivos_multas.cargarTodosLosArchivos_multas(modelo, list, listaVehiculos);
 
     }//GEN-LAST:event_ImportarMultasActionPerformed
 

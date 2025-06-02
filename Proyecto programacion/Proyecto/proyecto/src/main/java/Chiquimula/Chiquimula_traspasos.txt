@@ -1,3 +1,4 @@
+Placa,DPI,NuevoPropietario,Fecha
 VTR-4930,6465460007196,María Luisa Domingo Godoy,2024-02-29
 VTR-4930,9947122083292,Edgardo Franch-Doménech,2016-04-13
 VTR-4930,4145231274795,Ruth Moraleda Barrios,2023-09-29

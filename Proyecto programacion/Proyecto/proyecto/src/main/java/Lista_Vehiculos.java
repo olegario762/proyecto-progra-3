@@ -90,9 +90,31 @@ public class Lista_Vehiculos {
     
     
     
-    
+    public Nodo_Vehiculo buscarPorPlaca(String placaBuscada) {
+    if (placaBuscada == null) return null;
+    placaBuscada = placaBuscada.trim().toUpperCase();
 
-    public Nodo_Vehiculo buscarPorPlaca(String placa) {
+    Nodo_Vehiculo actual = cabeza; // o como tengas definido el inicio de la lista
+    while (actual != null) {
+        if (actual.placa != null && actual.placa.trim().toUpperCase().equals(placaBuscada)) {
+            return actual;
+        }
+        actual = actual.siguiente;
+    }
+    return null;
+}
+    
+    public int total() {
+    int contador = 0;
+    Nodo_Vehiculo aux = cabeza;
+    while (aux != null) {
+        contador++;
+        aux = aux.siguiente;
+    }
+    return contador;
+}
+
+    /*public Nodo_Vehiculo buscarPorPlaca(String placa) {
         Nodo_Vehiculo actual = cabeza;
         while (actual != null) {
             if (actual.placa.trim().equalsIgnoreCase(placa.trim())) {
@@ -102,7 +124,7 @@ public class Lista_Vehiculos {
         }
         return null;
     }
-    /*   */
+       */
    
 
     public void mostrar() {

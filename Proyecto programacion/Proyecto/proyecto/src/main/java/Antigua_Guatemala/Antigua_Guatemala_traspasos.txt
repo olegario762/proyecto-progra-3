@@ -1,3 +1,4 @@
+Placa,DPI,NuevoPropietario,Fecha
 UXR-7207,8763347604555,Juan Carlos Vilalta Goicoechea,2018-03-10
 UXR-7207,1237666735597,Angelita Arias Carballo,2017-05-28
 NUB-6096,4897981101431,Fabián Camacho Cañas,2023-11-08
@@ -1557,4 +1558,4 @@ NTO-3696,4442822876237,Julio César Ruiz Mendoza,2019-06-18
 NTO-3696,1640843713270,Matilde Sacristán-Rebollo,2022-03-04
 DDA-2440,9291700370022,Esther Montalbán Alberto,2018-01-28
 DDA-2440,7512541785099,Eva María Merino Manzanares,2019-03-02
-UXR-7207,99991111,olegario Antinio ixtamer mendez,2020-25-2035
+EVN-0347,9999999933,olegario ,31-05-2025

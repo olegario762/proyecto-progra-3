@@ -26,8 +26,8 @@ public class _Traspaso extends javax.swing.JFrame {
         initComponents();
         
         Importar_archivos_multas.cargarTraspasos(modeloTraspasos, listaTraspasos, listaVehiculos);
-        Importar_archivos_multas.cargarVehiculos(modeloVehiculos, listaVehiculos);
-        Importar_archivos_multas.cargarTodosLosArchivos(modeloVehiculos, list_multas, listaVehiculos);
+        
+        Importar_archivos_multas.cargarTodosLosArchivos_multas(modeloVehiculos, list_multas, listaVehiculos);
         
         
         this.setExtendedState(MAXIMIZED_BOTH);
@@ -152,23 +152,23 @@ String departamento = Depa.getText();
 Nodo_Vehiculo vehiculo = listaVehiculos.buscarPorPlaca(placa);
 
 if (vehiculo != null) {
-    // Crear lista si no existe aún
+ 
     if (vehiculo.traspaso == null) {
         vehiculo.traspaso = new Lista_Traspasos();
     }
 
-    // Guardar propietario anterior
+ 
     String dpiAnterior = vehiculo.dpi;
     String nombreAnterior = vehiculo.nombre;
 
-    // Agregar a lista de traspasos del vehículo y a la lista global
+  
     vehiculo.traspaso.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha,
                                    nuevoDpi, nuevoNombre, departamento, vehiculo);
 
     listaTraspasos.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha,
                                 nuevoDpi, nuevoNombre, departamento, vehiculo);
 
-    // Actualizar propietario en el vehículo
+   
     vehiculo.dpi = nuevoDpi;
     vehiculo.nombre = nuevoNombre;
     vehiculo.cantidadTraspasos++;

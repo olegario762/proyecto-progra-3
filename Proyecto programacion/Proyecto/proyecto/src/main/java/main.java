@@ -20,9 +20,9 @@ public class main {
         Lista_Traspasos listaTraspasos = new Lista_Traspasos();
         Lista_Doble list_multas = new Lista_Doble ();
         
-        Importar_archivos_multas.cargarVehiculos(modelo_ve, listaVehiculos);
+       
         Importar_archivos_multas.cargarTraspasos(modelo_ve, listaTraspasos, listaVehiculos);
-        Importar_archivos_multas.cargarTodosLosArchivos(modelo_ve, list_multas, listaVehiculos);
+        Importar_archivos_multas.cargarTodosLosArchivos_multas(modelo_ve, list_multas, listaVehiculos);
         
         
         Vehiculos vehiculos = new Vehiculos();

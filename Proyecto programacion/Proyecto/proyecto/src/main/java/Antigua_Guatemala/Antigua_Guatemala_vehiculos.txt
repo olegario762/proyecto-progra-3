@@ -1,10 +1,10 @@
 Placa,DPI,Nombre,Marca,Modelo,Año,Multas,Traspasos
-UXR-7207,99991111,olegario Antinio ixtamer mendez,Toyota,Hilux,2013,4,5
+UXR-7207,3638347803101,René Julián Cabezas,Toyota,Hilux,2013,4,2
 NUB-6096,6741666963025,Álvaro Pascual Oller Ramón,Kia,Picanto,2005,1,2
 YPK-9145,5352311780173,Benito Barceló Nadal,Mazda,BT-50,2008,4,2
 BXH-9368,7954105022435,Adelia Luna-Caballero,Honda,CR-V,2003,0,3
 EIX-4665,4530365239674,Herberto Duque-Andrés,Kia,Sorento,2006,2,2
-EVN-0347,2517080643008,Malena Amo Aznar,Honda,Civic,2022,4,1
+EVN-0347,9999999933,olegario ,Honda,Civic,2022,4,4
 MTS-3142,2081226991054,Otilia de Lucas,Toyota,Corolla,2002,2,0
 JXS-2434,8917623127917,Aureliano Perelló Simó,Mazda,6,2006,0,2
 SLM-2968,7107261510852,Blas Bernal Gaya,Toyota,Yaris,2021,5,2
