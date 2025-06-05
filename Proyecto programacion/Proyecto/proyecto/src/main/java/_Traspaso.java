@@ -17,17 +17,15 @@ public class _Traspaso extends javax.swing.JFrame {
     DefaultTableModel modeloTraspasos = new DefaultTableModel();
    
 
-    Lista_Vehiculos listaVehiculos = new Lista_Vehiculos();
+  
     Lista_Traspasos listaTraspasos = new Lista_Traspasos();
-    Lista_Doble list_multas = new Lista_Doble();
+    Lista_Multas list_multas = new Lista_Multas();
     
 
     public _Traspaso() {
         initComponents();
         
-        Importar_archivos_multas.cargarTraspasos(modeloTraspasos, listaTraspasos, listaVehiculos);
-        
-        Importar_archivos_multas.cargarTodosLosArchivos_multas(modeloVehiculos, list_multas, listaVehiculos);
+      
         
         
         this.setExtendedState(MAXIMIZED_BOTH);
@@ -143,52 +141,13 @@ public class _Traspaso extends javax.swing.JFrame {
 
     private void gaurdar_nodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gaurdar_nodoActionPerformed
     
-        String placa = placa_tex.getText();
-String nuevoDpi = Dpi_tex.getText();
-String nuevoNombre = Nombre_tex.getText();
-String fecha = Fecha_tex.getText();
-String departamento = Depa.getText();
-
-Nodo_Vehiculo vehiculo = listaVehiculos.buscarPorPlaca(placa);
-
-if (vehiculo != null) {
- 
-    if (vehiculo.traspaso == null) {
-        vehiculo.traspaso = new Lista_Traspasos();
-    }
-
- 
-    String dpiAnterior = vehiculo.dpi;
-    String nombreAnterior = vehiculo.nombre;
-
-  
-    vehiculo.traspaso.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha,
-                                   nuevoDpi, nuevoNombre, departamento, vehiculo);
-
-    listaTraspasos.agregarFinal(placa, dpiAnterior, nombreAnterior, fecha,
-                                nuevoDpi, nuevoNombre, departamento, vehiculo);
-
-   
-    vehiculo.dpi = nuevoDpi;
-    vehiculo.nombre = nuevoNombre;
-    vehiculo.cantidadTraspasos++;
-
-    JOptionPane.showMessageDialog(this, "¡Traspaso realizado correctamente!");
-} else {
-    JOptionPane.showMessageDialog(this, "Vehículo con esa placa no fue encontrado.");
-}
-
-    
-
 
  
 
     }//GEN-LAST:event_gaurdar_nodoActionPerformed
 
     private void Guardar_en_el_txt___ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Guardar_en_el_txt___ActionPerformed
-        
-        Importar_archivos_multas.EscritorArchivos.guardarVehiculosPorDepartamento(listaVehiculos);
-        Importar_archivos_multas .EscritorArchivos.guardarTraspasosPorDepartamento(listaTraspasos);
+   
        
     }//GEN-LAST:event_Guardar_en_el_txt___ActionPerformed
 

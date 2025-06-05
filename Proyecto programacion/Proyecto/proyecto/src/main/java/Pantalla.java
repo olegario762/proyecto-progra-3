@@ -1,10 +1,4 @@
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -14,29 +8,24 @@ import javax.swing.table.DefaultTableModel;
 public class Pantalla extends javax.swing.JFrame {
     
     
-    DefaultTableModel modeloVehiculos = new DefaultTableModel();
-    DefaultTableModel modeloTraspasos = new DefaultTableModel();
+   
    
 
   
- 
+  Lista_Multas listaMultas = new Lista_Multas();
     
-    Lista_Doble list = new Lista_Doble();
-    Lista_Vehiculos listaVehiculos = new Lista_Vehiculos();
-    Lista_Traspasos Tras = new Lista_Traspasos();
     
-
-    File archivo;
-    FileReader fr;
-    BufferedReader br;
     
     
     
     public Pantalla() {
         
         initComponents();
-         Importar_archivos_multas.cargarTodosLosArchivos_multas(modeloVehiculos, list, listaVehiculos);
-          Importar_archivos_multas.cargarTraspasos(modeloTraspasos, Tras, listaVehiculos);
+        
+       
+        listaMultas.cargarMultasDesdeCarpetas("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+        tabla1.setModel(listaMultas.obtenerModeloTabla());
+         
          
         
         
@@ -69,7 +58,6 @@ public class Pantalla extends javax.swing.JFrame {
         Descripcion = new javax.swing.JLabel();
         Agregar_final = new javax.swing.JButton();
         guarda_documento = new javax.swing.JButton();
-        Agreagar_prin = new javax.swing.JButton();
         Limpiar = new javax.swing.JButton();
         Buscar = new javax.swing.JButton();
         txtPlacaBuscar = new javax.swing.JTextField();
@@ -79,6 +67,10 @@ public class Pantalla extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        depa = new javax.swing.JTextField();
+        Modificar___ = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -95,7 +87,7 @@ public class Pantalla extends javax.swing.JFrame {
                 ImportarMultasActionPerformed(evt);
             }
         });
-        jPanel1.add(ImportarMultas, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 450, -1, -1));
+        jPanel1.add(ImportarMultas, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 480, -1, -1));
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(452, 400));
 
@@ -124,7 +116,7 @@ public class Pantalla extends javax.swing.JFrame {
             tabla1.getColumnModel().getColumn(4).setResizable(false);
         }
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 830, 210));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, 830, 210));
         jPanel1.add(Placa23, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 40, 180, -1));
         jPanel1.add(fecha2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 180, -1));
         jPanel1.add(Descripcion2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 180, -1));
@@ -142,10 +134,15 @@ public class Pantalla extends javax.swing.JFrame {
         Descripcion.setText("Descripcion");
         jPanel1.add(Descripcion, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, -1, -1));
 
-        Agregar_final.setText("Agregar Final");
+        Agregar_final.setText("Agregar ");
         Agregar_final.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Agregar_finalMouseClicked(evt);
+            }
+        });
+        Agregar_final.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Agregar_finalActionPerformed(evt);
             }
         });
         jPanel1.add(Agregar_final, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, 110, 40));
@@ -156,15 +153,7 @@ public class Pantalla extends javax.swing.JFrame {
                 guarda_documentoMouseClicked(evt);
             }
         });
-        jPanel1.add(guarda_documento, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 440, 130, 40));
-
-        Agreagar_prin.setText("Agregar Principio");
-        Agreagar_prin.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                Agreagar_prinMouseClicked(evt);
-            }
-        });
-        jPanel1.add(Agreagar_prin, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 170, 130, 40));
+        jPanel1.add(guarda_documento, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 470, 130, 40));
 
         Limpiar.setText("Limpiar");
         Limpiar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -172,12 +161,17 @@ public class Pantalla extends javax.swing.JFrame {
                 LimpiarMouseClicked(evt);
             }
         });
-        jPanel1.add(Limpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 440, 110, 40));
+        jPanel1.add(Limpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 470, 110, 40));
 
         Buscar.setText("Buscar");
         Buscar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 BuscarMouseClicked(evt);
+            }
+        });
+        Buscar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BuscarActionPerformed(evt);
             }
         });
         jPanel1.add(Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 40, 100, 40));
@@ -189,12 +183,17 @@ public class Pantalla extends javax.swing.JFrame {
                 Eliminar_elementoMouseClicked(evt);
             }
         });
-        jPanel1.add(Eliminar_elemento, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 440, 130, 40));
+        jPanel1.add(Eliminar_elemento, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 470, 130, 40));
 
-        Modificar.setText("Modificar");
+        Modificar.setText("Eliminar");
         Modificar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 ModificarMouseClicked(evt);
+            }
+        });
+        Modificar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ModificarActionPerformed(evt);
             }
         });
         jPanel1.add(Modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 170, 110, 40));
@@ -205,7 +204,7 @@ public class Pantalla extends javax.swing.JFrame {
                 jButton1MouseClicked(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 490, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 530, -1, -1));
 
         jButton2.setText("Atras");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -229,7 +228,20 @@ public class Pantalla extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 450, -1, -1));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 470, -1, -1));
+
+        jLabel1.setText("Departamento");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 200, -1, -1));
+        jPanel1.add(depa, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 200, 190, -1));
+
+        Modificar___.setText("Modificar");
+        Modificar___.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Modificar___ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Modificar___, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 170, 100, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 100, 150, 40));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -257,22 +269,26 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_ImportarMultasMouseClicked
 
     private void Agregar_finalMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Agregar_finalMouseClicked
-        String placa = Placa23.getText();
-        String fecha = fecha2.getText();
-        String descripcion = Descripcion2.getText();
-        int monto = Integer.parseInt(Monto2.getText());
-        
-        list.insetarfinal(descripcion, placa, fecha, descripcion, monto);
-        
-         DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
-         modelo.addRow(new Object[]{placa, fecha, descripcion, monto});
-         
-          Placa23.setText("");
-          
-           Placa23.setText("");
-           fecha2.setText("");
-           Descripcion2.setText("");
-           Monto2.setText("");
+      try {
+    String departamento = depa.getText().trim();
+    String placa = Placa23.getText().trim();
+    String fecha = fecha2.getText().trim();
+    String descripcion = Descripcion2.getText().trim();
+    int monto = Integer.parseInt(Monto2.getText().trim());
+
+    
+     listaMultas.agregarMulta(departamento, placa, fecha, descripcion, monto);
+     String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";
+    listaMultas.guardarMultasEnArchivosExistentes(ruta);
+    
+    // Actualiza la tabla después de agregar
+    tabla1.setModel(listaMultas.obtenerModeloTabla());
+    tabla1.setModel(listaMultas.obtenerModeloTabla());
+
+    JOptionPane.showMessageDialog(null, "Multa agregada exitosamente.");
+} catch (NumberFormatException ex) {
+    JOptionPane.showMessageDialog(null, "Monto inválido. Debe ser un número entero.");
+}
 
          
          
@@ -284,23 +300,7 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_Agregar_finalMouseClicked
 
     private void guarda_documentoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guarda_documentoMouseClicked
-     try (BufferedWriter bw = new BufferedWriter(new FileWriter(archivo))) {
-        Nodo_Doble aux = list.getCabeza(); 
-
-        while (aux != null) {
-           
-            String linea = aux.Placa + "," + aux.fecha + "," + aux.Descripcion + "," + aux.monto;
-            bw.write(linea); 
-            bw.newLine();    
-            aux = aux.Siguiente; 
-        }
-
-        System.out.println("¡Lista guardada en el archivo correctamente!");
-    } catch (IOException e) {
-        System.out.println("Error al guardar: " + e.getMessage());
     
-}
-        
         
         
         
@@ -308,10 +308,6 @@ public class Pantalla extends javax.swing.JFrame {
 
 
     }//GEN-LAST:event_guarda_documentoMouseClicked
-
-    private void Agreagar_prinMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Agreagar_prinMouseClicked
-        
-    }//GEN-LAST:event_Agreagar_prinMouseClicked
 
     private void LimpiarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_LimpiarMouseClicked
         DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
@@ -346,66 +342,11 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_BuscarMouseClicked
 
     private void Eliminar_elementoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Eliminar_elementoMouseClicked
-        int filaSeleccionada = tabla1.getSelectedRow();
-
-        if (filaSeleccionada != -1) {
-            String placa = tabla1.getValueAt(filaSeleccionada, 0).toString(); 
-            list.eliminarPorPlaca(placa); 
-            ((DefaultTableModel) tabla1.getModel()).removeRow(filaSeleccionada); 
-            JOptionPane.showMessageDialog(null, "Registro eliminado correctamente.");
-        } else {
-            JOptionPane.showMessageDialog(null, "Por favor selecciona una fila para eliminar.");
-        }
+       
     }//GEN-LAST:event_Eliminar_elementoMouseClicked
 
     private void ModificarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ModificarMouseClicked
-        int fila_seleccionada = tabla1.getSelectedRow();
-
-            if (fila_seleccionada == -1) {
-                JOptionPane.showMessageDialog(null, "Selecciona una fila para modificar.");
-                return;
-            }
-
-            String Nuevaplaca = Placa23.getText().trim();
-            String NuevaFecha = fecha2.getText().trim();
-            String NuevaDescripcion = Descripcion2.getText().trim();
-            String NuevoMonto = Monto2.getText().trim();
-
-            if (Nuevaplaca.isEmpty() || NuevaFecha.isEmpty() || NuevaDescripcion.isEmpty() || NuevoMonto.isEmpty()) {
-                JOptionPane.showMessageDialog(null, "Por favor llena todos los campos antes de modificar.");
-                return;
-            }
-
-            int nuevoMonto;
-            try {
-                nuevoMonto = Integer.parseInt(NuevoMonto);
-            } catch (NumberFormatException e) {
-                JOptionPane.showMessageDialog(null, "Monto inválido. Debe ser un número.");
-                return;
-            }
-
-            String Placatabla = tabla1.getValueAt(fila_seleccionada, 0).toString();
-            Nodo_Doble nodo = list.buscarPorPlaca(Placatabla);
-
-            if (nodo != null) {
-                nodo.Placa = Nuevaplaca;
-                nodo.fecha = NuevaFecha;
-                nodo.Descripcion = NuevaDescripcion;
-                nodo.monto = nuevoMonto;
-
-                DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
-                modelo.setValueAt(Nuevaplaca, fila_seleccionada, 0);
-                modelo.setValueAt(NuevaFecha, fila_seleccionada, 1);
-                modelo.setValueAt(NuevaDescripcion, fila_seleccionada, 2);
-                modelo.setValueAt(nuevoMonto, fila_seleccionada, 3);
-
-                JOptionPane.showMessageDialog(null, "Registro modificado correctamente.");
-            } else {
-                JOptionPane.showMessageDialog(null, "No se encontró el registro a modificar.");
-            }
-
-
-
+     
     
         
         
@@ -413,30 +354,11 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_ModificarMouseClicked
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        Nodo_Doble actual = list.cabeza;
-            StringBuilder datos = new StringBuilder();
-
-            while (actual != null) {
-                datos.append("Placa: ").append(actual.Placa).append("\n");
-                datos.append("Fecha: ").append(actual.fecha).append("\n");
-                datos.append("Descripción: ").append(actual.Descripcion).append("\n");
-                datos.append("Monto: ").append(actual.monto).append("\n");
-                datos.append("-------------------------\n");
-                actual = actual.Siguiente;
-            }
-
-            if (datos.length() == 0) {
-                JOptionPane.showMessageDialog(null, "La lista está vacía.");
-            } else {
-                JOptionPane.showMessageDialog(null, datos.toString());
-            }
+       
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void ImportarMultasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ImportarMultasActionPerformed
-         DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
-        modelo.setRowCount(0);
-      
-        Importar_archivos_multas.cargarTodosLosArchivos_multas(modelo, list, listaVehiculos);
+     
 
     }//GEN-LAST:event_ImportarMultasActionPerformed
 
@@ -456,6 +378,78 @@ public class Pantalla extends javax.swing.JFrame {
         atras.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void Modificar___ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Modificar___ActionPerformed
+        String departamento = depa.getText().trim();
+        String placa = Placa23.getText().trim();
+        String nuevaFecha = fecha2.getText().trim();
+        String nuevaDescripcion = Descripcion2.getText().trim();
+        int nuevoMonto;
+
+        try {
+            nuevoMonto = Integer.parseInt(Monto2.getText().trim());
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Monto inválido. Ingrese un número.");
+            return;
+        }
+
+        boolean actualizado = ActualizarMulta.actualizarMulta(listaMultas, departamento, placa, nuevaFecha, nuevaDescripcion, nuevoMonto);
+
+        if (actualizado) {
+            JOptionPane.showMessageDialog(null, "Multa actualizada con éxito.");
+            // Aquí puedes actualizar también la JTable:
+            tabla1.setModel(listaMultas.obtenerModeloTabla());
+            listaMultas.guardarMultasEnArchivosExistentes("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+        } else {
+            JOptionPane.showMessageDialog(null, "Multa no encontrada.");
+        }
+    }//GEN-LAST:event_Modificar___ActionPerformed
+
+    private void BuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarActionPerformed
+       String placaBuscar = txtPlacaBuscar.getText().trim();
+        DefaultTableModel modelo = (DefaultTableModel) tabla1.getModel();
+
+        long inicio = System.nanoTime();  // Tiempo inicial
+        boolean encontrado = false;
+
+        for (int i = 0; i < modelo.getRowCount(); i++) {
+            String placa = modelo.getValueAt(i, 1).toString(); // Columna 1 = Placa
+            if (placa.equalsIgnoreCase(placaBuscar)) {
+                tabla1.setRowSelectionInterval(i, i);  // Selecciona la fila
+                encontrado = true;
+                break;
+            }
+        }
+
+        long fin = System.nanoTime();  // Tiempo final
+        double tiempoMs = (fin - inicio) / 1_000_000.0;  // Convertir a milisegundos
+        jLabel2.setText(String.format("Tiempo búsqueda: %.3f ms", tiempoMs));
+
+        if (encontrado) {
+            JOptionPane.showMessageDialog(null, "Multa encontrada.");
+        } else {
+            JOptionPane.showMessageDialog(null, "No se encontró multa con esa placa.");
+        }
+
+    }//GEN-LAST:event_BuscarActionPerformed
+
+    private void Agregar_finalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agregar_finalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Agregar_finalActionPerformed
+
+    private void ModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ModificarActionPerformed
+        String placaEliminar = txtPlacaBuscar.getText().trim();
+
+        boolean eliminado = listaMultas.eliminarPorPlaca(placaEliminar);
+        listaMultas.guardarMultasEnArchivosExistentes("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+
+        if (eliminado) {
+            JOptionPane.showMessageDialog(null, "Multa eliminada correctamente.");
+            tabla1.setModel(listaMultas.obtenerModeloTabla()); // Refrescar la tabla
+        } else {
+            JOptionPane.showMessageDialog(null, "No se encontró multa con esa placa.");
+        }
+    }//GEN-LAST:event_ModificarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -496,7 +490,6 @@ public class Pantalla extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Agreagar_prin;
     private javax.swing.JButton Agregar_final;
     private javax.swing.JButton Buscar;
     private javax.swing.JLabel Descripcion;
@@ -505,9 +498,11 @@ public class Pantalla extends javax.swing.JFrame {
     private javax.swing.JButton ImportarMultas;
     private javax.swing.JButton Limpiar;
     private javax.swing.JButton Modificar;
+    private javax.swing.JButton Modificar___;
     private javax.swing.JLabel Monto;
     private javax.swing.JTextField Monto2;
     private javax.swing.JTextField Placa23;
+    private javax.swing.JTextField depa;
     private javax.swing.JLabel fecha;
     private javax.swing.JTextField fecha2;
     private javax.swing.JButton guarda_documento;
@@ -515,6 +510,8 @@ public class Pantalla extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel placa1;

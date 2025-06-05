@@ -8,67 +8,72 @@
  * @author Ixtamer
  */
 public class Nodo_Vehiculo {
-    public String placa;
-    public String dpi;
-    public String nombre;
-    public String marca;
-    public String modelo;
-    public int anio;
-    String departamento; 
-    
+    public class Vehiculo {
+    private String placa;
+    private String dpi;
+    private String nombre;
+    private String marca;
+    private String modelo;
+    private int ano;
+    private int multas;
+    private int traspasos;
+    private String departamento;
 
-    
-    
-    public int cantidadMultas;
-    public int cantidadTraspasos;
-
-    public Nodo_Vehiculo anterior;
-    public Nodo_Vehiculo siguiente;
-
-    // Listas internas
-   Lista_Doble multas;
-   Lista_Traspasos traspaso ;
-
-    public Nodo_Vehiculo( String placa, String dpi, String nombre, String marca, String modelo, int anio, int cantidadMultas, int cantidadTraspasos,String departamento) {
-    
+    public Vehiculo(String placa, String dpi, String nombre, String marca, String modelo,
+                    int ano, int multas, int traspasos, String departamento) {
         this.placa = placa;
         this.dpi = dpi;
         this.nombre = nombre;
         this.marca = marca;
         this.modelo = modelo;
-        this.anio = anio;
-         this.departamento= departamento; 
-        this.cantidadMultas = cantidadMultas;
-        this.cantidadTraspasos=cantidadTraspasos;
-      
-        
-      
-        
-        this.multas = new Lista_Doble();
-        this.traspaso = new Lista_Traspasos();
-        
-        
-        
-        
-        
-        
-        this.anterior = null;
-        this.siguiente =null;
-        
+        this.ano = ano;
+        this.multas = multas;
+        this.traspasos = traspasos;
+        this.departamento = departamento;
     }
 
-    public Lista_Doble getMultas() {
+    public String getPlaca() {
+        return placa;
+    }
+
+    public String getDpi() {
+        return dpi;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public int getMultas() {
         return multas;
     }
 
-    public Lista_Traspasos getTraspaso() {
-        return traspaso;
+    public int getTraspasos() {
+        return traspasos;
     }
-    
-   
 
-    
+    public String getDepartamento() {
+        return departamento;
+    }
 
-    
-    
+    @Override
+    public String toString() {
+        return placa + " - " + nombre + " - " + marca + " " + modelo + " (" + ano + ") [" + departamento + "]";
+    }
+    }
+
+
 }
+

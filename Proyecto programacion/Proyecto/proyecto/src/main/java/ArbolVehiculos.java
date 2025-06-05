@@ -1,134 +1,205 @@
-
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author Ixtamer
- */
 public class ArbolVehiculos {
-    private NodoVehiculo raiz;
+    private NodoVehiculo nodoRaiz;
 
     public ArbolVehiculos() {
-        raiz = null;
+        this.nodoRaiz = null;
     }
 
-    public void agregarNodo(Vehiculo v) {
-        NodoVehiculo nuevo = new NodoVehiculo(v);
+    public void agregarVehiculo(String depto, String placa, String dpi, String nombre, String marca, String modelo,
+                                int anio, int numMultas, int numTraspasos) {
+        Vehiculo vehiculo = new Vehiculo(depto, placa, dpi, nombre, marca, modelo, anio, numMultas, numTraspasos);
+        nodoRaiz = insertar(nodoRaiz, placa, vehiculo);
+    }
 
-        if (raiz == null) {
-            raiz = nuevo;
-            return;
+    private NodoVehiculo insertar(NodoVehiculo nodo, String placa, Vehiculo vehiculo) {
+        if (nodo == null) {
+            return new NodoVehiculo(placa, vehiculo);
         }
 
-        NodoVehiculo auxiliar = raiz;
-        NodoVehiculo padre;
+        int comparacion = placa.compareTo(nodo.placa);
+        if (comparacion < 0) {
+            nodo.hijoIzquierdo = insertar(nodo.hijoIzquierdo, placa, vehiculo);
+        } else if (comparacion > 0) {
+            nodo.hijoDerecho = insertar(nodo.hijoDerecho, placa, vehiculo);
+        } else {
+            nodo.vehiculos.add(vehiculo);
+        }
 
-        while (true) {
-            padre = auxiliar;
+        return nodo;
+    }
 
-            int cmp = v.getPlaca().compareTo(auxiliar.dato.getPlaca());
+  
+    public DefaultTableModel cargarVehiculosDesdeCarpetas(String rutaPrincipal) {
+        DefaultTableModel modelo = new DefaultTableModel();
+        modelo.setColumnIdentifiers(new Object[]{"Departamento", "Placa", "DPI", "Nombre", "Marca", "Modelo", "Año", "Multas", "Traspasos"});
 
-            if (cmp < 0) {
-                auxiliar = auxiliar.hijoIzquierdo;
-                if (auxiliar == null) {
-                    padre.hijoIzquierdo = nuevo;
-                    return;
+        File carpeta = new File(rutaPrincipal);
+
+        if (!carpeta.exists() || !carpeta.isDirectory()) {
+            JOptionPane.showMessageDialog(null, "Ruta inválida: " + rutaPrincipal);
+            return modelo;
+        }
+
+        File[] subcarpetas = carpeta.listFiles(File::isDirectory);
+        if (subcarpetas == null) {
+            JOptionPane.showMessageDialog(null, "No se encontraron subcarpetas.");
+            return modelo;
+        }
+
+        for (File sub : subcarpetas) {
+            String nombreDepto = sub.getName();
+            File archivo = new File(sub, nombreDepto + "_vehiculos.txt");
+
+            if (!archivo.exists()) {
+                JOptionPane.showMessageDialog(null, "Archivo no encontrado: " + archivo.getPath());
+                continue;
+            }
+
+            try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
+                String linea;
+                while ((linea = br.readLine()) != null) {
+                    String[] datos = linea.split(",");
+                    if (datos.length != 8) {
+                        JOptionPane.showMessageDialog(null, "Línea malformada en " + archivo.getName() + ":\n" + linea);
+                        continue;
+                    }
+
+                    try {
+                        String placa = datos[0].trim();
+                        String dpi = datos[1].trim();
+                        String nombre = datos[2].trim();
+                        String marca = datos[3].trim();
+                        String modeloStr = datos[4].trim();
+                        int anio = Integer.parseInt(datos[5].trim());
+                        int multas = Integer.parseInt(datos[6].trim());
+                        int traspasos = Integer.parseInt(datos[7].trim());
+
+                        // Agregamos al árbol
+                        agregarVehiculo(nombreDepto, placa, dpi, nombre, marca, modeloStr, anio, multas, traspasos);
+
+                        // Y agregamos a la tabla
+                        modelo.addRow(new Object[]{nombreDepto, placa, dpi, nombre, marca, modeloStr, anio, multas, traspasos});
+
+                    } catch (NumberFormatException ex) {
+                        JOptionPane.showMessageDialog(null, "Error numérico en archivo " + archivo.getName() + ":\n" + linea);
+                    }
                 }
-            } else if (cmp > 0) {
-                auxiliar = auxiliar.hijoDerecho;
-                if (auxiliar == null) {
-                    padre.hijoDerecho = nuevo;
-                    return;
-                }
-            } else {
-                System.out.println("Vehículo con placa " + v.getPlaca() + " ya existe.");
-                return;
+            } catch (IOException e) {
+                JOptionPane.showMessageDialog(null, "Error al leer el archivo " + archivo.getName() + ":\n" + e.getMessage());
             }
         }
-    }
 
-    // ---------- Recorrido InOrden ----------
-    public void imprimirInOrden() {
-        imprimirInOrdenRec(raiz);
+        return modelo;
     }
+    public ArrayList<Vehiculo> recorridoInorden() {
+    ArrayList<Vehiculo> lista = new ArrayList<>();
+    recorridoInorden(nodoRaiz, lista);
+    return lista;
+}
 
-    private void imprimirInOrdenRec(NodoVehiculo nodo) {
+    private void recorridoInorden(NodoVehiculo nodo, ArrayList<Vehiculo> lista) {
         if (nodo != null) {
-            imprimirInOrdenRec(nodo.hijoIzquierdo);
-            System.out.println(nodo.dato);
-            imprimirInOrdenRec(nodo.hijoDerecho);
-        }
+            recorridoInorden(nodo.hijoIzquierdo, lista);
+            lista.addAll(nodo.getVehiculos());
+            recorridoInorden(nodo.hijoDerecho, lista);
     }
+}
+    public ArrayList<Vehiculo> recorridoPreorden() {
+    ArrayList<Vehiculo> lista = new ArrayList<>();
+    recorridoPreorden(nodoRaiz, lista);
+    return lista;
+}
 
-    // ---------- Recorrido PreOrden ----------
-    public void imprimirPreOrden() {
-        System.out.println("Recorrido PreOrden:");
-        imprimirPreOrdenRec(raiz);
-    }
-
-    private void imprimirPreOrdenRec(NodoVehiculo nodo) {
+    private void recorridoPreorden(NodoVehiculo nodo, ArrayList<Vehiculo> lista) {
         if (nodo != null) {
-            System.out.println(nodo.dato);
-            imprimirPreOrdenRec(nodo.hijoIzquierdo);
-            imprimirPreOrdenRec(nodo.hijoDerecho);
+            lista.addAll(nodo.getVehiculos());
+            recorridoPreorden(nodo.hijoIzquierdo, lista);
+            recorridoPreorden(nodo.hijoDerecho, lista);
         }
     }
-
-    // ---------- Recorrido PostOrden ----------
-    public void imprimirPostOrden() {
-        System.out.println("Recorrido PostOrden:");
-        imprimirPostOrdenRec(raiz);
-    }
-
-    private void imprimirPostOrdenRec(NodoVehiculo nodo) {
-        if (nodo != null) {
-            imprimirPostOrdenRec(nodo.hijoIzquierdo);
-            imprimirPostOrdenRec(nodo.hijoDerecho);
-            System.out.println(nodo.dato);
-        }
-    }
-
-    // ---------- Buscar por placa ----------
-    public Vehiculo buscarPorPlaca(String placa) {
-        return buscarRecursivo(raiz, placa);
-    }
-
-    private Vehiculo buscarRecursivo(NodoVehiculo nodo, String placa) {
-        if (nodo == null) {
-            return null;
-        }
-
-        int cmp = placa.compareTo(nodo.dato.getPlaca());
-        if (cmp == 0) {
-            return nodo.dato;
-        } else if (cmp < 0) {
-            return buscarRecursivo(nodo.hijoIzquierdo, placa);
-        } else {
-            return buscarRecursivo(nodo.hijoDerecho, placa);
-        }
-    }
-
-    // ---------- NUEVO: Retornar lista PreOrden ----------
-    public ArrayList<Vehiculo> obtenerListaPreOrden() {
+    public ArrayList<Vehiculo> recorridoPostorden() {
         ArrayList<Vehiculo> lista = new ArrayList<>();
-        llenarListaPreOrden(raiz, lista);
+        recorridoPostorden(nodoRaiz, lista);
         return lista;
     }
 
-    private void llenarListaPreOrden(NodoVehiculo nodo, ArrayList<Vehiculo> lista) {
+    private void recorridoPostorden(NodoVehiculo nodo, ArrayList<Vehiculo> lista) {
         if (nodo != null) {
-            lista.add(nodo.dato); // Raíz
-            llenarListaPreOrden(nodo.hijoIzquierdo, lista); // Izquierda
-            llenarListaPreOrden(nodo.hijoDerecho, lista);   // Derecha
+            recorridoPostorden(nodo.hijoIzquierdo, lista);
+            recorridoPostorden(nodo.hijoDerecho, lista);
+            lista.addAll(nodo.getVehiculos());
+        }
+    }
+    public Vehiculo buscarVehiculoConTiempo(String placa) {
+    long inicio = System.nanoTime();
+    NodoVehiculo nodo = nodoRaiz;
+
+    while (nodo != null) {
+        int comparacion = placa.compareTo(nodo.placa);
+        if (comparacion == 0) {
+            long fin = System.nanoTime();
+            double tiempoMs = (fin - inicio) / 1_000_000.0;
+            JOptionPane.showMessageDialog(null, "Vehículo encontrado en ");
+            return nodo.getVehiculos().get(0); // Devuelve el primero (puedes cambiar esto)
+        } else if (comparacion < 0) {
+            nodo = nodo.hijoIzquierdo;
+        } else {
+            nodo = nodo.hijoDerecho;
         }
     }
 
+    long fin = System.nanoTime();
+    double tiempoMs = (fin - inicio) / 1_000_000.0;
+    JOptionPane.showMessageDialog(null, "Vehículo no encontrado. Tiempo de búsqueda: " + tiempoMs + " ms");
+    return null;
 }
-    
-    
-       
+
+
+
+   
+
+    public String generarDOT() {
+        StringBuilder dot = new StringBuilder();
+        dot.append("digraph ArbolVehiculos {\n");
+        dot.append("node [shape=box, style=filled, color=lightgray];\n");
+
+        if (nodoRaiz != null) {
+            generarDOTRec(nodoRaiz, dot);
+        }
+
+        dot.append("}\n");
+        return dot.toString();
+    }
+
+    private void generarDOTRec(NodoVehiculo nodo, StringBuilder dot) {
+        for (Vehiculo v : nodo.getVehiculos()) {
+            dot.append("\"").append(nodo.placa).append("\" [label=\"Placa: ").append(nodo.placa)
+               .append("\\nNombre: ").append(v.getNombre())
+               .append("\\nDPI: ").append(v.getDpi())
+               .append("\\nMarca: ").append(v.getMarca())
+               .append("\\nModelo: ").append(v.getModelo())
+               .append("\\nAño: ").append(v.getAno())
+               .append("\\nMultas: ").append(v.getMultas())
+               .append("\\nTraspasos: ").append(v.getTraspasos()).append("\"];\n");
+            break; // solo mostrar uno por nodo en el DOT
+        }
+
+        if (nodo.hijoIzquierdo != null) {
+            dot.append("\"").append(nodo.placa).append("\" -> \"").append(nodo.hijoIzquierdo.placa).append("\";\n");
+            generarDOTRec(nodo.hijoIzquierdo, dot);
+        }
+
+        if (nodo.hijoDerecho != null) {
+            dot.append("\"").append(nodo.placa).append("\" -> \"").append(nodo.hijoDerecho.placa).append("\";\n");
+            generarDOTRec(nodo.hijoDerecho, dot);
+        }
+    }
+}

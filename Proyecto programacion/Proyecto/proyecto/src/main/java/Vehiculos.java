@@ -1,5 +1,10 @@
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /*
@@ -15,7 +20,7 @@ public class Vehiculos extends javax.swing.JFrame {
     
     
     
-    Lista_Vehiculos ve = new Lista_Vehiculos();
+
     ArbolVehiculos arbol = new ArbolVehiculos(); 
    
    
@@ -24,9 +29,10 @@ public class Vehiculos extends javax.swing.JFrame {
     
     public Vehiculos() {
         initComponents();
-        DefaultTableModel modelo_ve = (DefaultTableModel) tabla_vehi.getModel();
-        modelo_ve.setRowCount(0); // Limpiar por si acaso
-        Importar_archivos_multas.cargarVehiculos(modelo_ve, ve, arbol);
+        String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";  // <-- cambia esto a tu ruta real
+        DefaultTableModel modelo = arbol.cargarVehiculosDesdeCarpetas(ruta);
+        tabla_vehi.setModel(modelo);
+        
         
       
         
@@ -37,6 +43,29 @@ public class Vehiculos extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         
     }
+    private void mostrarEnTabla(ArrayList<Vehiculo> lista) {
+    String[] columnas = {"Departamento", "Placa", "DPI", "Nombre", "Marca", "Modelo", "Año", "Multas", "Traspasos"};
+    DefaultTableModel modelo = new DefaultTableModel(columnas, 0);
+
+    for (Vehiculo v : lista) {
+        Object[] fila = {
+            v.getDepartamento(),
+            v.getPlaca(),
+            v.getDpi(),
+            v.getNombre(),
+            v.getMarca(),
+            v.getModelo(),
+            v.getAno(),
+            v.getMultas(),
+            v.getTraspasos()
+        };
+        modelo.addRow(fila);
+    }
+
+    tabla_vehi.setModel(modelo);
+}
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -50,11 +79,17 @@ public class Vehiculos extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla_vehi = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
         Traspaso = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         pre = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        post = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        Buscar___ = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -73,20 +108,7 @@ public class Vehiculos extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tabla_vehi);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 740, 200));
-
-        jButton1.setText("Importar");
-        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton1MouseClicked(evt);
-            }
-        });
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 160, -1));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 980, 200));
 
         Traspaso.setText("Traspaso");
         Traspaso.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +140,49 @@ public class Vehiculos extends javax.swing.JFrame {
                 preActionPerformed(evt);
             }
         });
-        jPanel1.add(pre, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 280, -1, -1));
+        jPanel1.add(pre, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 280, -1, -1));
+
+        jButton4.setText("Ver arbol");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 280, -1, -1));
+
+        post.setText("Post");
+        post.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                postActionPerformed(evt);
+            }
+        });
+        jPanel1.add(post, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, -1, -1));
+
+        jButton5.setText("In-orden");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 280, -1, -1));
+
+        Buscar___.setText("Buscar");
+        Buscar___.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Buscar___ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Buscar___, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 20, -1, -1));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 20, 310, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 340, 280, 120));
+
+        jButton1.setText("Tabla abl");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 270, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -126,7 +190,7 @@ public class Vehiculos extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 766, Short.MAX_VALUE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1074, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -135,17 +199,6 @@ public class Vehiculos extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-      
-     
-       
-
-    }//GEN-LAST:event_jButton1MouseClicked
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-         
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void TraspasoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TraspasoActionPerformed
          _Traspaso secundaria = new _Traspaso();
@@ -168,20 +221,100 @@ public class Vehiculos extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void preActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_preActionPerformed
-         DefaultTableModel modelo = (DefaultTableModel) tabla_vehi.getModel();
-    modelo.setRowCount(0); // limpia la tabla
+       ArrayList<Vehiculo> lista = arbol.recorridoPreorden();
+    mostrarEnTabla(lista);
+    }//GEN-LAST:event_preActionPerformed
 
-    ArrayList<Vehiculo> lista = arbol.obtenerListaPreOrden(); // obtenemos la lista
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+            try {
+        // 1. Obtener el código DOT desde tu árbol
+        String dot = arbol.generarDOT(); // Asegúrate que "arbolVehiculos" esté accesible
 
-    for (Vehiculo v : lista) {
-        modelo.addRow(new Object[]{
-            v.getDepartamento(), v.getPlaca(), v.getDpi(), v.getNombre(),
-            v.getMarca(), v.getModelo(), v.getAnio(),
-            v.getMultas(), v.getTraspasos()
-        });
+        // 2. Guardar el archivo .dot
+        FileWriter writer = new FileWriter("arbol_vehiculos.dot");
+        writer.write(dot);
+        writer.close();
+
+        // 3. Generar imagen con Graphviz
+        ProcessBuilder pb = new ProcessBuilder("dot", "-Tpng", "arbol_vehiculos.dot", "-o", "arbol_vehiculos.png");
+        
+        
+        //dot", "-Tpng", "arbol_vehiculos.dot", "-o", "arbol_vehiculos.png
+        
+       
+        pb.redirectErrorStream(true);
+        Process p = pb.start();
+        int exitCode = p.waitFor();
+
+        if (exitCode == 0) {
+            JOptionPane.showMessageDialog(this, "Imagen generada exitosamente.");
+
+            Desktop.getDesktop().open(new File("arbol_vehiculos.png"));
+        } else {
+            JOptionPane.showMessageDialog(this, "Error al generar la imagen con Graphviz.");
+        }
+
+    } catch (IOException | InterruptedException ex) {
+        ex.printStackTrace();
+        JOptionPane.showMessageDialog(this, "Error: " + ex.getMessage());
     }
 
-    }//GEN-LAST:event_preActionPerformed
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void postActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_postActionPerformed
+         ArrayList<Vehiculo> lista = arbol.recorridoPostorden();
+        mostrarEnTabla(lista);
+
+
+    }//GEN-LAST:event_postActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+         ArrayList<Vehiculo> lista = arbol.recorridoInorden();
+        mostrarEnTabla(lista);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void Buscar___ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Buscar___ActionPerformed
+     String placaBuscada = jTextField1.getText().trim();
+
+    if (placaBuscada.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "Ingrese una placa para buscar.");
+        return;
+    }
+
+    // Buscar en el árbol y medir el tiempo
+    long inicio = System.nanoTime();
+    Vehiculo vehiculoEncontrado = arbol.buscarVehiculoConTiempo(placaBuscada);
+    long fin = System.nanoTime();
+    double tiempoMs = (fin - inicio) / 1_000_000.0;
+
+    // Mostrar tiempo de búsqueda
+    jLabel1.setText("Tiempo de búsqueda: " + tiempoMs + " ms");
+
+    if (vehiculoEncontrado != null) {
+        // Buscar en la tabla y seleccionar la fila
+        DefaultTableModel modelo = (DefaultTableModel) tabla_vehi.getModel();
+        for (int i = 0; i < modelo.getRowCount(); i++) {
+            String placaEnTabla = modelo.getValueAt(i, 1).toString(); // Columna de placa
+            if (placaEnTabla.equalsIgnoreCase(placaBuscada)) {
+                tabla_vehi.setRowSelectionInterval(i, i);
+                tabla_vehi.scrollRectToVisible(tabla_vehi.getCellRect(i, 0, true));
+                return;
+            }
+        }
+
+        // Si no se encontró en la tabla (pero sí en el árbol)
+        JOptionPane.showMessageDialog(this, "Vehículo encontrado en el árbol, pero no se muestra en la tabla.");
+    } else {
+        JOptionPane.showMessageDialog(this, "Vehículo no encontrado.");
+    }
+
+    }//GEN-LAST:event_Buscar___ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Avl_arboles_frame avl = new Avl_arboles_frame();
+        avl.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -219,13 +352,21 @@ public class Vehiculos extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Buscar___;
     private javax.swing.JButton Traspaso;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JButton post;
     private javax.swing.JButton pre;
     private javax.swing.JTable tabla_vehi;
     // End of variables declaration//GEN-END:variables
+
+   
 }

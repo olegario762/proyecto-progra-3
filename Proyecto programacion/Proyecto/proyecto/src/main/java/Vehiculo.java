@@ -8,23 +8,24 @@
  * @author Ixtamer
  */
 public class Vehiculo {
+      
      private String placa;
     private String dpi;
     private String nombre;
     private String marca;
     private String modelo;
-    private int anio;
+    private String departamento;
+    private int ano;
     private int multas;
     private int traspasos;
-    private String departamento;
 
-    public Vehiculo(String placa, String dpi, String nombre, String marca, String modelo, int anio, int multas, int traspasos, String departamento) {
+    public Vehiculo(String departamento,String placa, String dpi, String nombre, String marca, String modelo, int ano, int multas, int traspasos) {
         this.placa = placa;
         this.dpi = dpi;
         this.nombre = nombre;
         this.marca = marca;
         this.modelo = modelo;
-        this.anio = anio;
+        this.ano = ano;
         this.multas = multas;
         this.traspasos = traspasos;
         this.departamento=departamento;
@@ -32,11 +33,6 @@ public class Vehiculo {
 
     public String getPlaca() {
         return placa;
-        
-    }
-
-    public String getDepartamento() {
-        return departamento;
     }
 
     public String getDpi() {
@@ -55,8 +51,8 @@ public class Vehiculo {
         return modelo;
     }
 
-    public int getAnio() {
-        return anio;
+    public int getAno() {
+        return ano;
     }
 
     public int getMultas() {
@@ -66,19 +62,35 @@ public class Vehiculo {
     public int getTraspasos() {
         return traspasos;
     }
-    
+
+    public String getDepartamento() {
+        return departamento;
+    }
+   public String[] toArray() {
+    return new String[]{
+        departamento,
+        placa,
+        dpi,
+        nombre,
+        marca,
+        modelo,
+        String.valueOf(ano),
+        String.valueOf(multas),
+        String.valueOf(traspasos)
+    };
+}
 
     @Override
     public String toString() {
-        return "Vehiculo{" +
-                "placa='" + placa + '\'' +
-                ", dpi='" + dpi + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", anio=" + anio +
-                ", multas=" + multas +
-                ", traspasos=" + traspasos +
-                '}';
+        return "Vehiculo{" + "placa=" + placa + ", dpi=" + dpi + ", nombre=" + nombre + ", marca=" + marca + ", modelo=" + modelo + ", departamento=" + departamento + ", ano=" + ano + ", multas=" + multas + ", traspasos=" + traspasos + '}';
     }
+   
+
+  
+  
+    
+    
+    
 }
+
+   

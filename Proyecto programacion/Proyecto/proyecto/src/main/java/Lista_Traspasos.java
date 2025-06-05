@@ -33,7 +33,7 @@ public class Lista_Traspasos {
             colita = nuevo;
         }
         if (vehiculo != null) {
-            vehiculo.cantidadTraspasos++;
+          
         }
     }
     public void vaciar() {

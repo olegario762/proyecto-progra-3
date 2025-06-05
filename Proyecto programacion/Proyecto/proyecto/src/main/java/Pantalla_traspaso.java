@@ -16,8 +16,7 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
     DefaultTableModel modelo_traspasos = new DefaultTableModel();
 
     Lista_Traspasos listaTraspasos = new Lista_Traspasos();
-    Lista_Vehiculos ve = new Lista_Vehiculos();
-    Lista_Doble list_multas = new Lista_Doble();
+    Lista_Multas list_multas = new Lista_Multas();
 
 
     public Pantalla_traspaso() {
@@ -131,7 +130,7 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
 
     private void importarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_importarActionPerformed
     
-
+/*
     Importar_archivos_multas.cargarTodosLosArchivos_multas(modelo_traspasos, list_multas, ve);
    
 
@@ -151,6 +150,9 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
         
         
     Importar_archivos_multas.cargarTraspasos(modelo_traspasos, listaTraspasos, ve);
+        
+        
+        */
     }//GEN-LAST:event_importarActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
