@@ -434,7 +434,7 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_BuscarActionPerformed
 
     private void Agregar_finalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agregar_finalActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_Agregar_finalActionPerformed
 
     private void ModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ModificarActionPerformed

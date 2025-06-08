@@ -79,7 +79,7 @@ public class Vehiculos extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabla_vehi = new javax.swing.JTable();
-        Traspaso = new javax.swing.JButton();
+        Multa = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         pre = new javax.swing.JButton();
@@ -110,13 +110,13 @@ public class Vehiculos extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 980, 200));
 
-        Traspaso.setText("Traspaso");
-        Traspaso.addActionListener(new java.awt.event.ActionListener() {
+        Multa.setText("Multas");
+        Multa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TraspasoActionPerformed(evt);
+                MultaActionPerformed(evt);
             }
         });
-        jPanel1.add(Traspaso, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 140, -1));
+        jPanel1.add(Multa, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 140, -1));
 
         jButton2.setText("Listado Traspaso");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +124,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, -1, -1));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 330, -1, -1));
 
         jButton3.setText("Listado Multa");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +132,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 350, 140, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, 140, -1));
 
         pre.setText("Preorden");
         pre.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +140,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 preActionPerformed(evt);
             }
         });
-        jPanel1.add(pre, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 280, -1, -1));
+        jPanel1.add(pre, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, -1, -1));
 
         jButton4.setText("Ver arbol");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -148,7 +148,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 280, -1, -1));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, -1, -1));
 
         post.setText("Post");
         post.addActionListener(new java.awt.event.ActionListener() {
@@ -156,7 +156,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 postActionPerformed(evt);
             }
         });
-        jPanel1.add(post, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, -1, -1));
+        jPanel1.add(post, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, -1, -1));
 
         jButton5.setText("In-orden");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -164,7 +164,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 280, -1, -1));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, -1, -1));
 
         Buscar___.setText("Buscar");
         Buscar___.addActionListener(new java.awt.event.ActionListener() {
@@ -182,7 +182,7 @@ public class Vehiculos extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 270, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 280, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -200,12 +200,12 @@ public class Vehiculos extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void TraspasoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TraspasoActionPerformed
-         _Traspaso secundaria = new _Traspaso();
+    private void MultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MultaActionPerformed
+         ____Multas_____hacer secundaria = new ____Multas_____hacer();
          secundaria.setVisible(true);
          this.dispose(); 
 
-    }//GEN-LAST:event_TraspasoActionPerformed
+    }//GEN-LAST:event_MultaActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         Pantalla_traspaso tras = new Pantalla_traspaso();
@@ -353,7 +353,7 @@ public class Vehiculos extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Buscar___;
-    private javax.swing.JButton Traspaso;
+    private javax.swing.JButton Multa;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;

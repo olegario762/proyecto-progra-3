@@ -55,7 +55,7 @@ public class Lista_Multas {
 
             try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
                 String linea;
-                br.readLine(); // Saltar encabezado
+            
 
                 while ((linea = br.readLine()) != null) {
                     String[] datos = linea.split(",");
@@ -173,9 +173,7 @@ public class Lista_Multas {
             // Abrimos el archivo en modo de sobreescritura
             BufferedWriter bw = new BufferedWriter(new FileWriter(archivo, false));
 
-            // Escribimos encabezado
-            bw.write("Placa,Fecha,Descripcion,Monto");
-            bw.newLine();
+         
 
             // Recorremos de nuevo la lista, pero solo escribimos las multas de este departamento
             Nodo_Multas aux = cabeza;
