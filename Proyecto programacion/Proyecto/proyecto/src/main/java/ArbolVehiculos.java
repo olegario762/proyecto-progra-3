@@ -8,9 +8,9 @@ import javax.swing.table.DefaultTableModel;
 
 public class ArbolVehiculos {
     private NodoVehiculo nodoRaiz;
-
+   
     public ArbolVehiculos() {
-        this.nodoRaiz = null;
+       
     }
 
     public void agregarVehiculo(String depto, String placa, String dpi, String nombre, String marca, String modelo,
@@ -99,6 +99,13 @@ public class ArbolVehiculos {
 
         return modelo;
     }
+    
+    
+    
+    
+
+  
+    
     public ArrayList<Vehiculo> recorridoInorden() {
     ArrayList<Vehiculo> lista = new ArrayList<>();
     recorridoInorden(nodoRaiz, lista);
@@ -161,6 +168,41 @@ public class ArbolVehiculos {
     JOptionPane.showMessageDialog(null, "Vehículo no encontrado. Tiempo de búsqueda: " + tiempoMs + " ms");
     return null;
 }
+    
+    
+    private NodoVehiculo buscarNodoPorPlaca(String placaBuscada) {
+        NodoVehiculo nodo = nodoRaiz;
+        String placaLimpia = placaBuscada.trim().toUpperCase();
+
+        while (nodo != null) {
+            String placaNodo = nodo.placa.trim().toUpperCase();
+            int comparacion = placaLimpia.compareTo(placaNodo);
+
+            if (comparacion == 0) {
+                return nodo;
+            } else if (comparacion < 0) {
+                nodo = nodo.hijoIzquierdo;
+            } else {
+                nodo = nodo.hijoDerecho;
+            }
+        }
+
+        return null;
+    }
+
+    public void incrementarMultasPorPlaca(String placa) {
+        NodoVehiculo nodo = buscarNodoPorPlaca(placa);
+        if (nodo != null) {
+            for (Vehiculo v : nodo.getVehiculos()) {
+                v.setMultas(v.getMultas() + 1);
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "No se encontró el vehículo con placa: " + placa);
+        }
+    }
+
+
+    
 
 
 

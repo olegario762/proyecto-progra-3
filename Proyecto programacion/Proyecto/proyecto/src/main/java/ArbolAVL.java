@@ -130,6 +130,7 @@ public class ArbolAVL {
         }
         return modelo;
     }
+    
     public ArrayList<Vehiculo> recorridoPreorden() {
     ArrayList<Vehiculo> lista = new ArrayList<>();
     preorden(raiz, lista);
@@ -172,6 +173,22 @@ private void postorden(NodoAVL nodo, ArrayList<Vehiculo> lista) {
             inorden(nodo.derecho, lista);
         }
     }
+    
+    public boolean agregarMulta(String departamento, String placa, String fecha, String descripcion, double monto) {
+    NodoAVL nodo = buscarNodoPorPlaca(raiz, placa);
+    if (nodo != null && !nodo.vehiculos.isEmpty()) {
+        // Solo actualizamos el primero si hay varios vehículos con la misma placa
+        Vehiculo vehiculo = nodo.vehiculos.get(0);
+        vehiculo.getMultas(); // Aumentamos el número de multas
+        System.out.println("Multa agregada a placa " + placa + ". Total multas: " + vehiculo.getPlaca());
+        return true;
+    } else {
+        System.out.println("Vehículo con placa " + placa + " no encontrado.");
+        return false;
+    }
+}
+    
+    
     public Vehiculo buscarPorPlacaConTiempo(String placaABuscar) {
     long inicio = System.nanoTime(); // Comenzar a contar el tiempo
 

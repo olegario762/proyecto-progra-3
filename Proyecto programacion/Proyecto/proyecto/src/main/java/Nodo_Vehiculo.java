@@ -18,6 +18,9 @@ public class Nodo_Vehiculo {
     private int multas;
     private int traspasos;
     private String departamento;
+    
+    
+    
 
     public Vehiculo(String placa, String dpi, String nombre, String marca, String modelo,
                     int ano, int multas, int traspasos, String departamento) {

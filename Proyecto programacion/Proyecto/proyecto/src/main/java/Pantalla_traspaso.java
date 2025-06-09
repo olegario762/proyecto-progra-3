@@ -13,17 +13,20 @@ import javax.swing.table.DefaultTableModel;
 public class Pantalla_traspaso extends javax.swing.JFrame {
     
     
-    DefaultTableModel modelo_traspasos = new DefaultTableModel();
+    
+    
+  
 
     Lista_Traspasos listaTraspasos = new Lista_Traspasos();
-    Lista_Multas list_multas = new Lista_Multas();
 
 
     public Pantalla_traspaso() {
         initComponents();
         
-        modelo_traspasos = (DefaultTableModel) Traspasos_tabla.getModel();
-
+        listaTraspasos.cargarTraspasosDesdeCarpetas("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+        Traspasos_tabla.setModel(listaTraspasos.obtenerModeloTabla());
+        
+        
       
         
    
@@ -48,6 +51,7 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
         importar = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         atras = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -110,6 +114,9 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
             }
         });
         jPanel1.add(atras, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 320, -1, -1));
+
+        jButton2.setText("Agregar");
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 330, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -209,6 +216,7 @@ public class Pantalla_traspaso extends javax.swing.JFrame {
     private javax.swing.JButton atras;
     private javax.swing.JButton importar;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables

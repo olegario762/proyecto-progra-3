@@ -19,11 +19,16 @@ public class ____Multas_____hacer extends javax.swing.JFrame {
   
     
     Lista_Multas listaMultas = new Lista_Multas();
+    ArbolAVL   avl = new ArbolAVL();
+    ArbolVehiculos abb = new ArbolVehiculos();
    
 
     public ____Multas_____hacer() {
         initComponents();
+        
         listaMultas.cargarMultasDesdeCarpetas("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+        abb.cargarVehiculosDesdeCarpetas("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+     
        
         
       
@@ -158,25 +163,29 @@ public class ____Multas_____hacer extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void gaurdar_nodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gaurdar_nodoActionPerformed
-        try {
+    try {
     String departamento = Departamento_txt_.getText().trim();
     String placa = Dpi_tex.getText().trim();
     String fecha = Fecha_txt__.getText().trim();
     String descripcion = Descripcion.getText().trim();
     int monto = Integer.parseInt(monto111.getText().trim());
 
-    
-     listaMultas.agregarMulta(departamento, placa, fecha, descripcion, monto);
-     String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";
-    listaMultas.guardarMultasEnArchivosExistentes(ruta);
-    
+    listaMultas.agregarMulta(departamento, placa, fecha, descripcion, monto);
    
+    
+
+
+
+ 
+
+  
+    String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";
+    listaMultas.guardarMultasEnArchivosExistentes(ruta);
 
     JOptionPane.showMessageDialog(null, "Multa agregada exitosamente.");
 } catch (NumberFormatException ex) {
     JOptionPane.showMessageDialog(null, "Monto inválido. Debe ser un número entero.");
 }
-
 
  
 
@@ -195,7 +204,8 @@ public class ____Multas_____hacer extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void __Buscar_Vehiculo___ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___Buscar_Vehiculo___ActionPerformed
-            String placaBuscar =jTextField1.getText().trim();
+        
+        String placaBuscar =jTextField1.getText().trim();
 
     long inicio = System.nanoTime();  // Tiempo inicial
 
@@ -213,7 +223,7 @@ public class ____Multas_____hacer extends javax.swing.JFrame {
             "Descripción: " + resultado.Descripcion + "\n" +
             "Monto: " + resultado.monto);
     } else {
-        JOptionPane.showMessageDialog(null, "No se encontró multa con esa placa.");
+        JOptionPane.showMessageDialog(null, "No se encontró multa con esa placa  pruve.");
     }
 
     }//GEN-LAST:event___Buscar_Vehiculo___ActionPerformed

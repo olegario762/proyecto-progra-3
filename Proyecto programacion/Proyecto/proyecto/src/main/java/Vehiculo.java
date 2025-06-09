@@ -66,6 +66,11 @@ public class Vehiculo {
     public String getDepartamento() {
         return departamento;
     }
+
+    public void setMultas(int multas) {
+        this.multas = multas;
+    }
+    
    public String[] toArray() {
     return new String[]{
         departamento,

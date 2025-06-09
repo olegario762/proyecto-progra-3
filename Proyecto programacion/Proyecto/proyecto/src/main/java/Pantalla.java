@@ -282,7 +282,7 @@ public class Pantalla extends javax.swing.JFrame {
     listaMultas.guardarMultasEnArchivosExistentes(ruta);
     
     // Actualiza la tabla después de agregar
-    tabla1.setModel(listaMultas.obtenerModeloTabla());
+ 
     tabla1.setModel(listaMultas.obtenerModeloTabla());
 
     JOptionPane.showMessageDialog(null, "Multa agregada exitosamente.");
@@ -380,29 +380,7 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void Modificar___ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Modificar___ActionPerformed
-        String departamento = depa.getText().trim();
-        String placa = Placa23.getText().trim();
-        String nuevaFecha = fecha2.getText().trim();
-        String nuevaDescripcion = Descripcion2.getText().trim();
-        int nuevoMonto;
-
-        try {
-            nuevoMonto = Integer.parseInt(Monto2.getText().trim());
-        } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Monto inválido. Ingrese un número.");
-            return;
-        }
-
-        boolean actualizado = ActualizarMulta.actualizarMulta(listaMultas, departamento, placa, nuevaFecha, nuevaDescripcion, nuevoMonto);
-
-        if (actualizado) {
-            JOptionPane.showMessageDialog(null, "Multa actualizada con éxito.");
-            // Aquí puedes actualizar también la JTable:
-            tabla1.setModel(listaMultas.obtenerModeloTabla());
-            listaMultas.guardarMultasEnArchivosExistentes("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
-        } else {
-            JOptionPane.showMessageDialog(null, "Multa no encontrada.");
-        }
+       
     }//GEN-LAST:event_Modificar___ActionPerformed
 
     private void BuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarActionPerformed

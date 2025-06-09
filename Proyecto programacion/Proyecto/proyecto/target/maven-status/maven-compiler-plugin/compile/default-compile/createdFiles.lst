@@ -31,7 +31,6 @@ Avl_arboles_frame$2.class
 Pantalla.class
 Pantalla$11.class
 Pantalla$5.class
-ActualizarMulta.class
 Nodo_Vehiculo.class
 Pantalla_traspaso$4.class
 Vehiculos$2.class
@@ -54,6 +53,7 @@ Nodo_Vehiculo$Vehiculo.class
 Avl_arboles_frame$4.class
 NodoVehiculo.class
 NodoAVL.class
+Vehiculos$11.class
 Vehiculos$5.class
 ____Multas_____hacer$5.class
 Pantalla$13.class
