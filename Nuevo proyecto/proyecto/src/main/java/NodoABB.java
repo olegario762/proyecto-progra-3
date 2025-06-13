@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Ixtamer
+ */
+public class NodoABB {
+    public Vehiculo vehiculo;
+    public NodoABB izquierdo;
+    public NodoABB derecho;
+
+    public NodoABB(Vehiculo vehiculo) {
+        this.vehiculo = vehiculo;
+        this.izquierdo = null;
+        this.derecho = null;
+    }
+}
