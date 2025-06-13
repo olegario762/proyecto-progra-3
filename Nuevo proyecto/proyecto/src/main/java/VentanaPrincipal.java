@@ -101,7 +101,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 200, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 70, -1, -1));
 
         jButton2.setText("Traspaso");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +109,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 130, -1, -1));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 60, -1, -1));
 
         jButton3.setText("in");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +177,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 480, -1, -1));
 
-        jButton9.setText("jButton9");
+        jButton9.setText("Agregar vehiculo");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -249,7 +249,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-         
+         Pantallaagregarvehiculos VentanaTraspaso = new Pantallaagregarvehiculos(this); // pasamos la ventana principal
+        VentanaTraspaso.setVisible(true);
+        this.setVisible(false); 
 
     }//GEN-LAST:event_jButton9ActionPerformed
 

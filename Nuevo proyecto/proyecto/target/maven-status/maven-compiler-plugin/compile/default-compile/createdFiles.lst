@@ -11,6 +11,7 @@ VentanaTraspaso.class
 VentanaPrincipal.class
 VentanaMultas$3.class
 VentanaHistorialVehiculo.class
+Pantallaagregarvehiculos$1.class
 VentanaPrincipal$8.class
 VentanaHistorialVehiculo$2.class
 Vehiculo.class
@@ -24,6 +25,7 @@ ListaTraspasosCircular.class
 VentanaPrincipal$11.class
 ControladorSistema.class
 VentanaMultas$1.class
+Pantallaagregarvehiculos$2.class
 VentanaPrincipal$9.class
 ListaMultasDoble.class
 NodoMulta.class
@@ -31,4 +33,5 @@ VentanaPrincipal$4.class
 NodoAVL.class
 VentanaHistorialVehiculo$3.class
 VentanaPrincipal$2.class
+Pantallaagregarvehiculos.class
 VentanaPrincipal$7.class

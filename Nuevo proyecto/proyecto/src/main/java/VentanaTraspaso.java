@@ -98,9 +98,7 @@ public class VentanaTraspaso extends javax.swing.JFrame {
         String fch = jTextField3.getText().trim();
         String nuevoDpi = jTextField4.getText().trim();
         String nuevoNombre = jTextField1.getText().trim();
-
-// Buscar nodo con esa placa
-    
+        
         if (plc.isEmpty() || fch.isEmpty() || nuevoDpi.isEmpty() || nuevoNombre.isEmpty()) {
         JOptionPane.showMessageDialog(this, "Todos los campos son obligatorios.");
         return;
@@ -108,59 +106,63 @@ public class VentanaTraspaso extends javax.swing.JFrame {
 
     // Buscar el vehículo por placa
     NodoAVL nodoAVL = ControladorSistema.arbolVehiculos.buscar(plc);
-NodoABB nodoABB = ControladorSistema.arbolesbb.buscar(plc);
+    NodoABB nodoABB = ControladorSistema.arbolesbb.buscar(plc);
 
-if (nodoAVL != null && nodoAVL.vehiculo != null) {
-    Vehiculo vehiculoAVL = nodoAVL.vehiculo;
+    if (nodoAVL != null && nodoAVL.vehiculo != null) {
+        Vehiculo vehiculoAVL = nodoAVL.vehiculo;
 
-    // Datos del propietario anterior
-    String dpiAnterior = vehiculoAVL.getDpi();
-    String nombreAnterior = vehiculoAVL.getNombre();
+        // Datos del propietario anterior
+        String dpiAnterior = vehiculoAVL.getDpi();
+        String nombreAnterior = vehiculoAVL.getNombre();
 
-    // Actualizar propietario en AVL
-    vehiculoAVL.setDpi(nuevoDpi);
-    vehiculoAVL.setNombre(nuevoNombre);
+        // Actualizar propietario en AVL
+        vehiculoAVL.setDpi(nuevoDpi);
+        vehiculoAVL.setNombre(nuevoNombre);
 
-    // Agregar el traspaso en AVL
-    vehiculoAVL.getListaTraspasos().agregarFinal(
-        plc,
-        dpiAnterior,
-        nombreAnterior,
-        fch,
-        nuevoDpi,
-        nuevoNombre,
-        vehiculoAVL.getDepartamento()
-    );
+        // Agregar el traspaso en AVL
+        vehiculoAVL.getListaTraspasos().agregarFinal(
+            plc,
+            dpiAnterior,
+            nombreAnterior,
+            fch,
+            nuevoDpi,
+            nuevoNombre,
+            vehiculoAVL.getDepartamento()
+        );
 
-    // Aumentar contador de traspasos en AVL
-    vehiculoAVL.setTraspasos(vehiculoAVL.getTraspasos() + 1);
+        // Aumentar contador de traspasos en AVL
+        vehiculoAVL.setTraspasos(vehiculoAVL.getTraspasos() + 1);
 
-    // También actualizar en ABB si existe
-    if (nodoABB != null && nodoABB.vehiculo != null) {
-        Vehiculo vehiculoABB = nodoABB.vehiculo;
-        vehiculoABB.setDpi(nuevoDpi);
-        vehiculoABB.setNombre(nuevoNombre);
-        vehiculoABB.setTraspasos(vehiculoABB.getTraspasos() + 1);
+        // También actualizar en ABB si existe
+        if (nodoABB != null && nodoABB.vehiculo != null) {
+            Vehiculo vehiculoABB = nodoABB.vehiculo;
+            vehiculoABB.setDpi(nuevoDpi);
+            vehiculoABB.setNombre(nuevoNombre);
+            
+            // Copiar correctamente el contador y lista de traspasos desde AVL a ABB
+            vehiculoABB.setTraspasos(vehiculoAVL.getTraspasos());
+            vehiculoABB.setListaTraspasos(vehiculoAVL.getListaTraspasos());
+        }
 
-        // IMPORTANTE: copiar también la lista de traspasos actualizada
-        vehiculoABB.setListaTraspasos(vehiculoAVL.getListaTraspasos());
+        // Guardar en archivos
+        vehiculoAVL.getListaTraspasos().guardarTraspasosPorDepartamento("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+        ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+
+        // Actualizar tablas en GUI
+        ventanaPrincipal.actualizarTablaVehiculos();
+        ventanaPrincipal.actualizarTablaVehiculosbb();
+
+        ventanaPrincipal.setVisible(true);
+        this.dispose();
+
+    } else {
+        JOptionPane.showMessageDialog(this, "Vehículo no encontrado.");
     }
 
-    // Guardar en archivos
-    vehiculoAVL.getListaTraspasos().guardarTraspasosPorDepartamento("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
-    ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
 
-    // Actualizar tablas en GUI
-    ventanaPrincipal.actualizarTablaVehiculos();
-    ventanaPrincipal.actualizarTablaVehiculosbb();
 
-    ventanaPrincipal.setVisible(true);
-    this.dispose();
-
-} else {
-    JOptionPane.showMessageDialog(this, "Vehículo no encontrado.");
-}
-
+    
+       
 
 
 

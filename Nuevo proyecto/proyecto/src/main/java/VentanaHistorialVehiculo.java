@@ -44,7 +44,7 @@ public class VentanaHistorialVehiculo extends javax.swing.JFrame {
         mul = new javax.swing.JTable();
         platxt = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        pagar_multa__ = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -99,13 +99,13 @@ public class VentanaHistorialVehiculo extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, -1, -1));
 
-        jButton2.setText("Pagar");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        pagar_multa__.setText("Pagar");
+        pagar_multa__.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                pagar_multa__ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 140, -1, -1));
+        jPanel1.add(pagar_multa__, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 120, -1, -1));
 
         jButton3.setText("atras");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -113,7 +113,7 @@ public class VentanaHistorialVehiculo extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 200, -1, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 420, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -201,55 +201,60 @@ if (nodo != null && nodo.vehiculo != null) {
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        int filaSeleccionada = mul.getSelectedRow();
-if (filaSeleccionada == -1) {
-    JOptionPane.showMessageDialog(this, "Seleccione una multa para pagar.");
-    return;
-}
+    private void pagar_multa__ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pagar_multa__ActionPerformed
+                int filaSeleccionada = mul.getSelectedRow();
+                    if (filaSeleccionada == -1) {
+                        JOptionPane.showMessageDialog(this, "Seleccione una multa para pagar.");
+                        return;
+                    }
 
-String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";
-String placa = platxt.getText().trim();
-String fecha = (String) mul.getValueAt(filaSeleccionada, 2);
+                    String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";
+                    String placa = platxt.getText().trim();
+                    String fecha = (String) mul.getValueAt(filaSeleccionada, 2);
 
-// Buscar la multa en la lista global
-NodoMulta actual = ControladorSistema.multas.cabeza;
-boolean encontrada = false;
+                    // Buscar la multa en la lista global
+                    NodoMulta actual = ControladorSistema.multas.cabeza;
+                    boolean encontrada = false;
 
-while (actual != null) {
-    if (actual.getFecha().equals(fecha) && actual.getPlaca().equalsIgnoreCase(placa)) {
-        // Eliminar de la lista global
-        ControladorSistema.multas.eliminarMultaDeArchivo(ruta, actual);
+                    while (actual != null) {
+                        if (actual.getFecha().equals(fecha) && actual.getPlaca().equalsIgnoreCase(placa)) {
+                            // Eliminar de la lista global
+                            ControladorSistema.multas.eliminarMultaDeArchivo(ruta, actual);
 
-        // Eliminar del archivo correspondiente
-        ControladorSistema.multas.eliminarMultaDeArchivo(ruta, actual);
+                            // AVL
+                            NodoAVL nodoAVL = ControladorSistema.arbolVehiculos.buscar(placa);
+                            if (nodoAVL != null && nodoAVL.vehiculo != null) {
+                                nodoAVL.vehiculo.getListaMultas().eliminarMultaDeArchivo(ruta, actual);
+                                nodoAVL.vehiculo.restarMulta();
+                                ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos(ruta);
+                            }
 
-        // También eliminar de la lista del vehículo
-        NodoAVL nodo = ControladorSistema.arbolVehiculos.buscar(placa);
-        if (nodo != null && nodo.vehiculo != null) {
-            nodo.vehiculo.getListaMultas().eliminarMultaDeArchivo(ruta, actual);
-            nodo.vehiculo.restarMulta();
-        }
+                            // ABB
+                            NodoABB nodoABB = ControladorSistema.arbolesbb.buscar(placa);
+                            if (nodoABB != null && nodoABB.vehiculo != null) {
+                                nodoABB.vehiculo.getListaMultas().eliminarMultaDeArchivo(ruta, actual);
+                                nodoABB.vehiculo.restarMulta();
+                                ControladorSistema.arbolesbb.guardarVehiculosEnArchivos(ruta);
+                            }
 
-        encontrada = true;
-        break;
-    }
-    actual = actual.siguiente;
-}
+                            encontrada = true;
+                            break;
+                        }
+                        actual = actual.siguiente;
+                    }
 
-if (encontrada) {
-    ((DefaultTableModel) mul.getModel()).removeRow(filaSeleccionada);
-    ventanaPrincipal.actualizarTablaVehiculos();
-    ventanaPrincipal.actualizarTablaVehiculosbb();
-    JOptionPane.showMessageDialog(this, "Multa pagada correctamente.");
-} else {
-    JOptionPane.showMessageDialog(this, "Multa no encontrada en la lista.");
-}
-
-    
+                    if (encontrada) {
+                        ((DefaultTableModel) mul.getModel()).removeRow(filaSeleccionada);
+                        ventanaPrincipal.actualizarTablaVehiculos();
+                        ventanaPrincipal.actualizarTablaVehiculosbb();
+                        JOptionPane.showMessageDialog(this, "Multa pagada correctamente.");
+                    } else {
+                        JOptionPane.showMessageDialog(this, "Multa no encontrada en la lista.");
+                    }
 
 
-    }//GEN-LAST:event_jButton2ActionPerformed
+
+    }//GEN-LAST:event_pagar_multa__ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         ventanaPrincipal.setVisible(true);
@@ -294,7 +299,6 @@ if (encontrada) {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -302,6 +306,7 @@ if (encontrada) {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable mul;
+    private javax.swing.JButton pagar_multa__;
     private javax.swing.JTextField platxt;
     private javax.swing.JTable traspaso1;
     // End of variables declaration//GEN-END:variables
