@@ -24,6 +24,42 @@ public class Estadistica extends javax.swing.JFrame {
     if (nodo == null) return 0;
     return 1 + contarVehiculos(nodo.izquierdo) + contarVehiculos(nodo.derecho);
 }
+    private void recorrerAVL(NodoAVL nodo, Vehiculo[] maxMultas, Vehiculo[] maxTraspasos) {
+    if (nodo == null) return;
+
+    Vehiculo actual = nodo.vehiculo;
+
+    if (actual != null) {
+        if (maxMultas[0] == null || actual.getMultas() > maxMultas[0].getMultas()) {
+            maxMultas[0] = actual;
+        }
+
+        if (maxTraspasos[0] == null || actual.getTraspasos() > maxTraspasos[0].getTraspasos()) {
+            maxTraspasos[0] = actual;
+        }
+    }
+
+    recorrerAVL(nodo.izquierdo, maxMultas, maxTraspasos);
+    recorrerAVL(nodo.derecho, maxMultas, maxTraspasos);
+}
+    
+    private void mostrarEnTabla(javax.swing.JTable tabla, Vehiculo v, String tipo) {
+    DefaultTableModel modelo = new DefaultTableModel();
+    modelo.addColumn("Placa");
+    modelo.addColumn("Nombre");
+    modelo.addColumn("DPI");
+    modelo.addColumn(tipo);
+
+    if (v != null) {
+        modelo.addRow(new Object[]{
+            v.getPlaca(), v.getNombre(), v.getDpi(),
+            tipo.equals("Multas") ? v.getMultas() : v.getTraspasos()
+        });
+    }
+
+    tabla.setModel(modelo);
+}
+
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -41,6 +77,7 @@ public class Estadistica extends javax.swing.JFrame {
         jTable1 = new javax.swing.JTable();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -52,9 +89,7 @@ public class Estadistica extends javax.swing.JFrame {
                 EstadisticasActionPerformed(evt);
             }
         });
-        jPanel1.add(Estadisticas, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 270, 210, -1));
-
-        lblTotalVehiculos.setText("jLabel1");
+        jPanel1.add(Estadisticas, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 200, 210, -1));
         jPanel1.add(lblTotalVehiculos, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 30, 210, 120));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -70,7 +105,7 @@ public class Estadistica extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, 110));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 650, 110));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -85,7 +120,15 @@ public class Estadistica extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(jTable2);
 
-        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, -1, 210));
+        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 650, 130));
+
+        jButton1.setText("Atras");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 470, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -107,11 +150,28 @@ public class Estadistica extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void EstadisticasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EstadisticasActionPerformed
+       
+       
+        
         int total = contarVehiculos(ControladorSistema.arbolVehiculos.getRaiz());
-        lblTotalVehiculos.setText("Total vehículos: " + total);
+    lblTotalVehiculos.setText("Total vehículos: " + total);
+
+    Vehiculo[] maxMultas = new Vehiculo[1];
+    Vehiculo[] maxTraspasos = new Vehiculo[1];
+
+    recorrerAVL(ControladorSistema.arbolVehiculos.getRaiz(), maxMultas, maxTraspasos);
+
+    mostrarEnTabla(jTable1, maxTraspasos[0], "Traspasos");
+    mostrarEnTabla(jTable2, maxMultas[0], "Multas");lblTotalVehiculos.setText("Total vehículos: " + total);
     
     
     }//GEN-LAST:event_EstadisticasActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        VentanaPrincipal VentanaTraspaso = new VentanaPrincipal(); // pasamos la ventana principal
+        VentanaTraspaso.setVisible(true);
+        this.setVisible(false); 
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -150,6 +210,7 @@ public class Estadistica extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Estadisticas;
+    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;

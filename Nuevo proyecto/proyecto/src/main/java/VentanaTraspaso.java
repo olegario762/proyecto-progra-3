@@ -104,22 +104,22 @@ public class VentanaTraspaso extends javax.swing.JFrame {
         return;
     }
 
-    // Buscar el vehículo por placa
+ 
     NodoAVL nodoAVL = ControladorSistema.arbolVehiculos.buscar(plc);
     NodoABB nodoABB = ControladorSistema.arbolesbb.buscar(plc);
 
     if (nodoAVL != null && nodoAVL.vehiculo != null) {
         Vehiculo vehiculoAVL = nodoAVL.vehiculo;
 
-        // Datos del propietario anterior
+      
         String dpiAnterior = vehiculoAVL.getDpi();
         String nombreAnterior = vehiculoAVL.getNombre();
 
-        // Actualizar propietario en AVL
+       
         vehiculoAVL.setDpi(nuevoDpi);
         vehiculoAVL.setNombre(nuevoNombre);
 
-        // Agregar el traspaso en AVL
+        
         vehiculoAVL.getListaTraspasos().agregarFinal(
             plc,
             dpiAnterior,
@@ -132,23 +132,24 @@ public class VentanaTraspaso extends javax.swing.JFrame {
 
         // Aumentar contador de traspasos en AVL
         vehiculoAVL.setTraspasos(vehiculoAVL.getTraspasos() + 1);
-
-        // También actualizar en ABB si existe
+        
+        
+        
+        
         if (nodoABB != null && nodoABB.vehiculo != null) {
             Vehiculo vehiculoABB = nodoABB.vehiculo;
             vehiculoABB.setDpi(nuevoDpi);
             vehiculoABB.setNombre(nuevoNombre);
             
-            // Copiar correctamente el contador y lista de traspasos desde AVL a ABB
+           
             vehiculoABB.setTraspasos(vehiculoAVL.getTraspasos());
             vehiculoABB.setListaTraspasos(vehiculoAVL.getListaTraspasos());
         }
 
-        // Guardar en archivos
+      
         vehiculoAVL.getListaTraspasos().guardarTraspasosPorDepartamento("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
         ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
 
-        // Actualizar tablas en GUI
         ventanaPrincipal.actualizarTablaVehiculos();
         ventanaPrincipal.actualizarTablaVehiculosbb();
 
@@ -202,8 +203,7 @@ public class VentanaTraspaso extends javax.swing.JFrame {
                 new VentanaTraspaso(vp).setVisible(true);
                 
                 
-                ///  VentanaPrincipal vp = new VentanaPrincipal();  // crear instancia de principal
-          ///  new VentanaMultas(vp).setVisible(true);  
+        
             
             }
         });

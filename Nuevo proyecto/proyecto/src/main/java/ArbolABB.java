@@ -162,5 +162,82 @@ public class ArbolABB {
     public NodoABB getRaiz() {
         return raiz;
     }
+    public void mostrarGraficaABB() {
+    String dot = generarDot();
+
+    try {
+        File dotFile = new File("abb.dot");
+        FileWriter fw = new FileWriter(dotFile);
+        fw.write(dot);
+        fw.close();
+
+        // Ejecutar Graphviz
+        ProcessBuilder pb = new ProcessBuilder("dot", "-Tpng", "abb.dot", "-o", "abb.png");
+        pb.start().waitFor();
+
+        // Mostrar imagen en JFrame
+        javax.swing.ImageIcon imagen = new javax.swing.ImageIcon("abb.png");
+        javax.swing.JLabel etiqueta = new javax.swing.JLabel(imagen);
+        javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(etiqueta);
+
+        javax.swing.JFrame frame = new javax.swing.JFrame("Árbol ABB");
+        frame.getContentPane().add(scroll);
+        frame.setSize(800, 600);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+
+    } catch (IOException | InterruptedException e) {
+        e.printStackTrace();
+    }
+}
+    private String generarDot() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("digraph ABB {\n");
+    sb.append("node [shape=box];\n");
+
+    if (raiz == null) {
+        sb.append("null;\n");
+    } else {
+        generarDotRec(raiz, sb);
+    }
+
+    sb.append("}\n");
+    return sb.toString();
+}
+
+private void generarDotRec(NodoABB nodo, StringBuilder sb) {
+    if (nodo != null) {
+        String id = nodo.vehiculo.getPlaca();
+        sb.append(id).append(" [label=\"").append(id).append("\"];\n");
+
+        if (nodo.izquierdo != null) {
+            String izq = nodo.izquierdo.vehiculo.getPlaca();
+            sb.append(id).append(" -> ").append(izq).append(";\n");
+            generarDotRec(nodo.izquierdo, sb);
+        }
+        if (nodo.derecho != null) {
+            String der = nodo.derecho.vehiculo.getPlaca();
+            sb.append(id).append(" -> ").append(der).append(";\n");
+            generarDotRec(nodo.derecho, sb);
+        }
+    }
+}
+    public NodoABB buscarConTiempo(String placa) {
+    long inicio = System.nanoTime(); // Tiempo inicial en nanosegundos
+
+    NodoABB resultado = buscar(placa); // Usa tu método actual de búsqueda
+
+    long fin = System.nanoTime(); // Tiempo final
+    long duracion = fin - inicio; // Duración total
+
+    System.out.println("Tiempo de búsqueda para placa " + placa + ": " + duracion + " nanosegundos");
+    
+    return resultado;
+}
+
+
+
+
+
     
 }

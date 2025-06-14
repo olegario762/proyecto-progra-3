@@ -1,4 +1,5 @@
 
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /*
@@ -159,6 +160,14 @@ private void cifrarABB(NodoABB nodo) {
         Desifrar_ = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        grampiz = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
+        jButton15 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jButton16 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -185,7 +194,7 @@ private void cifrarABB(NodoABB nodo) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 70, -1, -1));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 60, -1, -1));
 
         jButton2.setText("Traspaso");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -267,7 +276,7 @@ private void cifrarABB(NodoABB nodo) {
                 jButton9ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 310, -1, -1));
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 150, -1, -1));
 
         jButton10.setText("pagar");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -275,7 +284,7 @@ private void cifrarABB(NodoABB nodo) {
                 jButton10ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 390, -1, -1));
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 190, -1, -1));
 
         Desifrar_.setText("desifrar");
         Desifrar_.addActionListener(new java.awt.event.ActionListener() {
@@ -283,7 +292,7 @@ private void cifrarABB(NodoABB nodo) {
                 Desifrar_ActionPerformed(evt);
             }
         });
-        jPanel1.add(Desifrar_, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 200, -1, -1));
+        jPanel1.add(Desifrar_, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 100, -1, -1));
 
         jButton11.setText("sifrar");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -291,7 +300,7 @@ private void cifrarABB(NodoABB nodo) {
                 jButton11ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 200, -1, -1));
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 100, -1, -1));
 
         jButton12.setText("Guardar");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -299,7 +308,50 @@ private void cifrarABB(NodoABB nodo) {
                 jButton12ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 240, -1, -1));
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 190, -1, -1));
+
+        jButton13.setText("Estadistica");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 150, -1, -1));
+
+        grampiz.setText("ver arbol avl");
+        grampiz.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                grampizActionPerformed(evt);
+            }
+        });
+        jPanel1.add(grampiz, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 220, -1, -1));
+
+        jButton14.setText("ver arbol abb");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 480, -1, -1));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 340, 150, -1));
+
+        jButton15.setText("Buscar abb");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 340, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 240, 300, 30));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 380, 140, -1));
+
+        jButton16.setText("Buscaravl");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 380, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -397,6 +449,65 @@ private void cifrarABB(NodoABB nodo) {
          ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
     }//GEN-LAST:event_jButton12ActionPerformed
 
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        Estadistica VentanaTraspaso = new Estadistica(); // pasamos la ventana principal
+        VentanaTraspaso.setVisible(true);
+        this.setVisible(false); 
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    
+    private void grampizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grampizActionPerformed
+        ControladorSistema.arbolVehiculos.mostrarGraficaAVL();
+    }//GEN-LAST:event_grampizActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        ControladorSistema.arbolesbb.mostrarGraficaABB();
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        String placa = jTextField1.getText().trim();
+
+        if (placa.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Ingrese una placa.");
+            return;
+        }
+
+        long inicio = System.nanoTime(); // Tiempo inicial
+        NodoABB nodo = ControladorSistema.arbolesbb.buscar(placa);
+        long fin = System.nanoTime();   // Tiempo final
+
+        long tiempo = fin - inicio;
+        jLabel2.setText("Tiempo de búsqueda: " + tiempo + " ns");
+
+        if (nodo != null) {
+            // Mostrar datos si se encuentra
+            Vehiculo v = nodo.vehiculo;
+            JOptionPane.showMessageDialog(this, "Vehículo encontrado: " + v.getNombre());
+        } else {
+            JOptionPane.showMessageDialog(this, "Vehículo no encontrado.");
+        }
+
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        String placa = jTextField1.getText().trim();
+
+if (placa.isEmpty()) {
+    JOptionPane.showMessageDialog(this, "Ingrese una placa.");
+    return;
+}
+
+NodoAVL nodo = ControladorSistema.arbolVehiculos.buscarConTiempo(placa, jLabel2);// Se pasa el JLabel aquí
+
+if (nodo != null) {
+    Vehiculo v = nodo.vehiculo;
+    JOptionPane.showMessageDialog(this, "Vehículo encontrado: " + v.getNombre());
+} else {
+    JOptionPane.showMessageDialog(this, "Vehículo no encontrado.");
+}
+
+    }//GEN-LAST:event_jButton16ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -434,10 +545,15 @@ private void cifrarABB(NodoABB nodo) {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Desifrar_;
+    private javax.swing.JButton grampiz;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -447,10 +563,13 @@ private void cifrarABB(NodoABB nodo) {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
 }

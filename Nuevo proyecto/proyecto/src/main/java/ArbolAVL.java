@@ -1,6 +1,13 @@
+import java.awt.Image;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
 import javax.swing.table.DefaultTableModel;
 
 public class ArbolAVL {
@@ -44,13 +51,13 @@ public class ArbolAVL {
             }
         }
 
-        // Actualizar tabla desde recorrido InOrden
+        
         return recorrerInOrden();
     }
     public void guardarVehiculosEnArchivos(String rutaBase) {
-    // Primero, limpiar todos los archivos previos para evitar duplicados
+   
     limpiarArchivosPorDepartamento(raiz, rutaBase);
-    // Luego, guardar los vehículos actualizados
+  
     guardarVehiculosRec(raiz, rutaBase);
 }
 
@@ -95,10 +102,10 @@ private void limpiarArchivosPorDepartamento(NodoAVL nodo, String rutaBase) {
         carpeta.mkdirs();
         File archivo = new File(carpeta, departamento + "_vehiculos.txt");
 
-        // Solo si el archivo existe lo limpiamos
+     
         if (archivo.exists()) {
             try (BufferedWriter bw = new BufferedWriter(new FileWriter(archivo, false))) {
-                // vacía el archivo
+            
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -137,7 +144,7 @@ private String safe(String valor) {
         } else if (cmp > 0) {
             nodo.derecho = insertarRec(nodo.derecho, vehiculo);
         } else {
-            // Ya existe: actualizar valores
+          
             nodo.vehiculo.setMultas(vehiculo.getMultas());
             nodo.vehiculo.setTraspasos(vehiculo.getTraspasos());
             return nodo;
@@ -199,7 +206,7 @@ private String safe(String valor) {
         else return buscarRec(nodo.derecho, placa);
     }
 
-    // Recorridos para JTable
+    
     public DefaultTableModel recorrerInOrden() {
         DefaultTableModel modelo = crearModeloTabla();
         recorrerInOrdenRec(raiz, modelo);
@@ -263,7 +270,81 @@ private void recorrerInOrden(NodoAVL nodo, List<Vehiculo> lista) {
 
     public NodoAVL getRaiz() {
         return raiz;
+    
+}
+    public void mostrarGraficaAVL() {
+    try {
+      
+        String dotCode = generarDot();
+
+       
+        File archivoDot = new File("avl.dot");
+        try (PrintWriter writer = new PrintWriter(archivoDot)) {
+            writer.println(dotCode);
+        }
+
+        File archivoPng = new File("avl.png");
+        ProcessBuilder pb = new ProcessBuilder("dot", "-Tpng", archivoDot.getAbsolutePath(), "-o", archivoPng.getAbsolutePath());
+        pb.redirectErrorStream(true);
+        Process process = pb.start();
+        process.waitFor();
+
+    
+        Image imagen = ImageIO.read(archivoPng);
+        JLabel etiqueta = new JLabel(new ImageIcon(imagen));
+        JScrollPane scrollPane = new JScrollPane(etiqueta);
+
+        JFrame frame = new JFrame("Visualización del Árbol AVL");
+        frame.getContentPane().add(scrollPane);
+        frame.setSize(800, 600);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+
+    } catch (Exception e) {
+        e.printStackTrace();
+        JOptionPane.showMessageDialog(null, "Error al generar gráfica: " + e.getMessage());
     }
+}
+    private String generarDot() {
+    StringBuilder dot = new StringBuilder();
+    dot.append("digraph AVL {\n");
+    dot.append("    node [shape=box, style=filled, fillcolor=lightblue];\n");
+    generarDotRec(raiz, dot);
+    dot.append("}\n");
+    return dot.toString();
+}
+
+private void generarDotRec(NodoAVL nodo, StringBuilder dot) {
+    if (nodo != null) {
+        String id = "\"" + nodo.vehiculo.getPlaca() + "\"";
+        String label = nodo.vehiculo.getPlaca() + "\\nM:" + nodo.vehiculo.getMultas() + "\\nT:" + nodo.vehiculo.getTraspasos();
+        dot.append("    ").append(id).append(" [label=\"").append(label).append("\"];\n");
+
+        if (nodo.izquierdo != null) {
+            dot.append("    ").append(id).append(" -> \"").append(nodo.izquierdo.vehiculo.getPlaca()).append("\";\n");
+            generarDotRec(nodo.izquierdo, dot);
+        }
+        if (nodo.derecho != null) {
+            dot.append("    ").append(id).append(" -> \"").append(nodo.derecho.vehiculo.getPlaca()).append("\";\n");
+            generarDotRec(nodo.derecho, dot);
+        }
+    }
+}
+    public NodoAVL buscarConTiempo(String placa, javax.swing.JLabel etiquetaTiempo) {
+    long inicio = System.nanoTime();
+    NodoAVL nodo = buscar(placa);   
+    long fin = System.nanoTime();   
+
+    long tiempo = fin - inicio;
+    etiquetaTiempo.setText("Tiempo de búsqueda: " + tiempo + " ns");
+
+    return nodo;
+}
+
+
+
+
+
 
 
 }
