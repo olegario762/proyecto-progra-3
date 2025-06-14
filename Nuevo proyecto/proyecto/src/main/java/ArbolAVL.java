@@ -261,4 +261,9 @@ private void recorrerInOrden(NodoAVL nodo, List<Vehiculo> lista) {
     }
 }
 
+    public NodoAVL getRaiz() {
+        return raiz;
+    }
+
+
 }

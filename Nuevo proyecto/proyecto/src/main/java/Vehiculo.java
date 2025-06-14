@@ -107,6 +107,15 @@ public class Vehiculo {
     public void setListaMultas(ListaMultasDoble listaMultas) {
         this.listaMultas = listaMultas;
     }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+    
     
     public void restarMulta() {
     if (this.multas > 0) {

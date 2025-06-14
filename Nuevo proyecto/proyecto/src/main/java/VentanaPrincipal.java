@@ -19,26 +19,42 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     public VentanaPrincipal() {
         initComponents();
         
+       
+        
+        
         String ruta = "C:\\Users\\Ixtamer\\Desktop\\archivo proyecto";  // ← CAMBIA esto a tu ruta real
-    DefaultTableModel modelo = ControladorSistema.arbolVehiculos.cargarVehiculosDesdeCarpetas(ruta);
-    DefaultTableModel modelo1 = ControladorSistema.arbolesbb.cargarVehiculosDesdeCarpetas(ruta);
-  
-   
+        DefaultTableModel modelo = ControladorSistema.arbolVehiculos.cargarVehiculosDesdeCarpetas(ruta);
+        DefaultTableModel modelo1 = ControladorSistema.arbolesbb.cargarVehiculosDesdeCarpetas(ruta);
+        
+ 
+     
+       
+        
     
-    
-
-    
-    
-    
+        
+        
+        
+        
     jTable1.setModel(modelo);
     jTable2.setModel(modelo1);
+    
+    
+    
+    
         
     }
+    
+    
+    
     
     public void actualizarTablaVehiculos() {
     DefaultTableModel modelo = ControladorSistema.arbolVehiculos.recorrerInOrden();
    
     jTable1.setModel(modelo);
+    
+    
+    
+    
 }
     
     
@@ -49,7 +65,72 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     jTable2.setModel(modelo1);
 
    
+    
+    
+    
     }
+    
+    
+    
+    
+    
+    
+    
+    private void descifrarAVL(NodoAVL nodo) {
+    if (nodo == null) return;
+
+    Vehiculo v = nodo.vehiculo;
+    v.setPlaca(CifradoCesar.descifrar(v.getPlaca(), Config.CLAVE_CIFRADO));
+    v.setDpi(CifradoCesar.descifrar(v.getDpi(), Config.CLAVE_CIFRADO));
+    v.setNombre(CifradoCesar.descifrar(v.getNombre(), Config.CLAVE_CIFRADO));
+
+    descifrarAVL(nodo.izquierdo);
+    descifrarAVL(nodo.derecho);
+}
+
+private void descifrarABB(NodoABB nodo) {
+    if (nodo == null) return;
+
+    Vehiculo v = nodo.vehiculo;
+    v.setPlaca(CifradoCesar.descifrar(v.getPlaca(), Config.CLAVE_CIFRADO));
+    v.setDpi(CifradoCesar.descifrar(v.getDpi(), Config.CLAVE_CIFRADO));
+    v.setNombre(CifradoCesar.descifrar(v.getNombre(), Config.CLAVE_CIFRADO));
+
+    descifrarABB(nodo.izquierdo);
+    descifrarABB(nodo.derecho);
+}
+
+
+
+
+
+
+private void cifrarAVL(NodoAVL nodo) {
+    if (nodo == null) return;
+
+    Vehiculo v = nodo.vehiculo;
+    v.setPlaca(CifradoCesar.cifrar(v.getPlaca(), Config.CLAVE_CIFRADO));
+    v.setDpi(CifradoCesar.cifrar(v.getDpi(), Config.CLAVE_CIFRADO));
+    v.setNombre(CifradoCesar.cifrar(v.getNombre(), Config.CLAVE_CIFRADO));
+
+    cifrarAVL(nodo.izquierdo);
+    cifrarAVL(nodo.derecho);
+}
+
+private void cifrarABB(NodoABB nodo) {
+    if (nodo == null) return;
+
+    Vehiculo v = nodo.vehiculo;
+    v.setPlaca(CifradoCesar.cifrar(v.getPlaca(), Config.CLAVE_CIFRADO));
+    v.setDpi(CifradoCesar.cifrar(v.getDpi(), Config.CLAVE_CIFRADO));
+    v.setNombre(CifradoCesar.cifrar(v.getNombre(), Config.CLAVE_CIFRADO));
+
+    cifrarABB(nodo.izquierdo);
+    cifrarABB(nodo.derecho);
+}
+
+
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -75,6 +156,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
+        Desifrar_ = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -193,6 +277,30 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 390, -1, -1));
 
+        Desifrar_.setText("desifrar");
+        Desifrar_.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Desifrar_ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Desifrar_, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 200, -1, -1));
+
+        jButton11.setText("sifrar");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 200, -1, -1));
+
+        jButton12.setText("Guardar");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 240, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -261,6 +369,34 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         this.setVisible(false); 
     }//GEN-LAST:event_jButton10ActionPerformed
 
+    private void Desifrar_ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Desifrar_ActionPerformed
+         descifrarAVL(ControladorSistema.arbolVehiculos.getRaiz());
+        descifrarABB(ControladorSistema.arbolesbb.getRaiz());
+        
+
+    actualizarTablaVehiculos();
+    actualizarTablaVehiculosbb();
+    
+    }//GEN-LAST:event_Desifrar_ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+
+    
+    cifrarAVL(ControladorSistema.arbolVehiculos.getRaiz());
+         cifrarABB(ControladorSistema.arbolesbb.getRaiz());
+         
+       //  ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+        //    ControladorSistema.arbolesbb.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+   
+
+    actualizarTablaVehiculos();
+    actualizarTablaVehiculosbb();
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+         ControladorSistema.arbolVehiculos.guardarVehiculosEnArchivos("C:\\Users\\Ixtamer\\Desktop\\archivo proyecto");
+    }//GEN-LAST:event_jButton12ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -297,8 +433,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Desifrar_;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;

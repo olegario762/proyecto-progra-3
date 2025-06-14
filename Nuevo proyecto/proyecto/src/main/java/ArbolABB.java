@@ -158,4 +158,9 @@ public class ArbolABB {
             modelo.addRow(new Object[]{v.getDepartamento(), v.getPlaca(), v.getDpi(), v.getNombre(), v.getMarca(), v.getModelo(), v.getAnio(), v.getMultas(), v.getTraspasos()});
         }
     }
+
+    public NodoABB getRaiz() {
+        return raiz;
+    }
+    
 }
