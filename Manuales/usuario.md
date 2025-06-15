@@ -70,3 +70,20 @@
 
 ## agregar vehiculo
 ![traspaso ](https://imgur.com/n2cJtqk.png)
+
+## Estadistica 
+![](https://imgur.com/xFYBdSH.png)
+![](https://imgur.com/jlavsDh.png)
+
+## pagar 
+![](https://imgur.com/Ds2vzF3.png)
+![](https://imgur.com/Ek3uG49.png)
+
+---
+
+Fin del Manual de usuario.
+
+
+
+
+
